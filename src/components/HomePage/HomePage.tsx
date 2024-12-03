@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 import mainSlider from '../../assets/images/main-slider/1.jpg';
-import mainSlider2 from '../../assets/images/main-slider/2.jpg';
-import mainSlider3 from '../../assets/images/main-slider/3.jpg';
 import featuredImage0 from '../../assets/images/resource/featured-image-0.jpg';
 import featuredImage1 from '../../assets/images/resource/featured-image-1.jpg';
 import featuredImage2 from '../../assets/images/resource/featured-image-2.jpg';
@@ -60,7 +58,7 @@ const HomePage = () => {
                                     <div className="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12">
                                         <div className="field-label">Arrival</div>
                                         <div className="field-inner">
-                                            <input id="arrival-date" className="date-picker" type="date" name="field-name" value={roomCheckInfo.arrival} onChange={(e) => setRoomCheckInfo({ ...roomCheckInfo, arrival: e.target.value })} placeholder="" />
+                                            <input id="arrival-date" className="date-picker" type="date" name="field-name" value={roomCheckInfo.arrival.toISOString().split('T')[0]} onChange={(e) => setRoomCheckInfo({ ...roomCheckInfo, arrival: new Date(e.target.value) })} placeholder="" />
                                         </div>
                                     </div>
                                     <div className="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12">
