@@ -23,17 +23,17 @@ import newsImage2 from '../../assets/images/resource/news-image-2.jpg';
 import newsImage3 from '../../assets/images/resource/news-image-3.jpg';
 
 import { DemoContainer, DemoItem } from '@mui/x-date-pickers/internals/demo';
-import { DateRangeCalendar } from '@mui/x-date-pickers-pro/DateRangeCalendar';
+// import { DateRangeCalendar } from '@mui/x-date-pickers-pro/DateRangeCalendar';
 import dayjs, { Dayjs } from 'dayjs';
 import { DateRange } from '@mui/x-date-pickers-pro/models';
 import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { DateRangePicker } from '@mui/x-date-pickers-pro';
-import { Checkbox, ListItemText, MenuItem } from '@mui/material';
+// import { Checkbox, ListItemText, MenuItem } from '@mui/material';
 
 const HomePage = () => {
 
-    const [roomCheckInfo, setRoomCheckInfo] = useState({ arrival: new Date(), departure: `${Date.now()}`, adults: 0, children: 0 });
+    // const [roomCheckInfo, setRoomCheckInfo] = useState({ arrival: new Date(), departure: `${Date.now()}`, adults: 0, children: 0 });
     const [value, setValue] = useState<DateRange<Dayjs>>([
         dayjs('2022-04-17'),
         dayjs('2022-04-21'),
