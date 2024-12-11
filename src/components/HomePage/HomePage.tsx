@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+import { FormEvent, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import mainSlider from '../../assets/images/main-slider/1.jpg';
 import featuredImage0 from '../../assets/images/resource/featured-image-0.jpg';
 import featuredImage1 from '../../assets/images/resource/featured-image-1.jpg';
@@ -20,11 +21,31 @@ import testThumb3 from '../../assets/images/resource/testi-thumb-3.jpg';
 import newsImage1 from '../../assets/images/resource/news-image-1.jpg';
 import newsImage2 from '../../assets/images/resource/news-image-2.jpg';
 import newsImage3 from '../../assets/images/resource/news-image-3.jpg';
-import { useState } from 'react';
+
+import { DemoContainer, DemoItem } from '@mui/x-date-pickers/internals/demo';
+import { DateRangeCalendar } from '@mui/x-date-pickers-pro/DateRangeCalendar';
+import dayjs, { Dayjs } from 'dayjs';
+import { DateRange } from '@mui/x-date-pickers-pro/models';
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import { DateRangePicker } from '@mui/x-date-pickers-pro';
+import { Checkbox, ListItemText, MenuItem } from '@mui/material';
 
 const HomePage = () => {
 
     const [roomCheckInfo, setRoomCheckInfo] = useState({ arrival: new Date(), departure: `${Date.now()}`, adults: 0, children: 0 });
+    const [value, setValue] = useState<DateRange<Dayjs>>([
+        dayjs('2022-04-17'),
+        dayjs('2022-04-21'),
+    ]);
+    
+    const navigate = useNavigate();
+
+    const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+
+        navigate("/room-single");
+    }
 
     return (
         <div className='page-wrapper'>
@@ -53,9 +74,9 @@ const HomePage = () => {
                 <div className="auto-container">
                     <div className="filters-section">
                         <div className="form-box default-form filter-form wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <form method="post" action="room-single.html">
+                            <form method="post" onSubmit={handleSubmit}>
                                 <div className="row clearfix">
-                                    <div className="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                    {/* <div className="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12">
                                         <div className="field-label">Arrival</div>
                                         <div className="field-inner">
                                             <input id="arrival-date" className="date-picker" type="date" name="field-name" value={roomCheckInfo.arrival.toISOString().split('T')[0]} onChange={(e) => setRoomCheckInfo({ ...roomCheckInfo, arrival: new Date(e.target.value) })} placeholder="" />
@@ -66,8 +87,20 @@ const HomePage = () => {
                                         <div className="field-inner">
                                             <input id="depart-date" className="date-picker" type="date" name="field-name" value={roomCheckInfo.departure} onChange={(e) => setRoomCheckInfo({ ...roomCheckInfo, departure: e.target.value })} placeholder="" />
                                         </div>
+                                    </div> */}
+                                    <LocalizationProvider dateAdapter={AdapterDayjs}>
+                                        <DemoContainer components={['DateRangePicker']}>
+                                            <DemoItem label="Controlled picker" component="DateRangePicker">
+                                                <DateRangePicker
+                                                    value={value}
+                                                    onChange={(newValue) => setValue(newValue)}
+                                                />
+                                            </DemoItem>
+                                        </DemoContainer>
+                                    </LocalizationProvider>
+                                    <div>
                                     </div>
-                                    <div className="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                    {/* <div className="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12">
                                         <div className="field-label">Guests</div>
                                         <div className="field-inner">
                                             <div className="check-sel-box">
@@ -97,11 +130,11 @@ const HomePage = () => {
                                                 </ul>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12">
                                         <div className="field-label e-label">&nbsp;</div>
                                         <div className="field-inner">
-                                            <button className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></button>
+                                            <button className="theme-btn btn-style-one" type='submit'><span className="btn-title">Check Availability</span></button>
                                         </div>
                                     </div>
                                 </div>
@@ -216,7 +249,7 @@ const HomePage = () => {
                                             </div>
 
                                             <div className="text">Excepteur sint occaecat cupidatat pro dent in sun in culpa qui officia deserunt mollit anim.</div>
-                                            <div className="link-box"><a href="room-single.html" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
+                                            <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -248,7 +281,7 @@ const HomePage = () => {
                                             </div>
 
                                             <div className="text">Excepteur sint occaecat cupidatat pro dent in sun in culpa qui officia deserunt mollit anim.</div>
-                                            <div className="link-box"><a href="room-single.html" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
+                                            <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -282,7 +315,7 @@ const HomePage = () => {
                                             </div>
 
                                             <div className="text">Excepteur sint occaecat cupidatat pro dent in sun in culpa qui officia deserunt mollit anim.</div>
-                                            <div className="link-box"><a href="room-single.html" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
+                                            <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -316,7 +349,7 @@ const HomePage = () => {
                                             </div>
 
                                             <div className="text">Excepteur sint occaecat cupidatat pro dent in sun in culpa qui officia deserunt mollit anim.</div>
-                                            <div className="link-box"><a href="room-single.html" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
+                                            <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -348,7 +381,7 @@ const HomePage = () => {
                                             </div>
 
                                             <div className="text">Excepteur sint occaecat cupidatat pro dent in sun in culpa qui officia deserunt mollit anim.</div>
-                                            <div className="link-box"><a href="room-single.html" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
+                                            <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
                                         </div>
                                     </div>
                                 </div>

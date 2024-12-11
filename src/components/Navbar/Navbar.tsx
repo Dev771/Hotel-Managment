@@ -15,8 +15,8 @@ const Navbar = () => {
                     <nav className="main-menu navbar-expand-md navbar-light">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="navigation clearfix">
-                                <li className="current dropdown"><Link to="/">Home</Link>
-                                    <ul>
+                                <li className="current"><Link to="/">Home</Link>
+                                    {/* <ul>
                                         <li><Link to="index.html">Hotel Beach</Link></li>
                                         <li><Link to="index-2.html">City Hotel</Link></li>
                                         <li><Link to="index-3.html">Mountain Hotel</Link></li>
@@ -31,19 +31,19 @@ const Navbar = () => {
                                                 <li><Link to="index-5.html">Header Type 05</Link></li>
                                             </ul>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
-                                <li  className="dropdown"><Link to="rooms-grid.html">Rooms</Link>
-                                    <ul>
+                                <li  className=""><Link to="/room-single">Rooms</Link>
+                                    {/* <ul>
                                         <li><Link to="rooms-grid.html">Rooms Grid View</Link></li>
                                         <li><Link to="rooms-list.html">Rooms List View</Link></li>
                                         <li><Link to="rooms-gallery.html">Rooms Gallery</Link></li>
-                                        <li><Link to="room-single.html">Room Single</Link></li>
-                                    </ul>
+                                        <li><Link to="/room-single">Room Single</Link></li>
+                                    </ul> */}
                                 </li>
                                 <li><Link to="/about">About Us</Link></li>
-                                <li  className="dropdown"><Link to="rooms-grid.html">Pages</Link>
-                                    <ul>
+                                <li  className=""><Link to="/gallery">Gallery</Link>
+                                    {/* <ul>
                                         <li><Link to="team.html">Our Staff</Link></li>
                                         <li className="dropdown"><Link to="packages.html">Packages</Link>
                                             <ul>
@@ -57,23 +57,23 @@ const Navbar = () => {
                                                 <li><Link to="event-single.html">Event Single</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="dropdown"><Link to="gallery.html">Gallery</Link>
+                                        <li className="dropdown"><Link to="/gallery">Gallery</Link>
                                             <ul>
-                                                <li><Link to="gallery.html">Gallery Default</Link></li>
-                                                <li><Link to="gallery-masonry.html">Gallery Masonry</Link></li>
+                                                <li><Link to="/gallery">Gallery Default</Link></li>
+                                                <li><Link to="/gallery-masonry">Gallery Masonry</Link></li>
                                             </ul>
                                         </li>
                                         <li><Link to="restaurant.html">Restaurant</Link></li>
                                         <li><Link to="spa.html">Spa & Wellness</Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
-                                <li  className="dropdown"><Link to="blog-grid.html">News</Link>
-                                    <ul>
+                                {/* <li  className="dropdown"><Link to="blog-grid.html">News</Link> */}
+                                    {/* <ul>
                                         <li><Link to="blog.html">Blog Sidebar</Link></li>
                                         <li><Link to="blog-grid.html">Blog 03 Column</Link></li>
                                         <li><Link to="blog-single.html">Blog Single</Link></li>
-                                    </ul>
-                                </li>
+                                    </ul> */}
+                                {/* </li> */}
                                 <li><Link to="/contactUs">Contact</Link></li>
                             </ul>
                         </div>
@@ -88,7 +88,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="link-box">
-                        <Link to="room-single.html" className="theme-btn btn-style-one"><span className="btn-title">Book Your Stay</span></Link>
+                        <Link to="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Book Your Stay</span></Link>
                     </div>
                 </div>
 
