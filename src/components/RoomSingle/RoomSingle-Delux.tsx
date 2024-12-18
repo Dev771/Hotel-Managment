@@ -27,10 +27,10 @@ const RoomSingle = () => {
                 <div className="auto-container">
                 <div className="upper-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div className="upper-inner">
-                    <h2>Family Suite Room</h2>
+                    <h2>Delux Room</h2>
                     <div className="pricing clearfix">
                         <div className="price">
-                        Start From: <span>$50.00</span> / Per Night
+                        Start From: <span>₹5000.00</span> / Per Night
                         </div>
                         <div className="rating">
                         <span className="fa fa-star"></span>
@@ -42,13 +42,11 @@ const RoomSingle = () => {
                     </div>
                     <div className="text">
                         <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus
-                        error sitvou ptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta
-                        sunt explicabo.
+                        Room size 23.69 m²
+                        1 extra-large double bed
                         </p>
                         <p>
-                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt labore dolore
-                        sit magnam aliquam quaerat voluptatem.
+                        The fireplace is the standout feature of this double room. This air-conditioned double room is comprised of a flat-screen TV with cable channels, a private bathroom as well as a terrace with city views. The unit has 1 bed.
                         </p>
                     </div>
                     </div>
