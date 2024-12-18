@@ -8,7 +8,7 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import HomePage from "./components/HomePage/HomePage";
 import GalleryGrid from "./components/Gallery/Gallery";
 import ContactUs from "./components/ContactUs/ContactUs";
-import RoomSingle from "./components/RoomSingle/RoomSingle";
+import RoomSingle from "./components/RoomSingle/RoomSingle-Family";
 
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
