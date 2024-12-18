@@ -27,7 +27,7 @@ const RoomSingle = () => {
                 <div className="auto-container">
                 <div className="upper-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div className="upper-inner">
-                    <h2>Luxury Suite Room</h2>
+                    <h2>Family Suite Room</h2>
                     <div className="pricing clearfix">
                         <div className="price">
                         Start From: <span>$50.00</span> / Per Night
