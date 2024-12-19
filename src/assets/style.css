@@ -409,7 +409,7 @@ figure{
 	background-color:rgba(0,0,0,0); 
 	background-position:center center; 
 	background-repeat:no-repeat; 
-	background-image:url(./assets/images/icons/preloader.svg);
+	background-image:url(./images/icons/preloader.svg);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1550,7 +1550,7 @@ body.search-visible{
 ***/
 
 img.lazy-image{
-	background:url(./assets/images/icons/image-bg.svg) center center no-repeat;	
+	background:url(./images/icons/image-bg.svg) center center no-repeat;	
 }
 
 img.lazy-image.loaded{
@@ -1954,7 +1954,7 @@ img.lazy-image.loaded{
 	bottom: -50px;
 	width: 100%;
 	height: 120px;
-	background: url(./assets/images/main-slider/banner-bottom-1.png) center bottom no-repeat;
+	background: url(./images/main-slider/banner-bottom-1.png) center bottom no-repeat;
 	background-size: 100% 100%;
 	z-index: 5;
 }
@@ -1962,7 +1962,7 @@ img.lazy-image.loaded{
 .banner-three .banner-bottom-pattern,
 .banner-four .banner-bottom-pattern,
 .banner-five .banner-bottom-pattern{
-	background: url(./assets/images/main-slider/banner-bottom-2.png) center bottom no-repeat;
+	background: url(./images/main-slider/banner-bottom-2.png) center bottom no-repeat;
 	background-size: 100% 100%;
 }
 
@@ -2330,7 +2330,7 @@ img.lazy-image.loaded{
 	width: 394px;
 	height: 408px;
 	display: block;
-	background: url(./assets/images/icons/patterns/1.png) center center no-repeat;
+	background: url(./images/icons/patterns/1.png) center center no-repeat;
 }
 
 .dotted-pattern-2{
@@ -2338,7 +2338,7 @@ img.lazy-image.loaded{
 	width: 339px;
 	height: 339px;
 	display: block;
-	background: url(./assets/images/icons/patterns/2.png) center center no-repeat;
+	background: url(./images/icons/patterns/2.png) center center no-repeat;
 }
 
 .dotted-pattern-3{
@@ -2346,7 +2346,7 @@ img.lazy-image.loaded{
 	width: 272px;
 	height: 272px;
 	display: block;
-	background: url(./assets/images/icons/patterns/3.png) center center no-repeat;
+	background: url(./images/icons/patterns/3.png) center center no-repeat;
 }
 
 .dotted-pattern-4{
@@ -2354,7 +2354,7 @@ img.lazy-image.loaded{
 	width: 442px;
 	height: 442px;
 	display: block;
-	background: url(./assets/images/icons/patterns/4.png) center center no-repeat;
+	background: url(./images/icons/patterns/4.png) center center no-repeat;
 }
 
 .dotted-pattern-5{
@@ -2362,7 +2362,7 @@ img.lazy-image.loaded{
 	width: 322px;
 	height: 322px;
 	display: block;
-	background: url(./assets/images/icons/patterns/5.png) center center no-repeat;
+	background: url(./images/icons/patterns/5.png) center center no-repeat;
 }
 
 .dotted-pattern-6{
@@ -2370,7 +2370,7 @@ img.lazy-image.loaded{
 	width: 340px;
 	height: 322px;
 	display: block;
-	background: url(./assets/images/icons/patterns/6.png) center center no-repeat;
+	background: url(./images/icons/patterns/6.png) center center no-repeat;
 }
 
 .dotted-pattern-7{
@@ -2378,7 +2378,7 @@ img.lazy-image.loaded{
 	width: 309px;
 	height: 298px;
 	display: block;
-	background: url(./assets/images/icons/patterns/7.png) center center no-repeat;
+	background: url(./images/icons/patterns/7.png) center center no-repeat;
 }
 
 .dotted-pattern-8{
@@ -2386,7 +2386,7 @@ img.lazy-image.loaded{
 	width: 266px;
 	height: 274px;
 	display: block;
-	background: url(./assets/images/icons/patterns/8.png) center center no-repeat;
+	background: url(./images/icons/patterns/8.png) center center no-repeat;
 }
 
 .dotted-pattern-9{
@@ -2394,7 +2394,7 @@ img.lazy-image.loaded{
 	width: 226px;
 	height: 226px;
 	display: block;
-	background: url(./assets/images/icons/patterns/9.png) center center no-repeat;
+	background: url(./images/icons/patterns/9.png) center center no-repeat;
 }
 
 .dotted-pattern-10{
@@ -2402,7 +2402,7 @@ img.lazy-image.loaded{
 	width: 250px;
 	height: 264px;
 	display: block;
-	background: url(./assets/images/icons/patterns/10.png) center center no-repeat;
+	background: url(./images/icons/patterns/10.png) center center no-repeat;
 }
 
 .dotted-pattern-11{
@@ -2410,7 +2410,7 @@ img.lazy-image.loaded{
 	width: 322px;
 	height: 322px;
 	display: block;
-	background: url(./assets/images/icons/patterns/11.png) center center no-repeat;
+	background: url(./images/icons/patterns/11.png) center center no-repeat;
 }
 
 .dotted-pattern-12{
@@ -2418,7 +2418,7 @@ img.lazy-image.loaded{
 	width: 271px;
 	height: 270px;
 	display: block;
-	background: url(./assets/images/icons/patterns/14.png) center center no-repeat;
+	background: url(./images/icons/patterns/14.png) center center no-repeat;
 }
 
 .dotted-pattern-13{
@@ -2426,7 +2426,7 @@ img.lazy-image.loaded{
 	width: 290px;
 	height: 298px;
 	display: block;
-	background: url(./assets/images/icons/patterns/15.png) center center no-repeat;
+	background: url(./images/icons/patterns/15.png) center center no-repeat;
 }
 
 .dotted-pattern-14{
@@ -2434,7 +2434,7 @@ img.lazy-image.loaded{
 	width: 250px;
 	height: 247px;
 	display: block;
-	background: url(./assets/images/icons/patterns/16.png) center center no-repeat;
+	background: url(./images/icons/patterns/16.png) center center no-repeat;
 }
 
 .tri-pattern-1{
@@ -2442,7 +2442,7 @@ img.lazy-image.loaded{
 	width: 252px;
 	height: 254px;
 	display: block;
-	background: url(./assets/images/icons/patterns/tri-1.png) center center no-repeat;
+	background: url(./images/icons/patterns/tri-1.png) center center no-repeat;
 }
 
 .tri-pattern-2{
@@ -2450,7 +2450,7 @@ img.lazy-image.loaded{
 	width: 249px;
 	height: 259px;
 	display: block;
-	background: url(./assets/images/icons/patterns/tri-2.png) center center no-repeat;
+	background: url(./images/icons/patterns/tri-2.png) center center no-repeat;
 }
 
 .tri-pattern-3{
@@ -2458,7 +2458,7 @@ img.lazy-image.loaded{
 	width: 249px;
 	height: 259px;
 	display: block;
-	background: url(./assets/images/icons/patterns/tri-3.png) center center no-repeat;
+	background: url(./images/icons/patterns/tri-3.png) center center no-repeat;
 }
 
 .tri-pattern-4{
@@ -2466,7 +2466,7 @@ img.lazy-image.loaded{
 	width: 280px;
 	height: 211px;
 	display: block;
-	background: url(./assets/images/icons/patterns/tri-4.png) center center no-repeat;
+	background: url(./images/icons/patterns/tri-4.png) center center no-repeat;
 }
 
 .tri-pattern-5{
@@ -2474,7 +2474,7 @@ img.lazy-image.loaded{
 	width: 285px;
 	height: 294px;
 	display: block;
-	background: url(./assets/images/icons/patterns/tri-5.png) center center no-repeat;
+	background: url(./images/icons/patterns/tri-5.png) center center no-repeat;
 }
 
 .tri-pattern-6{
@@ -2482,7 +2482,7 @@ img.lazy-image.loaded{
 	width: 300px;
 	height: 302px;
 	display: block;
-	background: url(./assets/images/icons/patterns/tri-6.png) center center no-repeat;
+	background: url(./images/icons/patterns/tri-6.png) center center no-repeat;
 }
 
 .tri-pattern-7{
@@ -2490,7 +2490,7 @@ img.lazy-image.loaded{
 	width: 166px;
 	height: 168px;
 	display: block;
-	background: url(./assets/images/icons/patterns/tri-7.png) center center no-repeat;
+	background: url(./images/icons/patterns/tri-7.png) center center no-repeat;
 }
 
 .tri-pattern-8{
@@ -2498,7 +2498,7 @@ img.lazy-image.loaded{
 	width: 285px;
 	height: 294px;
 	display: block;
-	background: url(./assets/images/icons/patterns/tri-8.png) center center no-repeat;
+	background: url(./images/icons/patterns/tri-8.png) center center no-repeat;
 }
 
 .tri-pattern-9{
@@ -2506,7 +2506,7 @@ img.lazy-image.loaded{
 	width: 249px;
 	height: 259px;
 	display: block;
-	background: url(./assets/images/icons/patterns/tri-9.png) center center no-repeat;
+	background: url(./images/icons/patterns/tri-9.png) center center no-repeat;
 }
 
 .tri-pattern-10{
@@ -2514,14 +2514,14 @@ img.lazy-image.loaded{
 	width: 174px;
 	height: 184px;
 	display: block;
-	background: url(./assets/images/icons/patterns/tri-10.png) center center no-repeat;
+	background: url(./images/icons/patterns/tri-10.png) center center no-repeat;
 }
 
 .pattern-top{
 	position: absolute;
 	width: 100%;
 	height: 90px;
-	background: url(./assets/images/background/pattern-top.png) center bottom no-repeat;
+	background: url(./images/background/pattern-top.png) center bottom no-repeat;
 	background-size: 100% 100%;
 	z-index: 5;
 }
@@ -2530,7 +2530,7 @@ img.lazy-image.loaded{
 	position: absolute;
 	width: 100%;
 	height: 90px;
-	background: url(./assets/images/background/pattern-bottom.png) center bottom no-repeat;
+	background: url(./images/background/pattern-bottom.png) center bottom no-repeat;
 	background-size: 100% 100%;
 	z-index: 5;
 }
@@ -7194,7 +7194,7 @@ img.lazy-image.loaded{
 	bottom: -10px;
 	width: 100%;
 	height: 120px;
-	background: url(./assets/images/main-slider/banner-bottom-2.png) center bottom no-repeat;
+	background: url(./images/main-slider/banner-bottom-2.png) center bottom no-repeat;
 	background-size: 100% 100%;
 	z-index: 5;
 }
@@ -7405,7 +7405,7 @@ img.lazy-image.loaded{
 	width: 226px;
 	height: 226px;
 	display: block;
-	background: url(./assets/images/icons/patterns/13.png) center center no-repeat;
+	background: url(./images/icons/patterns/13.png) center center no-repeat;
 }
 
 .history-block.alternate .image-box:before{

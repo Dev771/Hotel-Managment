@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import bannerImage from "../../assets/images/background/banner-image-2.jpg";
 import galleryImage13 from "../../assets/images/gallery/13.jpg";
 import galleryImage14 from "../../assets/images/gallery/14.jpg";
@@ -5,11 +6,46 @@ import galleryImage15 from "../../assets/images/gallery/15.jpg";
 import galleryImage16 from "../../assets/images/gallery/16.jpg";
 import galleryImage17 from "../../assets/images/gallery/17.jpg";
 import galleryImage18 from "../../assets/images/gallery/18.jpg";
+import { useLocation } from "react-router-dom";
 
 const GalleryGrid = () => {
+  const [selectedTab, setSelectedTab] = useState(0);
+  
+  const tabs = [
+    { tabName: "All", img: [] },
+    { tabName: "Banquet Hall - Pearl", img: [] },
+    { tabName: "Banquet Hall - Shipre", img: [] },
+    { tabName: "Restaurant - Kohinoor", img: [] },
+    { tabName: "Delux Room", img: [] },
+    { tabName: "Premium Suite Room", img: [] },
+    { tabName: "Family Suite Room", img: [] },
+  ];
+
+  const location = useLocation();
+  const topRef = useRef<HTMLElement>(null);
+
+  // Parse query parameters
+  const queryParams = new URLSearchParams(location.search);
+  const paramValue = queryParams.get('tab');
+
+  useEffect(() => {
+    topRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+  }, []);
+
+  useEffect(() => {
+    if(paramValue) {
+      tabs.map((a, i) => {
+        if(a.tabName === paramValue) {
+          setSelectedTab(i);
+        }
+      })
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [paramValue]); 
+
   return (
     <>
-      <section className="page-banner">
+      <section className="page-banner" ref={topRef}>
         <div
           className="image-layer"
           style={{ backgroundImage: `url(${bannerImage})` }}
@@ -38,27 +74,11 @@ const GalleryGrid = () => {
           <div className="mixit-gallery filter-gallery">
             <div className="filters clearfix">
               <ul className="filter-tabs filter-btns clearfix">
-                <li className="filter active" data-role="button" data-filter="all">
-                  All
-                </li>
-                <li className="filter" data-role="button" data-filter=".banquet-pearl">
-                  Banquet Hall - Pearl
-                </li>
-                <li className="filter" data-role="button" data-filter=".banquet-shipre">
-                  Banquet Hall - Shipre
-                </li>
-                <li className="filter" data-role="button" data-filter=".Restaurant">
-                  Restaurant - Kohinoor
-                </li>
-                <li className="filter" data-role="button" data-filter=".DeluxRoom">
-                  Delux Room
-                </li>
-                <li className="filter" data-role="button" data-filter=".PremiumRoom">
-                  Premium Suite Room
-                </li>
-                <li className="filter" data-role="button" data-filter=".FamilyRoom">
-                  Family Suite Room
-                </li>
+                { tabs.map((a, i) => (
+                  <li className={`filter ${selectedTab === i && 'active'}`} onClick={() => setSelectedTab(i)} data-role="button" data-filter="all">
+                    {a.tabName}
+                  </li>
+                ))}
               </ul>
             </div>
             <div className="filter-list row clearfix">

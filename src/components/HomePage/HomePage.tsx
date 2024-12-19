@@ -11,18 +11,12 @@ import gallery1 from '../../assets/images/gallery/1.jpg';
 import gallery2 from '../../assets/images/gallery/2.jpg';
 import gallery3 from '../../assets/images/gallery/3.jpg';
 import gallery4 from '../../assets/images/gallery/4.jpg';
-/*import gallery5 from '../../assets/images/gallery/5.jpg';*/
 import backGroundImage1 from '../../assets/images/background/image-1.jpg';
 import ofThumb1 from '../../assets/images/resource/of-thumb-1.jpg';
 import testThumb1 from '../../assets/images/resource/testi-thumb-1.jpg';
 import testThumb2 from '../../assets/images/resource/testi-thumb-2.jpg';
 import testThumb3 from '../../assets/images/resource/testi-thumb-3.jpg';
-// import newsImage1 from '../../assets/images/resource/news-image-1.jpg';
-// import newsImage2 from '../../assets/images/resource/news-image-2.jpg';
-// import newsImage3 from '../../assets/images/resource/news-image-3.jpg';
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
-
-// import { Checkbox, ListItemText, MenuItem } from '@mui/material';
 
 const HomePage = () => {
 
@@ -169,38 +163,6 @@ const HomePage = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/*<div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <div className="image-box">
-                                        <div className="image-layer" style={{ backgroundImage: `url(${gallery2})` }}></div>
-                                        <figure className="image"><img src={gallery2} alt="" title="" /></figure>
-                                    </div>
-                                    <div className="cap-box">
-                                        <div className="cap-inner">
-                                            <div className="price">From <span>$50.00</span></div>
-                                            <h5>Sea View Room</h5>
-                                        </div>
-                                    </div>
-                                    <div className="hover-box">
-                                        <div className="hover-inner">
-                                            <h4>Sea View Room</h4>
-                                            <div className="pricing clearfix">
-                                                <div className="price">From <span>$50.00</span></div>
-                                                <div className="rating">
-                                                    <span className="fa fa-star"></span>
-                                                    <span className="fa fa-star"></span>
-                                                    <span className="fa fa-star"></span>
-                                                    <span className="fa fa-star"></span>
-                                                    <span className="fa fa-star"></span>
-                                                </div>
-                                            </div>
-
-                                            <div className="text">Excepteur sint occaecat cupidatat pro dent in sun in culpa qui officia deserunt mollit anim.</div>
-                                            <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>*/}
                         </div>
                         <div className="column col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -228,45 +190,12 @@ const HomePage = () => {
                                                     <span className="fa fa-star"></span>
                                                 </div>
                                             </div>
-
                                             <div className="text"></div>
                                             <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            {/*<div className="room-block-one height-two wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <div className="image-box">
-                                        <div className="image-layer" style={{ backgroundImage: `url(${gallery3})` }}></div>
-                                        <figure className="image"><img src={gallery3} alt="" title="" /></figure>
-                                    </div>
-                                    <div className="cap-box">
-                                        <div className="cap-inner">
-                                            <div className="price">From <span>$50.00</span></div>
-                                            <h5>Superior Room</h5>
-                                        </div>
-                                    </div>
-                                    <div className="hover-box">
-                                        <div className="hover-inner">
-                                            <h4>Superior Room</h4>
-                                            <div className="pricing clearfix">
-                                                <div className="price">From <span>$50.00</span></div>
-                                                <div className="rating">
-                                                    <span className="fa fa-star"></span>
-                                                    <span className="fa fa-star"></span>
-                                                    <span className="fa fa-star"></span>
-                                                    <span className="fa fa-star"></span>
-                                                    <span className="fa fa-star"></span>
-                                                </div>
-                                            </div>
-
-                                            <div className="text">Excepteur sint occaecat cupidatat pro dent in sun in culpa qui officia deserunt mollit anim.</div>
-                                            <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>*/}
                         </div>
                         <div className="column col-xl-4 col-lg-6 col-md-6 col-sm-12">
                             <div className="room-block-one height-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
@@ -301,38 +230,6 @@ const HomePage = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/*<div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <div className="image-box">
-                                        <div className="image-layer" style={{ backgroundImage: `url(${gallery5})` }}></div>
-                                        <figure className="image"><img src={gallery5} alt="" title="" /></figure>
-                                    </div>
-                                    <div className="cap-box">
-                                        <div className="cap-inner">
-                                            <div className="price">From <span>$50.00</span></div>
-                                            <h5>Luxury Suite Room</h5>
-                                        </div>
-                                    </div>
-                                    <div className="hover-box">
-                                        <div className="hover-inner">
-                                            <h4>Luxury Suite Room</h4>
-                                            <div className="pricing clearfix">
-                                                <div className="price">From <span>$50.00</span></div>
-                                                <div className="rating">
-                                                    <span className="fa fa-star"></span>
-                                                    <span className="fa fa-star"></span>
-                                                    <span className="fa fa-star"></span>
-                                                    <span className="fa fa-star"></span>
-                                                    <span className="fa fa-star"></span>
-                                                </div>
-                                            </div>
-
-                                            <div className="text">Excepteur sint occaecat cupidatat pro dent in sun in culpa qui officia deserunt mollit anim.</div>
-                                            <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>*/}
                         </div>
                     </div>
                 </div>
@@ -344,9 +241,6 @@ const HomePage = () => {
                             <h2>PSK Hotels <br />Facilities</h2>
                             <div className="lower-text"></div>
                         </div>
-                        {/*<div className="link-box">
-                            <Link to="packages.html" className="theme-btn btn-style-one"><span className="btn-title">View All Offers</span></Link>
-                        </div>*/}
                     </div>
                     <div className="row clearfix">
                         <div className="offers-column col-lg-6 col-md-12 col-sm-12">
@@ -357,7 +251,7 @@ const HomePage = () => {
                                         <div className="price"><span></span></div>
                                         <h4>Banquet Hall - Pearl</h4>
                                         <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Pearl, where elegance meets exceptional service.</div>
-                                        <a href="package-single.html" className="over-link"></a>
+                                        <Link to={`/gallery?tab=Banquet Hall - Pearl`} className="over-link"></Link>
                                     </div>
                                 </div>
                                 <div className="offer-block">
@@ -366,7 +260,7 @@ const HomePage = () => {
                                         <div className="price"><span></span></div>
                                         <h4>Banquet Hall - Shipre</h4>
                                         <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Shipre, where elegance meets exceptional service.</div>
-                                        <a href="package-single.html" className="over-link"></a>
+                                        <Link to={`/gallery?tab=Banquet Hall - Shipre`} className="over-link"></Link>
                                     </div>
                                 </div>
                                 <div className="offer-block">
@@ -375,7 +269,7 @@ const HomePage = () => {
                                         <div className="price"><span></span></div>
                                         <h4>Restaurant Kohinoor</h4>
                                         <div className="text">We warmly invite you to host memorable dining experiences at Restaurant Kohinoor, where fine cuisine and luxurious ambiance come together.</div>
-                                        <a href="package-single.html" className="over-link"></a>
+                                        <Link to={`/gallery?tab=Restaurant - Kohinoor`} className="over-link"></Link>
                                     </div>
                                 </div>
                             </div>
@@ -608,64 +502,6 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-            {/*<section className="news-section">
-                <div className="pattern-top"></div>
-                <div className="auto-container">
-                    <div className="upper-box clearfix">
-                        <div className="sec-title">
-                            <h2>Stay Update <br />with Hotera</h2>
-                            <div className="lower-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                        </div>
-                        <div className="link-box">
-                            <Link to="/blog" className="theme-btn btn-style-one"><span className="btn-title">View All Post</span></Link>
-                        </div>
-                    </div>
-                    <div className="row clearfix">
-                        <div className="news-block col-lg-4 col-md-6 col-sm-12">
-                            <div className="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div className="image-box">
-                                    <figure className="image"><a href="blog-single.html"><img src={newsImage1} alt="" title="" /></a></figure>
-                                </div>
-                                <div className="post-meta">
-                                    <span>on 2 Sep, 2019  /  by admin</span>
-                                </div>
-                                <h4><a href="blog-single.html">Disclosing the Secrets of Success in Hotera.</a></h4>
-                                <div className="link-box">
-                                    <a href="blog-single.html"><span className="icon flaticon-arrows-10"></span>Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="news-block col-lg-4 col-md-6 col-sm-12">
-                            <div className="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="image-box">
-                                    <figure className="image"><a href="blog-single.html"><img src={newsImage2} alt="" title="" /></a></figure>
-                                </div>
-                                <div className="post-meta">
-                                    <span>on 2 Sep, 2019  /  by admin</span>
-                                </div>
-                                <h4><a href="blog-single.html">The Top Hotel Trends to Watch in 2020.</a></h4>
-                                <div className="link-box">
-                                    <a href="blog-single.html"><span className="icon flaticon-arrows-10"></span>Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="news-block col-lg-4 col-md-6 col-sm-12">
-                            <div className="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <div className="image-box">
-                                    <figure className="image"><a href="blog-single.html"><img src={newsImage3} alt="" title="" /></a></figure>
-                                </div>
-                                <div className="post-meta">
-                                    <span>on 2 Sep, 2019  /  by admin</span>
-                                </div>
-                                <h4><a href="blog-single.html">Seven Best Things To Do In Buckeye Arizona.</a></h4>
-                                <div className="link-box">
-                                    <a href="blog-single.html"><span className="icon flaticon-arrows-10"></span>Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>*/}
         </div>
     )
 }
