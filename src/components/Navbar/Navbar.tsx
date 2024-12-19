@@ -31,7 +31,7 @@ const Navbar = () => {
                 <div className="other-links clearfix">
                     <div className="info">
                         <ul className="clearfix">
-                            <li><Link to="te:+502542163754"><span className="icon flaticon-smartphone-2"></span><span className="txt">+91 7565000621</span></Link></li>
+                            <li><Link to="tel:+917565000621"><span className="icon flaticon-smartphone-2"></span><span className="txt">+91 7565000621</span></Link></li>
                         </ul>
                     </div>
                     <div className="link-box">

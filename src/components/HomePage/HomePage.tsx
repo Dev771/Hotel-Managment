@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+
 import mainSlider from '../../assets/images/main-slider/1.jpg';
 import featuredImage0 from '../../assets/images/resource/featured-image-0.jpg';
 import featuredImage1 from '../../assets/images/resource/featured-image-1.jpg';
@@ -6,19 +7,17 @@ import featuredImage2 from '../../assets/images/resource/featured-image-2.jpg';
 import featuredImage3 from '../../assets/images/resource/featured-image-3.jpg';
 import featuredImage4 from '../../assets/images/resource/featured-image-4.jpg';
 import featuredImage5 from '../../assets/images/resource/featured-image-5.jpg';
-import chairUmbrella from '../../assets/images/resource/chair-umbrella.png';
 import gallery1 from '../../assets/images/gallery/1.jpg';
 import gallery2 from '../../assets/images/gallery/2.jpg';
 import gallery3 from '../../assets/images/gallery/3.jpg';
 import gallery4 from '../../assets/images/gallery/4.jpg';
 import backGroundImage1 from '../../assets/images/background/image-1.jpg';
 import ofThumb1 from '../../assets/images/resource/of-thumb-1.jpg';
-import testThumb1 from '../../assets/images/resource/testi-thumb-1.jpg';
-import testThumb2 from '../../assets/images/resource/testi-thumb-2.jpg';
-import testThumb3 from '../../assets/images/resource/testi-thumb-3.jpg';
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
+import Carasoul from '../Carasoul/Carasoul';
 
 const HomePage = () => {
+
 
     return (
         <div className='page-wrapper'>
@@ -76,7 +75,6 @@ const HomePage = () => {
             </section>
             <section className="facts-section">
                 <span className="dotted-pattern dotted-pattern-3"></span>
-                <div className="left-bottom-image"><img src={chairUmbrella} alt="" title="" /></div>
                 <div className="auto-container">
                     <div className="row clearfix">
                         <div className="title-column col-xl-7 col-lg-6 col-md-12 col-sm-12">
@@ -351,155 +349,7 @@ const HomePage = () => {
                         <h2>What People Say?</h2>
                         <div className="lower-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</div>
                     </div>
-
-                    <div className="carousel-box">
-                        <div className="testimonial-carousel owl-theme owl-carousel">
-                            <div className="testimonial-block">
-                                <div className="inner">
-                                    <div className="content-box">
-                                        <div className="content">
-                                            <div className="quote-icon"><span className="flaticon-quote-1"></span></div>
-                                            <div className="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="info">
-                                        <div className="image"><img src={testThumb1} alt="" /></div>
-                                        <div className="name">Mark Adams</div>
-                                        <div className="designation">Designer</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="testimonial-block">
-                                <div className="inner">
-                                    <div className="content-box">
-                                        <div className="content">
-                                            <div className="quote-icon"><span className="flaticon-quote-1"></span></div>
-                                            <div className="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="info">
-                                        <div className="image"><img src={testThumb2} alt="" /></div>
-                                        <div className="name">Fiona Edwards</div>
-                                        <div className="designation">Developer</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="testimonial-block">
-                                <div className="inner">
-                                    <div className="content-box">
-                                        <div className="content">
-                                            <div className="quote-icon"><span className="flaticon-quote-1"></span></div>
-                                            <div className="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="info">
-                                        <div className="image"><img src={testThumb3} alt="" /></div>
-                                        <div className="name">Dominic Allen</div>
-                                        <div className="designation">Designer</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="testimonial-block">
-                                <div className="inner">
-                                    <div className="content-box">
-                                        <div className="content">
-                                            <div className="quote-icon"><span className="flaticon-quote-1"></span></div>
-                                            <div className="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="info">
-                                        <div className="image"><img src={testThumb1} alt="" /></div>
-                                        <div className="name">Mark Adams</div>
-                                        <div className="designation">Designer</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="testimonial-block">
-                                <div className="inner">
-                                    <div className="content-box">
-                                        <div className="content">
-                                            <div className="quote-icon"><span className="flaticon-quote-1"></span></div>
-                                            <div className="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="info">
-                                        <div className="image"><img src={testThumb2} alt="" /></div>
-                                        <div className="name">Fiona Edwards</div>
-                                        <div className="designation">Developer</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="testimonial-block">
-                                <div className="inner">
-                                    <div className="content-box">
-                                        <div className="content">
-                                            <div className="quote-icon"><span className="flaticon-quote-1"></span></div>
-                                            <div className="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="info">
-                                        <div className="image"><img src={testThumb3} alt="" /></div>
-                                        <div className="name">Dominic Allen</div>
-                                        <div className="designation">Designer</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="testimonial-block">
-                                <div className="inner">
-                                    <div className="content-box">
-                                        <div className="content">
-                                            <div className="quote-icon"><span className="flaticon-quote-1"></span></div>
-                                            <div className="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="info">
-                                        <div className="image"><img src={testThumb1} alt="" /></div>
-                                        <div className="name">Mark Adams</div>
-                                        <div className="designation">Designer</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="testimonial-block">
-                                <div className="inner">
-                                    <div className="content-box">
-                                        <div className="content">
-                                            <div className="quote-icon"><span className="flaticon-quote-1"></span></div>
-                                            <div className="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="info">
-                                        <div className="image"><img src={testThumb2} alt="" /></div>
-                                        <div className="name">Fiona Edwards</div>
-                                        <div className="designation">Developer</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="testimonial-block">
-                                <div className="inner">
-                                    <div className="content-box">
-                                        <div className="content">
-                                            <div className="quote-icon"><span className="flaticon-quote-1"></span></div>
-                                            <div className="text">Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.</div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="info">
-                                        <div className="image"><img src={testThumb3} alt="" /></div>
-                                        <div className="name">Dominic Allen</div>
-                                        <div className="designation">Designer</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <Carasoul />
                 </div>
             </section>
         </div>

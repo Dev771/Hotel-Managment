@@ -2,24 +2,13 @@ import bannerImage from '../../assets/images/background/banner-image-2.jpg';
 import featuredImage21 from '../../assets/images/resource/featured-image-21.jpg';
 import featuredImage22 from '../../assets/images/resource/featured-image-22.jpg';
 import featuredImage23 from '../../assets/images/resource/featured-image-23.jpg';
-import featuredImage24 from '../../assets/images/resource/featured-image-24.jpg';
-import featuredImage25 from '../../assets/images/resource/featured-image-25.jpg';
-import featuredImage26 from '../../assets/images/resource/featured-image-26.jpg';
-import featuredImage27 from '../../assets/images/resource/featured-image-27.jpg';
-import featuredImage28 from '../../assets/images/resource/featured-image-28.jpg';
-import featuredImage29 from '../../assets/images/resource/featured-image-29.jpg';
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
 
 const roomsData = [
     { title: 'Balcony Room', price: '$50.00', image: featuredImage21 },
     { title: 'Deluxe Room', price: '$50.00', image: featuredImage22 },
     { title: 'Luxury Room', price: '$50.00', image: featuredImage23 },
-    { title: 'Sea View Room', price: '$50.00', image: featuredImage24 },
-    { title: 'Superior Room', price: '$50.00', image: featuredImage25 },
-    { title: 'Signature Room', price: '$50.00', image: featuredImage26 },
-    { title: 'Luxury Suite Room', price: '$50.00', image: featuredImage27 },
-    { title: 'Queen Room Balcony', price: '$50.00', image: featuredImage28 },
-    { title: 'Studio Sea View', price: '$50.00', image: featuredImage29 },
+
 ];
 
 const RoomCard = ({ room } : { room: { title: string, price: string, image: string } }) => (
