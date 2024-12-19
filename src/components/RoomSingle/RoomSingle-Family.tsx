@@ -43,6 +43,8 @@ const RoomSingle = () => {
                     <div className="text">
                         <p>
                         Room size: 34.84 m²
+                        </p>
+                        <p>
                         1 single bed and 1 extra-large double bed
                         </p>
                         <p>
@@ -111,8 +113,6 @@ const RoomSingle = () => {
                 <div className="sec-title centered">
                     <h2>Room & Suites</h2>
                     <div className="lower-text">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
-                    error sit voluptatem.
                     </div>
                 </div>
                 <div className="row clearfix">
@@ -126,10 +126,10 @@ const RoomSingle = () => {
                         </figure>
                         </div>
                         <div className="lower-box">
-                        <h4>Balcony Room</h4>
+                        <h4>Premium Suit Room</h4>
                         <div className="pricing clearfix">
                             <div className="price">
-                            From <span>$50.00</span>
+                            From <span>₹7000.00</span>
                             </div>
                             <div className="rating">
                             <span className="fa fa-star"></span>
@@ -139,7 +139,7 @@ const RoomSingle = () => {
                             <span className="fa fa-star"></span>
                             </div>
                         </div>
-                        <div className="text">Excepteur sint occaecat cupidatat dent in sun in culpa qui officia deserunt mollit anim id est.</div>
+                        <div className="text"></div>
                         <div className="link-box">
                             <a href="/room-single" className="theme-btn btn-style-three">
                             <span className="btn-title">Check Availability</span>
@@ -161,7 +161,7 @@ const RoomSingle = () => {
                         <h4>Deluxe Room</h4>
                         <div className="pricing clearfix">
                             <div className="price">
-                            From <span>$50.00</span>
+                            From <span>₹5000.00</span>
                             </div>
                             <div className="rating">
                             <span className="fa fa-star"></span>
@@ -171,7 +171,7 @@ const RoomSingle = () => {
                             <span className="fa fa-star"></span>
                             </div>
                         </div>
-                        <div className="text">Excepteur sint occaecat cupidatat dent in sun in culpa qui officia deserunt mollit anim id est.</div>
+                        <div className="text"></div>
                         <div className="link-box">
                             <a href="/room-single" className="theme-btn btn-style-three">
                             <span className="btn-title">Check Availability</span>
@@ -190,10 +190,10 @@ const RoomSingle = () => {
                         </figure>
                         </div>
                         <div className="lower-box">
-                        <h4>Luxury Room</h4>
+                        <h4>Family Suit Room</h4>
                         <div className="pricing clearfix">
                             <div className="price">
-                            From <span>$50.00</span>
+                            From <span>₹8000.00</span>
                             </div>
                             <div className="rating">
                             <span className="fa fa-star"></span>
@@ -203,7 +203,7 @@ const RoomSingle = () => {
                             <span className="fa fa-star"></span>
                             </div>
                         </div>
-                        <div className="text">Excepteur sint occaecat cupidatat dent in sun in culpa qui officia deserunt mollit anim id est.</div>
+                        <div className="text"></div>
                         <div className="link-box">
                             <a href="/room-single" className="theme-btn btn-style-three">
                             <span className="btn-title">Check Availability</span>

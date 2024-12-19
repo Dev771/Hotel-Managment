@@ -43,6 +43,8 @@ const RoomSingle = () => {
                     <div className="text">
                         <p>
                         Room size 23.69 m²
+                        </p>
+                        <p>
                         1 extra-large double bed
                         </p>
                         <p>
@@ -55,33 +57,31 @@ const RoomSingle = () => {
                     <div className="details-inner">
                     <h3>Room Amenities</h3>
                     <div className="text">
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
-                        error sitvou ptatem accusantium doloremque laudantium.
                     </div>
                     <ul className="info clearfix">
                         <li>
                         <span className="icon flaticon-tv"></span> Television
                         </li>
                         <li>
-                        <span className="icon flaticon-wifi"></span> Wi-Fi
+                        <span className="icon flaticon-wifi"></span> Air purifiers
                         </li>
                         <li>
                         <span className="icon flaticon-coffee-cup"></span> Breakfast
                         </li>
                         <li>
-                        <span className="icon flaticon-bathtub"></span> Bathtub
+                        <span className="icon flaticon-bathtub"></span> Free Toiletries
                         </li>
                         <li>
-                        <span className="icon flaticon-stones"></span> Spa
+                        <span className="icon flaticon-stones"></span> Safety Deposit Box
                         </li>
                         <li>
-                        <span className="icon flaticon-newspaper"></span> Newspaper
+                        <span className="icon flaticon-newspaper"></span> Wake up service/Alarm clock
                         </li>
                         <li>
                         <span className="icon flaticon-wine-glass"></span> Mini Bar
                         </li>
                         <li>
-                        <span className="icon flaticon-dumbbell"></span> Gymnasium
+                        <span className="icon flaticon-dumbbell"></span> Fireplace
                         </li>
                     </ul>
                     </div>
@@ -113,8 +113,6 @@ const RoomSingle = () => {
                 <div className="sec-title centered">
                     <h2>Room & Suites</h2>
                     <div className="lower-text">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
-                    error sit voluptatem.
                     </div>
                 </div>
                 <div className="row clearfix">
@@ -128,10 +126,10 @@ const RoomSingle = () => {
                         </figure>
                         </div>
                         <div className="lower-box">
-                        <h4>Balcony Room</h4>
+                        <h4>Family Suit Room</h4>
                         <div className="pricing clearfix">
                             <div className="price">
-                            From <span>$50.00</span>
+                            From <span>₹8000.00</span>
                             </div>
                             <div className="rating">
                             <span className="fa fa-star"></span>
@@ -141,7 +139,7 @@ const RoomSingle = () => {
                             <span className="fa fa-star"></span>
                             </div>
                         </div>
-                        <div className="text">Excepteur sint occaecat cupidatat dent in sun in culpa qui officia deserunt mollit anim id est.</div>
+                        <div className="text"></div>
                         <div className="link-box">
                             <a href="/room-single" className="theme-btn btn-style-three">
                             <span className="btn-title">Check Availability</span>
@@ -160,10 +158,10 @@ const RoomSingle = () => {
                         </figure>
                         </div>
                         <div className="lower-box">
-                        <h4>Deluxe Room</h4>
+                        <h4>Premium Suit Room</h4>
                         <div className="pricing clearfix">
                             <div className="price">
-                            From <span>$50.00</span>
+                            From <span>₹7000.00</span>
                             </div>
                             <div className="rating">
                             <span className="fa fa-star"></span>
@@ -173,7 +171,7 @@ const RoomSingle = () => {
                             <span className="fa fa-star"></span>
                             </div>
                         </div>
-                        <div className="text">Excepteur sint occaecat cupidatat dent in sun in culpa qui officia deserunt mollit anim id est.</div>
+                        <div className="text"></div>
                         <div className="link-box">
                             <a href="/room-single" className="theme-btn btn-style-three">
                             <span className="btn-title">Check Availability</span>
@@ -192,10 +190,10 @@ const RoomSingle = () => {
                         </figure>
                         </div>
                         <div className="lower-box">
-                        <h4>Luxury Room</h4>
+                        <h4>Delux Room</h4>
                         <div className="pricing clearfix">
                             <div className="price">
-                            From <span>$50.00</span>
+                            From <span>₹5000.00</span>
                             </div>
                             <div className="rating">
                             <span className="fa fa-star"></span>
@@ -205,7 +203,7 @@ const RoomSingle = () => {
                             <span className="fa fa-star"></span>
                             </div>
                         </div>
-                        <div className="text">Excepteur sint occaecat cupidatat dent in sun in culpa qui officia deserunt mollit anim id est.</div>
+                        <div className="text"></div>
                         <div className="link-box">
                             <a href="/room-single" className="theme-btn btn-style-three">
                             <span className="btn-title">Check Availability</span>

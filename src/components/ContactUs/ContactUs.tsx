@@ -10,7 +10,7 @@ const ContactUs = () => {
                 <div className="banner-inner">
                     <div className="auto-container">
                         <div className="inner-container clearfix">
-                            <h1>Stay Touch with Hotera</h1>
+                            <h1>Stay Touch with PSK Hotels</h1>
                             <div className="page-nav">
                                 <ul className="bread-crumb clearfix">
                                     <li><a href="index.html">Home</a></li>
@@ -27,14 +27,14 @@ const ContactUs = () => {
 
                         <div className="info-col col-lg-6 col-md-12 col-sm-12">
                             <div className="inner">
-                                <div className="u-text">Lorem ipsum dolor sit consectetur adipisicing elit sed do eiusmod tempor incididunt labore dolore.</div>
+                                <div className="u-text"></div>
 
                                 <div className="info">
                                     <div className="info-block">
                                         <div className="block-inner">
                                             <div className="icon-box wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><span className="flaticon-placeholder-1"></span></div>
                                             <h4>Address</h4>
-                                            <div className="text">PO Box 16122 Collins Street West Victoria 8007 Canada.</div>
+                                            <div className="text">GT Rd, opp. raymond showroom, Subhash Nagar, Mughalsarai, Mughalsarai Railway Settlement, Uttar Pradesh 232101</div>
                                         </div>
                                     </div>
                                     <div className="info-block">
@@ -42,8 +42,8 @@ const ContactUs = () => {
                                             <div className="icon-box wow zoomInStable" data-wow-delay="300ms" data-wow-duration="2000ms"><span className="flaticon-technology-2"></span></div>
                                             <h4>Phone Number</h4>
                                             <div className="text">
-                                                <a href="tel:(+48)564-334-21-22-34">(+48) 564-334-21-22-34</a> <br />
-                                                <a href="tel:(+48)564-334-21-25">(+48) 564-334-21-25</a>
+                                                <a href="tel:(+48)564-334-21-22-34">+91 75650 00621</a> <br />
+                                                <a href="tel:(+48)564-334-21-25">+91 05412-352450</a>
                                             </div>
                                         </div>
                                     </div>
@@ -52,8 +52,7 @@ const ContactUs = () => {
                                             <div className="icon-box wow zoomInStable" data-wow-delay="600ms" data-wow-duration="2000ms"><span className="flaticon-email-1"></span></div>
                                             <h4>Email Address</h4>
                                             <div className="text">
-                                                <a href="mailto:info@hotera.com">info@hotera.com</a> <br />
-                                                <a href="mailto:info@example.com">info@example.com</a>
+                                                <a href="mailto:info@hotera.com">pskinnhotel@gmail.com</a>
                                             </div>
                                         </div>
                                     </div>
