@@ -38,7 +38,7 @@ const GalleryGrid = () => {
           <div className="mixit-gallery filter-gallery">
             <div className="filters clearfix">
               <ul className="filter-tabs filter-btns clearfix">
-                <li className="filter active" data-role="button" data-filter="all">
+                <li className="filter" data-role="button" data-filter="all">
                   All
                 </li>
                 <li className="filter" data-role="button" data-filter=".banquet-pearl">
@@ -47,7 +47,7 @@ const GalleryGrid = () => {
                 <li className="filter" data-role="button" data-filter=".banquet-shipre">
                   Banquet Hall - Shipre
                 </li>
-                <li className="filter" data-role="button" data-filter=".Restaurant">
+                <li className="filter active" data-role="button" data-filter=".Restaurant">
                   Restaurant - Kohinoor
                 </li>
                 <li className="filter" data-role="button" data-filter=".DeluxRoom">
