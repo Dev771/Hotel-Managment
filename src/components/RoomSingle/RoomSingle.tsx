@@ -4,8 +4,21 @@ import featuredImage2 from '../../assets/images/resource/featured-image-55.jpg';
 import roomImage1 from '../../assets/images/resource/featured-image-21.jpg';
 import roomImage2 from '../../assets/images/resource/featured-image-22.jpg';
 import roomImage3 from '../../assets/images/resource/featured-image-23.jpg';
+import { useLocation } from 'react-router-dom';
 
-const RoomSingleFamily = () => {
+const RoomSingle = () => {
+
+    const location = useLocation();
+    const queryParams = new URLSearchParams(location.search);
+    const paramVal = queryParams.get('id') || "0";
+    const id = parseInt(paramVal, 10);
+
+    const RoomTab = [
+        { id: 0, roomName: "Delux Room", roomPrice: "5000", desc: "1 bed", roomSize: "23.5", desc2: "Lorem Ipsum sadadas dasndasnd asjd jnas djas djas djas djas jdaj dajsd asd jasd jasd jasd jasd asj", img: [] },
+        { id: 1, roomName: "", roomPrice: "", desc: "", roomSize: "", desc2: "", img: [] },
+        { id: 2, roomName: "", roomPrice: "", desc: "", roomSize: "", desc2: "", img: [] }
+    ]
+
     return (
         <>
             <section className="page-banner ext-banner">
@@ -27,28 +40,28 @@ const RoomSingleFamily = () => {
                 <div className="auto-container">
                 <div className="upper-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div className="upper-inner">
-                    <h2>Family Suite Room</h2>
+                    <h2>{RoomTab[id].roomName}</h2>
                     <div className="pricing clearfix">
                         <div className="price">
-                        Start From: <span>₹8000.00</span> / Per Night
+                        Start From: <span>₹{RoomTab[id].roomPrice}</span> / Per Night
                         </div>
                         <div className="rating">
-                        <span className="fa fa-star"></span>
-                        <span className="fa fa-star"></span>
-                        <span className="fa fa-star"></span>
-                        <span className="fa fa-star"></span>
-                        <span className="fa fa-star"></span>
+                            <span className="fa fa-star"></span>
+                            <span className="fa fa-star"></span>
+                            <span className="fa fa-star"></span>
+                            <span className="fa fa-star"></span>
+                            <span className="fa fa-star"></span>
                         </div>
                     </div>
                     <div className="text">
                         <p>
-                        Room size: 34.84 m²
+                        Room size {RoomTab[id].roomSize} m²
                         </p>
                         <p>
-                        1 single bed and 1 extra-large double bed
+                            {RoomTab[id].desc}
                         </p>
                         <p>
-                        This family room features a fireplace. This air-conditioned family room is comprised of a flat-screen TV with cable channels, a private bathroom as well as a terrace with city views. The unit has 2 beds.
+                            {RoomTab[id].desc2}
                         </p>
                     </div>
                     </div>
@@ -126,10 +139,10 @@ const RoomSingleFamily = () => {
                         </figure>
                         </div>
                         <div className="lower-box">
-                        <h4>Premium Suit Room</h4>
+                        <h4>Family Suit Room</h4>
                         <div className="pricing clearfix">
                             <div className="price">
-                            From <span>₹7000.00</span>
+                            From <span>₹8000.00</span>
                             </div>
                             <div className="rating">
                             <span className="fa fa-star"></span>
@@ -158,10 +171,10 @@ const RoomSingleFamily = () => {
                         </figure>
                         </div>
                         <div className="lower-box">
-                        <h4>Deluxe Room</h4>
+                        <h4>Premium Suit Room</h4>
                         <div className="pricing clearfix">
                             <div className="price">
-                            From <span>₹5000.00</span>
+                            From <span>₹7000.00</span>
                             </div>
                             <div className="rating">
                             <span className="fa fa-star"></span>
@@ -190,10 +203,10 @@ const RoomSingleFamily = () => {
                         </figure>
                         </div>
                         <div className="lower-box">
-                        <h4>Family Suit Room</h4>
+                        <h4>Delux Room</h4>
                         <div className="pricing clearfix">
                             <div className="price">
-                            From <span>₹8000.00</span>
+                            From <span>₹5000.00</span>
                             </div>
                             <div className="rating">
                             <span className="fa fa-star"></span>
@@ -219,4 +232,4 @@ const RoomSingleFamily = () => {
     );
 }
 
-export default RoomSingleFamily;
+export default RoomSingle;

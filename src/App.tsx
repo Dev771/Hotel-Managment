@@ -8,13 +8,13 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import HomePage from "./components/HomePage/HomePage";
 import GalleryGrid from "./components/Gallery/Gallery";
 import ContactUs from "./components/ContactUs/ContactUs";
-import RoomSingle from "./components/RoomSingle/RoomSingle-Family";
+import RoomSingle from "./components/RoomSingle/RoomSingle";
+import RoomGrid from "./components/RoomGrid/RoomGrid";
 
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import RoomGrid from "./components/RoomGrid/RoomGrid";
 
 const App = () => {
     return (

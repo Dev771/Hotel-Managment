@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="header-upper">
             <div className="inner-container clearfix">
                 <div className="logo-box">
-                    <div className="logo"><Link to="index.html" title="Hotera - Hotel and Restaurant HTML Template"><img src={navLogo} alt="Hotera - Hotel and Restaurant HTML Template" title="Hotera - Hotel and Restaurant HTML Template" /></Link></div>
+                    <div className="logo"><Link to="/" title="Hotera - Hotel and Restaurant HTML Template"><img src={navLogo} alt="Hotera - Hotel and Restaurant HTML Template" title="Hotera - Hotel and Restaurant HTML Template" /></Link></div>
                 </div>
                 <div className="nav-outer clearfix">
                     <div className="mobile-nav-toggler"><span className="icon flaticon-menu-2"></span><span className="txt">Menu</span></div>
