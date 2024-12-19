@@ -43,6 +43,8 @@ const RoomSingle = () => {
                     <div className="text">
                         <p>
                         Room size 47.38 m²
+                        </p>
+                        <p>
                         1 extra-large double bed
                         </p>
                         <p>
@@ -55,33 +57,32 @@ const RoomSingle = () => {
                     <div className="details-inner">
                     <h3>Room Amenities</h3>
                     <div className="text">
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
-                        error sitvou ptatem accusantium doloremque laudantium.
+        
                     </div>
                     <ul className="info clearfix">
                         <li>
                         <span className="icon flaticon-tv"></span> Television
                         </li>
                         <li>
-                        <span className="icon flaticon-wifi"></span> Wi-Fi
+                        <span className="icon flaticon-wifi"></span> Air purifiers
                         </li>
                         <li>
                         <span className="icon flaticon-coffee-cup"></span> Breakfast
                         </li>
                         <li>
-                        <span className="icon flaticon-bathtub"></span> Bathtub
+                        <span className="icon flaticon-bathtub"></span>Free Toiletries
                         </li>
                         <li>
-                        <span className="icon flaticon-stones"></span> Spa
+                        <span className="icon flaticon-stones"></span> Safety Deposit Box
                         </li>
                         <li>
-                        <span className="icon flaticon-newspaper"></span> Newspaper
+                        <span className="icon flaticon-newspaper"></span> Wake up service/Alarm clock
                         </li>
                         <li>
                         <span className="icon flaticon-wine-glass"></span> Mini Bar
                         </li>
                         <li>
-                        <span className="icon flaticon-dumbbell"></span> Gymnasium
+                        <span className="icon flaticon-dumbbell"></span> Fireplace
                         </li>
                     </ul>
                     </div>
@@ -219,4 +220,4 @@ const RoomSingle = () => {
     );
 }
 
-export default RoomSingle;
+export default RoomSingle-Premium;

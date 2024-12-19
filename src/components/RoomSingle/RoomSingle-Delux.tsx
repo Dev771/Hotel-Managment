@@ -219,4 +219,4 @@ const RoomSingle = () => {
     );
 }
 
-export default RoomSingle;
+export default RoomSingle-Delux;

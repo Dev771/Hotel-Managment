@@ -102,7 +102,7 @@ const Navbar = () => {
                 <div className="menu-outer"></div>
             </nav>
             <div className="nav-bottom">
-                <div className="copyright">Hotera  &copy;  2020 All Right Reserved</div>
+                <div className="copyright">PSK Hotels &copy;  2024 All Right Reserved</div>
                 <div className="social-links">
                     <ul className="clearfix">
                         <li><Link to="#"><span className="fab fa-facebook-f"></span></Link></li>
