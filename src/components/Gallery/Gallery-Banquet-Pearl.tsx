@@ -38,10 +38,10 @@ const GalleryGrid = () => {
           <div className="mixit-gallery filter-gallery">
             <div className="filters clearfix">
               <ul className="filter-tabs filter-btns clearfix">
-                <li className="filter active" data-role="button" data-filter="all">
+                <li className="filter" data-role="button" data-filter="all">
                   All
                 </li>
-                <li className="filter" data-role="button" data-filter=".Banquet-Pearl">
+                <li className="filter active" data-role="button" data-filter=".Banquet-Pearl">
                   Banquet-Pearl
                 </li>
                 <li className="filter" data-role="button" data-filter=".luxury">

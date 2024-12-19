@@ -455,8 +455,8 @@ const HomePage = () => {
                         <div className="row clearfix">
                             <div className="text-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <h3>Discover a New <br />Look of Luxury Hotel.</h3>
-                                    <div className="text">Lorem ipsum dolor sit amet constur adipisicing elit sed do eiusmtem por incid  dolore magna aliqu enim ad minim veniam quis nostrud exer cittion ullamco laboris nisi ut aliquip excepteur.</div>
+                                    <h3>Host at our<br />Banquet - Pearl</h3>
+                                    <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Pearl, where elegance meets exceptional service.</div>
                                     <div className="link-box">
                                         <a href="about.html" className="theme-btn btn-style-one"><span className="btn-title">Read More</span></a>
                                     </div>
@@ -475,8 +475,8 @@ const HomePage = () => {
                         <div className="row clearfix">
                             <div className="text-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <h3>Finest Beatch Resort <br />in Santorini.</h3>
-                                    <div className="text">Lorem ipsum dolor sit amet constur adipisicing elit sed do eiusmtem por incid  dolore magna aliqu enim ad minim veniam quis nostrud exer cittion ullamco laboris nisi ut aliquip excepteur.</div>
+                                    <h3>Host at our<br />Banquet - Shipre</h3>
+                                    <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Shipre, where elegance meets exceptional service.</div>
                                     <div className="link-box">
                                         <Link to="/about" className="theme-btn btn-style-one"><span className="btn-title">Discover Now</span></Link>
                                     </div>
@@ -661,7 +661,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-            <section className="news-section">
+            {/*<section className="news-section">
                 <div className="pattern-top"></div>
                 <div className="auto-container">
                     <div className="upper-box clearfix">
@@ -718,7 +718,7 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>*/}
         </div>
     )
 }
