@@ -5,7 +5,7 @@ import roomImage1 from '../../assets/images/resource/featured-image-21.jpg';
 import roomImage2 from '../../assets/images/resource/featured-image-22.jpg';
 import roomImage3 from '../../assets/images/resource/featured-image-23.jpg';
 
-const RoomSingle = () => {
+const RoomSinglePremium = () => {
     return (
         <>
             <section className="page-banner ext-banner">
@@ -220,4 +220,4 @@ const RoomSingle = () => {
     );
 }
 
-export default RoomSingle-Premium;
+export default RoomSinglePremium;

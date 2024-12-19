@@ -17,9 +17,9 @@ import ofThumb1 from '../../assets/images/resource/of-thumb-1.jpg';
 import testThumb1 from '../../assets/images/resource/testi-thumb-1.jpg';
 import testThumb2 from '../../assets/images/resource/testi-thumb-2.jpg';
 import testThumb3 from '../../assets/images/resource/testi-thumb-3.jpg';
-import newsImage1 from '../../assets/images/resource/news-image-1.jpg';
-import newsImage2 from '../../assets/images/resource/news-image-2.jpg';
-import newsImage3 from '../../assets/images/resource/news-image-3.jpg';
+// import newsImage1 from '../../assets/images/resource/news-image-1.jpg';
+// import newsImage2 from '../../assets/images/resource/news-image-2.jpg';
+// import newsImage3 from '../../assets/images/resource/news-image-3.jpg';
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
 
 // import { Checkbox, ListItemText, MenuItem } from '@mui/material';

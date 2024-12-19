@@ -42,7 +42,7 @@ const DateSelectComp = () => {
                 </div> */}
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
                     <DemoContainer components={['DateRangePicker']}>
-                        <DemoItem label="Controlled picker" component="DateRangePicker">
+                        <DemoItem component="DateRangePicker">
                             <DateRangePicker
                                 value={value}
                                 onChange={(newValue) => setValue(newValue)}
