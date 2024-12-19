@@ -58,8 +58,8 @@ const HomePage = () => {
                             <div className="content-box">
                                 <div className="content">
                                     <div className="inner">
-                                        <h1>Coolest Beach <br />Hotels in the USA</h1>
-                                        <div className="text">Amet consectetur adipisicing elit sed do eiusmod tempor incididunt adipisicing</div>
+                                        <h1>Homely Stay <br />At PSK Hotels</h1>
+                                        <div className="text"></div>
                                     </div>
                                 </div>
                             </div>  
@@ -147,7 +147,7 @@ const HomePage = () => {
                                 <div className="sec-title">
                                     <h2>Quality <br />Holidays With Us</h2>
                                 </div>
-                                <div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                <div className="text">TO BE WRITTER</div>
                                 <div className="link-box">
                                     <Link to="/about" className="theme-btn btn-style-one"><span className="btn-title">Read More</span></Link>
                                 </div>
@@ -158,7 +158,7 @@ const HomePage = () => {
                                 <div className="image-box">
                                     <span className="dotted-pattern dotted-pattern-2"></span>
                                     <figure className="image"><img src={featuredImage0} alt="" title="" /></figure>
-                                    <div className="cap"><span className="txt">25 <br />Years <br />of <br />Exp.</span></div>
+                                    <div className="cap"><span className="txt">2 <br />Years <br />of <br />Exp.</span></div>
                                 </div>
                             </div>
                         </div>
@@ -173,8 +173,8 @@ const HomePage = () => {
                         <div className="title-column col-xl-7 col-lg-6 col-md-12 col-sm-12">
                             <div className="inner">
                                 <div className="sec-title">
-                                    <h2>Always Ready <br />to Take Challange</h2>
-                                    <div className="lower-text">Lorem ipsum dolor sit consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore dolore magna aliqua. enim ad minim veniam quis nostrud exercitation.</div>
+                                    <h2>Always Ready <br />to Host You</h2>
+                                    <div className="lower-text"></div>
                                 </div>
                             </div>
                         </div>
@@ -183,23 +183,23 @@ const HomePage = () => {
                                 <div className="facts">
                                     <div className="fact-block">
                                         <div className="fact-inner">
-                                            <div className="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div className="count-box"><span className="count-text" data-stop="25" data-speed="2000">0</span>+</div></div>
+                                            <div className="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div className="count-box"><span className="count-text" data-stop="25" data-speed="2000">2</span>+</div></div>
                                             <h4>Years Exp.</h4>
-                                            <div className="text">Excepteur sint occaecat cupidatat proi dent in sunt.</div>
+                                            <div className="text"></div>
                                         </div>
                                     </div>
                                     <div className="fact-block">
                                         <div className="fact-inner">
-                                            <div className="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div className="count-box"><span className="count-text" data-stop="712" data-speed="5000">0</span></div></div>
+                                            <div className="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div className="count-box"><span className="count-text" data-stop="712" data-speed="5000">1,00,000</span>+</div></div>
                                             <h4>Project Done</h4>
-                                            <div className="text">Excepteur sint occaecat cupidatat proi dent in sunt.</div>
+                                            <div className="text"></div>
                                         </div>
                                     </div>
                                     <div className="fact-block">
                                         <div className="fact-inner">
-                                            <div className="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div className="count-box"><span className="count-text" data-stop="310" data-speed="4000">0</span></div></div>
+                                            <div className="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div className="count-box"><span className="count-text" data-stop="310" data-speed="4000">1</span></div></div>
                                             <h4>Awards Win</h4>
-                                            <div className="text">Excepteur sint occaecat cupidatat proi dent in sunt.</div>
+                                            <div className="text"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -216,7 +216,7 @@ const HomePage = () => {
                     <div className="auto-container">
                         <div className="sec-title centered">
                             <h2>Room & Suites</h2>
-                            <div className="lower-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</div>
+                            <div className="lower-text">Enjoy your stay at our Hotel in various different rooms ans suites</div>
                         </div>
                     </div>
 
@@ -225,20 +225,20 @@ const HomePage = () => {
                             <div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <div className="image-layer" style={{backgroundImage: `url(${gallery1})`}}></div>
+                                        <div className="image-layer" style={{backgroundImage: `url(${gallery2})`}}></div>
                                         <figure className="image"><img src={gallery1} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
                                         <div className="cap-inner">
-                                            <div className="price">From <span>$50.00</span></div>
-                                            <h5>Balcony Room</h5>
+                                            <div className="price">From <span>₹5000.00</span></div>
+                                            <h5>Delux Room</h5>
                                         </div>
                                     </div>
                                     <div className="hover-box">
                                         <div className="hover-inner">
-                                            <h4>Balcony Room</h4>
+                                            <h4>Delux Room</h4>
                                             <div className="pricing clearfix">
-                                                <div className="price">From <span>$50.00</span></div>
+                                                <div className="price">From <span>₹5000.00</span></div>
                                                 <div className="rating">
                                                     <span className="fa fa-star"></span>
                                                     <span className="fa fa-star"></span>
@@ -248,13 +248,13 @@ const HomePage = () => {
                                                 </div>
                                             </div>
 
-                                            <div className="text">Excepteur sint occaecat cupidatat pro dent in sun in culpa qui officia deserunt mollit anim.</div>
+                                            <div className="text"></div>
                                             <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            {/*<div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image-layer" style={{ backgroundImage: `url(${gallery2})` }}></div>
@@ -285,10 +285,42 @@ const HomePage = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>*/}
                         </div>
                         <div className="column col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                            <div className="room-block-one height-two wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <div className="image-layer" style={{backgroundImage: `url(${gallery3})`}}></div>
+                                        <figure className="image"><img src={gallery1} alt="" title="" /></figure>
+                                    </div>
+                                    <div className="cap-box">
+                                        <div className="cap-inner">
+                                            <div className="price">From <span>₹7000.00</span></div>
+                                            <h5>Premium Suite Room</h5>
+                                        </div>
+                                    </div>
+                                    <div className="hover-box">
+                                        <div className="hover-inner">
+                                            <h4>Premium Suite Room</h4>
+                                            <div className="pricing clearfix">
+                                                <div className="price">From <span>₹7000.00</span></div>
+                                                <div className="rating">
+                                                    <span className="fa fa-star"></span>
+                                                    <span className="fa fa-star"></span>
+                                                    <span className="fa fa-star"></span>
+                                                    <span className="fa fa-star"></span>
+                                                    <span className="fa fa-star"></span>
+                                                </div>
+                                            </div>
+
+                                            <div className="text"></div>
+                                            <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*<div className="room-block-one height-two wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image-layer" style={{ backgroundImage: `url(${gallery3})` }}></div>
@@ -319,7 +351,7 @@ const HomePage = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>*/}
                         </div>
                         <div className="column col-xl-4 col-lg-6 col-md-6 col-sm-12">
                             <div className="room-block-one height-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
@@ -330,15 +362,15 @@ const HomePage = () => {
                                     </div>
                                     <div className="cap-box">
                                         <div className="cap-inner">
-                                            <div className="price">From <span>$50.00</span></div>
-                                            <h5>Deluxe Room</h5>
+                                            <div className="price">From <span>₹8000.00</span></div>
+                                            <h5>Family Suite Room</h5>
                                         </div>
                                     </div>
                                     <div className="hover-box">
                                         <div className="hover-inner">
-                                            <h4>Deluxe Room</h4>
+                                            <h4>Family Suite Room</h4>
                                             <div className="pricing clearfix">
-                                                <div className="price">From <span>$50.00</span></div>
+                                                <div className="price">From <span>₹8000.00</span></div>
                                                 <div className="rating">
                                                     <span className="fa fa-star"></span>
                                                     <span className="fa fa-star"></span>
@@ -348,13 +380,13 @@ const HomePage = () => {
                                                 </div>
                                             </div>
 
-                                            <div className="text">Excepteur sint occaecat cupidatat pro dent in sun in culpa qui officia deserunt mollit anim.</div>
+                                            <div className="text"></div>
                                             <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            {/*<div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image-layer" style={{ backgroundImage: `url(${gallery5})` }}></div>
@@ -385,7 +417,7 @@ const HomePage = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                 </div>
@@ -394,40 +426,40 @@ const HomePage = () => {
                 <div className="auto-container">
                     <div className="upper-box clearfix">
                         <div className="sec-title">
-                            <h2>Hotera <br />Special Offers</h2>
-                            <div className="lower-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</div>
+                            <h2>PSK Hotels <br />Other Offers</h2>
+                            <div className="lower-text"></div>
                         </div>
-                        <div className="link-box">
+                        {/*<div className="link-box">
                             <Link to="packages.html" className="theme-btn btn-style-one"><span className="btn-title">View All Offers</span></Link>
-                        </div>
+                        </div>*/}
                     </div>
                     <div className="row clearfix">
                         <div className="offers-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner">
                                 <div className="offer-block">
                                     <div className="offer-inner">
-                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="0ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span>30% <br />off</span></div>
-                                        <div className="price">Start From: <span>$50.00</span></div>
-                                        <h4>Honeymoon Package</h4>
-                                        <div className="text">Excepteur sint occaecat cupidatat proi dent in sunt.</div>
+                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="0ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span> <br />off</span></div>
+                                        <div className="price"><span></span></div>
+                                        <h4>Banquet Hall - Pearl</h4>
+                                        <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Pearl, where elegance meets exceptional service.</div>
                                         <a href="package-single.html" className="over-link"></a>
                                     </div>
                                 </div>
                                 <div className="offer-block">
                                     <div className="offer-inner">
-                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="300ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span>30% <br />off</span></div>
-                                        <div className="price">Start From: <span>$50.00</span></div>
-                                        <h4>Free Breakfast Package</h4>
-                                        <div className="text">Excepteur sint occaecat cupidatat proi dent in sunt.</div>
+                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="300ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span> <br />off</span></div>
+                                        <div className="price"><span></span></div>
+                                        <h4>Banquet Hall - Shipre</h4>
+                                        <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Shipre, where elegance meets exceptional service.</div>
                                         <a href="package-single.html" className="over-link"></a>
                                     </div>
                                 </div>
                                 <div className="offer-block">
                                     <div className="offer-inner">
-                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="600ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span>30% <br />off</span></div>
-                                        <div className="price">Start From: <span>$50.00</span></div>
-                                        <h4>Facial Treatments</h4>
-                                        <div className="text">Excepteur sint occaecat cupidatat proi dent in sunt.</div>
+                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="600ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span> <br />off</span></div>
+                                        <div className="price"><span></span></div>
+                                        <h4>Restaurant Kohinoor</h4>
+                                        <div className="text">We warmly invite you to host memorable dining experiences at Restaurant Kohinoor, where fine cuisine and luxurious ambiance come together.</div>
                                         <a href="package-single.html" className="over-link"></a>
                                     </div>
                                 </div>
