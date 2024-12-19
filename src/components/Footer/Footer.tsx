@@ -26,8 +26,8 @@ const Footer = () => {
                                             <ul className="links">
                                                 <li><Link to="/">Home</Link></li>
                                                 <li><Link to="rooms-grid.html">Our Rooms</Link></li>
-                                                <li><Link to="restaurant.html">Restaurant</Link></li>
-                                                <li><Link to="/about">About Hotera</Link></li>
+                                                {/*<li><Link to="restaurant.html">Restaurant</Link></li>*/}
+                                                <li><Link to="/about">About PSK Hotels</Link></li>
                                                 <li><Link to="/contactUs">Contact</Link></li>
                                             </ul>
                                         </div>
@@ -36,9 +36,9 @@ const Footer = () => {
                                                 <h4>Contact</h4>
                                             </div>
                                             <ul className="info">
-                                                <li className="address">Flat 20, Reynolds Neck, North Helenaville, FV77 8WS</li>
-                                                <li className="phone"><Link to="tel:+2(305)587-3407">+2(305) 587-3407</Link></li>
-                                                <li className="email"><Link to="mailto:info@hotera.com">info@hotera.com</Link></li>
+                                                <li className="address">GT Rd, opp. raymond showroom, Subhash Nagar, Mughalsarai, Mughalsarai Railway Settlement, Uttar Pradesh 232101</li>
+                                                <li className="phone"><Link to="tel:+917565000621">+91 75650 00621</Link></li>
+                                                <li className="email"><Link to="mailto:pskinnhotel@gmail.com">pskinnhotel@gmail.com</Link></li>
                                                 <li className="social-links">
                                                     <Link to="#"><span className="fab fa-facebook-f"></span></Link>
                                                     <Link to="#"><span className="fab fa-twitter"></span></Link>
@@ -51,7 +51,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="column col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        {/*<div className="column col-xl-4 col-lg-4 col-md-12 col-sm-12">
                             <div className="footer-widget newsletter-widget">
                                 <div className="widget-title">
                                     <h4>Newsletter</h4>
@@ -66,7 +66,7 @@ const Footer = () => {
                                     </form>
                                 </div>
                             </div>
-                        </div>
+                        </div>*/}
                         
                     </div>
                 </div>
