@@ -103,16 +103,7 @@ const ContactUs = () => {
             </section>
             <section className="map-section">
                 <div className="map-layer">
-                    <div className="map-canvas"
-                        data-zoom="12"
-                        data-lat="-37.817085"
-                        data-lng="144.955631"
-                        data-type="roadmap"
-                        data-hue="#ffc400"
-                        data-title="Singapore"
-                        data-icon-path="images/icons/map-marker.png"
-                        data-content="Singapore VIC 3000, USA<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
-                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14429.483192871516!2d83.09030294317385!3d25.291743211999872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e3b28c8fe633f%3A0x3707bb8593724275!2sHotel%20Psk%20Inn%20A%20Boutique%20Hotel!5e0!3m2!1sen!2sin!4v1734635272229!5m2!1sen!2sin" width="600" height="450" style={{ border:0, width: '100%', height: '80vh' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
         </div>
