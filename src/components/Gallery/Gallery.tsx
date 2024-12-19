@@ -41,8 +41,8 @@ const GalleryGrid = () => {
                 <li className="filter active" data-role="button" data-filter="all">
                   All
                 </li>
-                <li className="filter" data-role="button" data-filter=".Banquet-Pearl">
-                  Banquet-Pearl
+                <li className="filter" data-role="button" data-filter=".special">
+                  Special
                 </li>
                 <li className="filter" data-role="button" data-filter=".luxury">
                   Luxury
