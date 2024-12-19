@@ -14,6 +14,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import RoomGrid from "./components/RoomGrid/RoomGrid";
 
 const App = () => {
     return (
@@ -25,6 +26,7 @@ const App = () => {
                 <Route path="/about" element={<AboutUs />} />
                 <Route path="/gallery" element={<GalleryGrid />} />
                 <Route path="/contactUs" element={<ContactUs />} />
+                <Route path="/room-grid" element={<RoomGrid />} />
             </Routes>
             <Footer />
         </BrowserRouter>
