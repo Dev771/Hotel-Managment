@@ -12,15 +12,15 @@ import gallery1 from '../../assets/images/gallery/1.jpg';
 import gallery2 from '../../assets/images/gallery/2.jpg';
 import gallery3 from '../../assets/images/gallery/3.jpg';
 import gallery4 from '../../assets/images/gallery/4.jpg';
-import gallery5 from '../../assets/images/gallery/5.jpg';
+/*import gallery5 from '../../assets/images/gallery/5.jpg';*/
 import backGroundImage1 from '../../assets/images/background/image-1.jpg';
 import ofThumb1 from '../../assets/images/resource/of-thumb-1.jpg';
 import testThumb1 from '../../assets/images/resource/testi-thumb-1.jpg';
 import testThumb2 from '../../assets/images/resource/testi-thumb-2.jpg';
 import testThumb3 from '../../assets/images/resource/testi-thumb-3.jpg';
-import newsImage1 from '../../assets/images/resource/news-image-1.jpg';
+{/*import newsImage1 from '../../assets/images/resource/news-image-1.jpg';
 import newsImage2 from '../../assets/images/resource/news-image-2.jpg';
-import newsImage3 from '../../assets/images/resource/news-image-3.jpg';
+import newsImage3 from '../../assets/images/resource/news-image-3.jpg';*/}
 
 import { DemoContainer, DemoItem } from '@mui/x-date-pickers/internals/demo';
 // import { DateRangeCalendar } from '@mui/x-date-pickers-pro/DateRangeCalendar';
