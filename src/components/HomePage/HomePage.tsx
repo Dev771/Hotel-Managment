@@ -349,8 +349,8 @@ const HomePage = () => {
                 </div>
             </section>
             <section className="video-section">
-                <div className="image-layer" style={{ src: `url(${backimg})` }}>
-                    
+                <div className="image-layer" style={{ backgroundImage: `url(${backimg})` }}>
+
                 </div>
                 <div className="auto-container">
                     <div className="content-box wow zoomIn" data-wow-delay="0ms" data-wow-duration="2000ms">
