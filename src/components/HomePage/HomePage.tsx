@@ -7,7 +7,7 @@ import featuredImage2 from '../../assets/images/resource/featured-image-2.jpg';
 import featuredImage3 from '../../assets/images/resource/featured-image-3.jpg';
 import featuredImage4 from '../../assets/images/resource/featured-image-4.jpg';
 import featuredImage5 from '../../assets/images/resource/featured-image-5.jpg';
-import gallery1 from '../../assets/images/gallery/1.jpg';
+{/*import gallery1 from '../../assets/images/gallery/1.jpg';*/}
 import gallery2 from '../../assets/images/gallery/2.jpg';
 import gallery3 from '../../assets/images/gallery/3.jpg';
 import gallery4 from '../../assets/images/gallery/4.jpg';
@@ -134,8 +134,8 @@ const HomePage = () => {
                             <div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <div className="image-layer" style={{backgroundImage: `url(${"https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg"})`}}></div>
-                                        <figure className="image"><img src={gallery1} alt="" title="" /></figure>
+                                        <div className="image-layer" style={{backgroundImage: `url(${gallery2})`}}></div>
+                                        <figure className="image"><img src={"https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg"} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
                                         <div className="cap-inner">
@@ -168,8 +168,8 @@ const HomePage = () => {
                         <div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <div className="image-layer" style={{backgroundImage: `url(${"https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg"})`}}></div>
-                                        <figure className="image"><img src={gallery1} alt="" title="" /></figure>
+                                        <div className="image-layer" style={{backgroundImage: `url(${gallery3})`}}></div>
+                                        <figure className="image"><img src={"https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg"} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
                                         <div className="cap-inner">
@@ -201,8 +201,8 @@ const HomePage = () => {
                             <div className="room-block-one height-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <div className="image-layer" style={{ backgroundImage: `url(${"https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg"})` }}></div>
-                                        <figure className="image"><img src={gallery4} alt="" title="" /></figure>
+                                        <div className="image-layer" style={{ backgroundImage: `url(${gallery4})` }}></div>
+                                        <figure className="image"><img src={"https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg"} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
                                         <div className="cap-inner">
