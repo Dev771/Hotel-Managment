@@ -6,12 +6,12 @@ import featuredImage1 from '../../assets/images/resource/featured-image-1.jpg';
 import featuredImage2 from '../../assets/images/resource/featured-image-2.jpg';
 import featuredImage3 from '../../assets/images/resource/featured-image-3.jpg';
 import featuredImage4 from '../../assets/images/resource/featured-image-4.jpg';
-import featuredImage5 from '../../assets/images/resource/featured-image-5.jpg';*/
+import featuredImage5 from '../../assets/images/resource/featured-image-5.jpg';
 {/*import gallery1 from '../../assets/images/gallery/1.jpg';
 import gallery2 from '../../assets/images/gallery/2.jpg';
 import gallery3 from '../../assets/images/gallery/3.jpg';
-import gallery4 from '../../assets/images/gallery/4.jpg';*/}
-import backGroundImage1 from '../../assets/images/background/image-1.jpg';
+import gallery4 from '../../assets/images/gallery/4.jpg';
+import backGroundImage1 from '../../assets/images/background/image-1.jpg';*/
 import ofThumb1 from '../../assets/images/resource/of-thumb-1.jpg';
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
 import Carasoul from '../Carasoul/Carasoul';
