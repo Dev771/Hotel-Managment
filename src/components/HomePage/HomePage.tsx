@@ -139,7 +139,7 @@ const HomePage = () => {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image-layer" style={{backgroundImage: `url(${dr})`}}></div>
-                                        <figure className="image"><img src={dr} alt="" title="" /></figure>
+                                        <figure className="image"><img src={""} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
                                         <div className="cap-inner">
@@ -173,7 +173,7 @@ const HomePage = () => {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image-layer" style={{backgroundImage: `url(${pr})`}}></div>
-                                        <figure className="image"><img src={pr} alt="" title="" /></figure>
+                                        <figure className="image"><img src={""} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
                                         <div className="cap-inner">
@@ -206,7 +206,7 @@ const HomePage = () => {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image-layer" style={{ backgroundImage: `url(${fr})` }}></div>
-                                        <figure className="image"><img src={fr} alt="" title="" /></figure>
+                                        <figure className="image"><img src={""} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
                                         <div className="cap-inner">
