@@ -134,7 +134,7 @@ const HomePage = () => {
                             <div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <div className="image-layer" style={{backgroundImage: `url(${gallery2})`}}></div>
+                                        <div className="image-layer" style={{backgroundImage: `url(${https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg})`}}></div>
                                         <figure className="image"><img src={gallery1} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
@@ -168,7 +168,7 @@ const HomePage = () => {
                         <div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <div className="image-layer" style={{backgroundImage: `url(${gallery3})`}}></div>
+                                        <div className="image-layer" style={{backgroundImage: `url(${https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg})`}}></div>
                                         <figure className="image"><img src={gallery1} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
@@ -201,7 +201,7 @@ const HomePage = () => {
                             <div className="room-block-one height-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <div className="image-layer" style={{ backgroundImage: `url(${gallery4})` }}></div>
+                                        <div className="image-layer" style={{ backgroundImage: `url(${https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg})` }}></div>
                                         <figure className="image"><img src={gallery4} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
