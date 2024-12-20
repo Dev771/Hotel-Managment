@@ -1,10 +1,12 @@
-import bannerImage4 from '../../assets/images/background/banner-image-4.jpg';
+/*import bannerImage4 from '../../assets/images/background/banner-image-4.jpg';*/
+
+const mainimage = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690973/PSK%20Hotels/Home%20Page/a_view_nn6pm6.jpg";
 
 const ContactUs = () => {
     return (
         <div>
             <section className="page-banner">
-                <div className="image-layer" style={{backgroundImage: `url(${bannerImage4})`}}></div>
+                <div className="image-layer" style={{backgroundImage: `url(${mainimage})`}}></div>
                 <div className="banner-bottom-pattern"></div>
 
                 <div className="banner-inner">
