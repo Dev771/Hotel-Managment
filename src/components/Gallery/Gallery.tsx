@@ -8,17 +8,42 @@ import galleryImage17 from "../../assets/images/gallery/17.jpg";
 import galleryImage18 from "../../assets/images/gallery/18.jpg";
 import { useLocation } from "react-router-dom";
 
+const dr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704696/PSK%20Hotels/GALLERY/Deluxe/370_X_370_2_qmtqze.jpg";
+const dr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704693/PSK%20Hotels/GALLERY/Deluxe/370_X_370_1_clof3z.jpg";
+const fr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704713/PSK%20Hotels/GALLERY/family/370_X_370_1_ti5qfd.jpg";
+const fr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704715/PSK%20Hotels/GALLERY/family/370_X_370_2_bsnri1.jpg";
+const fr3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704718/PSK%20Hotels/GALLERY/family/370_X_370_3_oqh6mn.jpg";
+const fr4 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704721/PSK%20Hotels/GALLERY/family/370_X_370_4_z4rc8j.jpg";
+const pr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704725/PSK%20Hotels/GALLERY/Premium/370_X_370_1_gqlj4n.jpg";
+const pr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704728/PSK%20Hotels/GALLERY/Premium/370_X_370_2_hmew2f.jpg";
+const pr3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704731/PSK%20Hotels/GALLERY/Premium/370_X_370_3_fcevqp.jpg";
+const other1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704738/PSK%20Hotels/GALLERY/Other/370_X_370_1_hiqv7m.jpg";
+const other2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704744/PSK%20Hotels/GALLERY/Other/370_X_370_3_twyna1.jpg";
+const other3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704747/PSK%20Hotels/GALLERY/Other/370_X_370_4_gncy4j.jpg";
+const other4 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704741/PSK%20Hotels/GALLERY/Other/370_X_370_2_svmtf9.jpg";
+const pearl1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704689/PSK%20Hotels/GALLERY/pearl/370_X_370_6_bju4uz.jpg";
+const pearl2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704687/PSK%20Hotels/GALLERY/pearl/370_X_370_5_jeicx8.jpg";
+const pearl3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704684/PSK%20Hotels/GALLERY/pearl/370_X_370_4_cmcpv9.jpg";
+const pearl4 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704681/PSK%20Hotels/GALLERY/pearl/370_X_370_3_coh3k3.jpg";
+const pearl5 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704679/PSK%20Hotels/GALLERY/pearl/370_X_370_2_oveefe.jpg";
+const pearl6 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704676/PSK%20Hotels/GALLERY/pearl/370_X_370_1_gx7pkt.jpg";
+const shipre1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704663/PSK%20Hotels/GALLERY/shipre/370_X_370_4_fkrhqo.jpg";
+const shipre2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704660/PSK%20Hotels/GALLERY/shipre/370_X_370_3_p4rpwb.jpg";
+const shipre3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704657/PSK%20Hotels/GALLERY/shipre/370_X_370_2_tgk9jv.jpg";
+const shipre4 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704656/PSK%20Hotels/GALLERY/shipre/370_X_370_1_u0tnzl.jpg";
+
+
 const GalleryGrid = () => {
   const [selectedTab, setSelectedTab] = useState(0);
   const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734698514/PSK%20Hotels/Reception/1920_X_620_ucm457.jpg";
   const tabs = [
-    { tabName: "All", img: [] },
-    { tabName: "Banquet Hall - Pearl", img: [] },
-    { tabName: "Banquet Hall - Shipre", img: [] },
-    { tabName: "Restaurant - Kohinoor", img: [] },
-    { tabName: "Delux Room", img: [] },
-    { tabName: "Premium Suite Room", img: [] },
-    { tabName: "Family Suite Room", img: [] },
+    { tabName: "All", img: [dr1, dr2, pr1, pr2, pr3, fr1, fr2, fr3, fr4, pearl1, pearl2, pearl3, pearl4, pearl5, pearl6, shipre1, shipre2, shipre3, shipre4, other1, other2, other3, other4] },
+    { tabName: "Banquet Hall - Pearl", img: [pearl1, pearl2, pearl3, pearl4, pearl5, pearl5, pearl6] },
+    { tabName: "Banquet Hall - Shipre", img: [shipre1, shipre2, shipre3, shipre4] },
+    { tabName: "Restaurant - Kohinoor", img: [other1, other2, other3, other4] },
+    { tabName: "Delux Room", img: [dr1, dr2] },
+    { tabName: "Premium Suite Room", img: [pr1, pr2, pr3] },
+    { tabName: "Family Suite Room", img: [fr1, fr2, fr3, fr4] },
   ];
 
   const location = useLocation();
