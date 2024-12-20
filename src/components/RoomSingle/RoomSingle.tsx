@@ -112,15 +112,15 @@ const RoomSingle = () => {
                     <div className="row clearfix">
                     <div className="image-block col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <figure className="image">
-                        <a href={featuredImage1} className="lightbox-image">
-                            <img src={featuredImage1} alt="" title="" />
+                        <a href={RoomTab[id].img[0]} className="lightbox-image">
+                            <img src={RoomTab[id].img[0]} alt="" title="" />
                         </a>
                         </figure>
                     </div>
                     <div className="image-block col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <figure className="image">
-                        <a href={featuredImage2} className="lightbox-image">
-                            <img src={featuredImage2} alt="" title="" />
+                        <a href={RoomTab[id].img[1]} className="lightbox-image">
+                            <img src={RoomTab[id].img[1]} alt="" title="" />
                         </a>
                         </figure>
                     </div>
@@ -143,7 +143,7 @@ const RoomSingle = () => {
                         <div className="image-box">
                         <figure className="image">
                             <a href="/room-single">
-                            <img src={roomImage1} alt="" title="" />
+                            <img src={fr1} alt="" title="" />
                             </a>
                         </figure>
                         </div>
@@ -175,7 +175,7 @@ const RoomSingle = () => {
                         <div className="image-box">
                         <figure className="image">
                             <a href="/room-single">
-                            <img src={roomImage2} alt="" title="" />
+                            <img src={pr1} alt="" title="" />
                             </a>
                         </figure>
                         </div>
@@ -207,7 +207,7 @@ const RoomSingle = () => {
                         <div className="image-box">
                         <figure className="image">
                             <a href="/room-single">
-                            <img src={roomImage3} alt="" title="" />
+                            <img src={dr1} alt="" title="" />
                             </a>
                         </figure>
                         </div>
