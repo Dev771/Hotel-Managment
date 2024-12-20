@@ -13,14 +13,14 @@ const RoomSingle = () => {
     const paramVal = queryParams.get('id') || "0";
     const id = parseInt(paramVal, 10);
     
-    const dr1 = new URL("https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3292_updated_wdcxtu.jpg");
-    const dr2 = new URL("https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg");
+    const dr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3292_updated_wdcxtu.jpg";
+    const dr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg";
     
-    const fr1 = new URL("https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg");
-    const fr2 = new URL("https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3178_updated_rejo9z.jpg");
+    const fr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg";
+    const fr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3178_updated_rejo9z.jpg";
     
-    const pr1 = new URL("https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg");
-    const pr2 = new URL("https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3249_updated_jbtwzl.jpg");
+    const pr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg";
+    const pr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3249_updated_jbtwzl.jpg";
     
     const RoomTab = [
         { id: 0, roomName: "Delux Room", roomPrice: "5000", desc: "1 extra-large double bed", roomSize: "23.69", desc2: "The fireplace is the standout feature of this double room. This air-conditioned double room is comprised of a flat-screen TV with cable channels, a private bathroom as well as a terrace with city views. The unit has 1 bed.", img: [dr1, dr2] },
