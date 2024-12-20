@@ -285,7 +285,7 @@ const HomePage = () => {
                             <div className="inner">
                                 <span className="dotted-pattern dotted-pattern-4"></span>
                                 <div className="images">
-                                    <div className="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={} alt="" title="" /></div>
+                                    {/*<div className="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={} alt="" title="" /></div>*/}
                                     <div className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={fac250} alt="" title="" /></div>
                                     <div className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={fac320} alt="" title="" /></div>
                                 </div>
