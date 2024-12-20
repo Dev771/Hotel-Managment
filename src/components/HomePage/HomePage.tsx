@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import mainSlider from '../../assets/images/main-slider/1.jpg';
+/*import mainSlider from '../../assets/images/main-slider/1.jpg';*/
 import featuredImage0 from '../../assets/images/resource/featured-image-0.jpg';
 import featuredImage1 from '../../assets/images/resource/featured-image-1.jpg';
 import featuredImage2 from '../../assets/images/resource/featured-image-2.jpg';
@@ -16,6 +16,7 @@ import ofThumb1 from '../../assets/images/resource/of-thumb-1.jpg';
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
 import Carasoul from '../Carasoul/Carasoul';
 
+const mainvideo = "https://res.cloudinary.com/dxzp2cqfc/video/upload/v1734689399/PSK%20Hotels/Home%20Page/Untitled_design_1_v8fysu.mp4";
 const HomePage = () => {
 
 
@@ -25,7 +26,7 @@ const HomePage = () => {
                 <div className="banner-bottom-pattern"></div>
                 <div className="banner-carousel owl-theme">
                     <div className="slide-item">
-                        <div className="image-layer" style={{ backgroundImage: `url(${mainSlider})` }}></div>
+                        <div className="image-layer" style={{ backgroundImage: `url(${mainvideo})` }}></div>
                         <div className="auto-container">
                             <div className="content-box">
                                 <div className="content">
