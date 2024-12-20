@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
-/*import mainSlider from '../../assets/images/main-slider/1.jpg';*/
-import featuredImage0 from '../../assets/images/resource/featured-image-0.jpg';
+/*import mainSlider from '../../assets/images/main-slider/1.jpg';
+import featuredImage0 from '../../assets/images/resource/featured-image-0.jpg';*/
 import featuredImage1 from '../../assets/images/resource/featured-image-1.jpg';
 import featuredImage2 from '../../assets/images/resource/featured-image-2.jpg';
 import featuredImage3 from '../../assets/images/resource/featured-image-3.jpg';
@@ -16,6 +16,7 @@ import ofThumb1 from '../../assets/images/resource/of-thumb-1.jpg';
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
 import Carasoul from '../Carasoul/Carasoul';
 
+const outside = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690370/PSK%20Hotels/Home%20Page/Outside_fvazdj.jpg";
 const mainvideo = "https://res.cloudinary.com/dxzp2cqfc/video/upload/v1734689399/PSK%20Hotels/Home%20Page/Untitled_design_1_v8fysu.mp4";
 const HomePage = () => {
 
@@ -66,7 +67,7 @@ const HomePage = () => {
                             <div className="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="image-box">
                                     <span className="dotted-pattern dotted-pattern-2"></span>
-                                    <figure className="image"><img src={featuredImage0} alt="" title="" /></figure>
+                                    <figure className="image"><img src={outside} alt="" title="" /></figure>
                                     <div className="cap"><span className="txt">2 <br />Years <br />of <br />Exp.</span></div>
                                 </div>
                             </div>
