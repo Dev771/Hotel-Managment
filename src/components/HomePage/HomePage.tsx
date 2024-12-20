@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 
 /*import mainSlider from '../../assets/images/main-slider/1.jpg';
 import featuredImage0 from '../../assets/images/resource/featured-image-0.jpg';
-import featuredImage1 from '../../assets/images/resource/featured-image-1.jpg';*/
+import featuredImage1 from '../../assets/images/resource/featured-image-1.jpg';
 import featuredImage2 from '../../assets/images/resource/featured-image-2.jpg';
-import featuredImage3 from '../../assets/images/resource/featured-image-3.jpg';
+import featuredImage3 from '../../assets/images/resource/featured-image-3.jpg';*/
 import featuredImage4 from '../../assets/images/resource/featured-image-4.jpg';
 import featuredImage5 from '../../assets/images/resource/featured-image-5.jpg';
 {/*import gallery1 from '../../assets/images/gallery/1.jpg';
@@ -254,7 +254,7 @@ const HomePage = () => {
                             <div className="inner">
                                 <div className="offer-block">
                                     <div className="offer-inner">
-                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="0ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span> <br />off</span></div>
+                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="0ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span> <br /></span></div>
                                         <div className="price"><span></span></div>
                                         <h4>Banquet Hall - Pearl</h4>
                                         <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Pearl, where elegance meets exceptional service.</div>
@@ -263,7 +263,7 @@ const HomePage = () => {
                                 </div>
                                 <div className="offer-block">
                                     <div className="offer-inner">
-                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="300ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span> <br />off</span></div>
+                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="300ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span> <br /></span></div>
                                         <div className="price"><span></span></div>
                                         <h4>Banquet Hall - Shipre</h4>
                                         <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Shipre, where elegance meets exceptional service.</div>
@@ -272,7 +272,7 @@ const HomePage = () => {
                                 </div>
                                 <div className="offer-block">
                                     <div className="offer-inner">
-                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="600ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span> <br />off</span></div>
+                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="600ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span> <br /></span></div>
                                         <div className="price"><span></span></div>
                                         <h4>Restaurant Kohinoor</h4>
                                         <div className="text">We warmly invite you to host memorable dining experiences at Restaurant Kohinoor, where fine cuisine and luxurious ambiance come together.</div>
@@ -285,9 +285,9 @@ const HomePage = () => {
                             <div className="inner">
                                 <span className="dotted-pattern dotted-pattern-4"></span>
                                 <div className="images">
-                                    <div className="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={fac250} alt="" title="" /></div>
-                                    <div className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={featuredImage2} alt="" title="" /></div>
-                                    <div className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={featuredImage3} alt="" title="" /></div>
+                                    <div className="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={fac380} alt="" title="" /></div>
+                                    <div className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={fac250} alt="" title="" /></div>
+                                    <div className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={fac320} alt="" title="" /></div>
                                 </div>
                             </div>
                         </div>
