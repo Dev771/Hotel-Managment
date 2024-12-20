@@ -1,14 +1,17 @@
 /*import bannerImage1 from '../../assets/images/background/banner-image-1.jpg';
-import signatureImage1 from '../../assets/images/resource/signature-1.png';*/
+import signatureImage1 from '../../assets/images/resource/signature-1.png';
 import featureImage12 from '../../assets/images/resource/featured-image-12.jpg';
 import featureImage13 from '../../assets/images/resource/featured-image-13.jpg';
 import featureImage14 from '../../assets/images/resource/featured-image-14.jpg';
-/*import featureImage18 from '../../assets/images/resource/featured-image-18.jpg';
+import featureImage18 from '../../assets/images/resource/featured-image-18.jpg';
 import featureImage19 from '../../assets/images/resource/featured-image-19.jpg';
 import featureImage20 from '../../assets/images/resource/featured-image-20.jpg';*/
 import Carasoul from '../Carasoul/Carasoul';
 
 const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734698514/PSK%20Hotels/Reception/1920_X_620_ucm457.jpg";
+const img1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701834/PSK%20Hotels/About%20US/330_X_355_umjw4o.jpg";
+const img2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701833/PSK%20Hotels/About%20US/280_X_310_uplszz.jpg";
+const img3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701832/PSK%20Hotels/About%20US/200_X_200_igfnyj.jpg";
 
 const AboutUs = () => {
     return (
@@ -56,9 +59,9 @@ const AboutUs = () => {
                             <div className="inner">
                                 <span className="dotted-pattern dotted-pattern-10"></span>
                                 <div className="image-box clearfix">
-                                    <figure className="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={featureImage12} alt="" title="" /></figure>
-                                    <figure className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={featureImage13} alt="" title="" /></figure>
-                                    <figure className="image wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms"><img src={featureImage14} alt="" title="" /></figure>
+                                    <figure className="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={img1} alt="" title="" /></figure>
+                                    <figure className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={img2} alt="" title="" /></figure>
+                                    <figure className="image wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms"><img src={img3} alt="" title="" /></figure>
                                 </div>
                             </div>
                         </div>
