@@ -17,7 +17,11 @@ import DateSelectComp from '../DateSelectComp/DateSelectComp';
 import Carasoul from '../Carasoul/Carasoul';
 
 const outside = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690370/PSK%20Hotels/Home%20Page/Outside_fvazdj.jpg";
-const mainvideo = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690973/PSK%20Hotels/Home%20Page/a_view_nn6pm6.jpg";
+const mainimage = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690973/PSK%20Hotels/Home%20Page/a_view_nn6pm6.jpg";
+const dr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg";
+const pr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg";
+const fr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg";
+
 const HomePage = () => {
 
 
@@ -27,7 +31,7 @@ const HomePage = () => {
                 <div className="banner-bottom-pattern"></div>
                 <div className="banner-carousel owl-theme">
                     <div className="slide-item">
-                        <div className="image-layer" style={{ backgroundImage: `url(${mainvideo})` }}></div>
+                        <div className="image-layer" style={{ backgroundImage: `url(${mainimage})` }}></div>
                         <div className="auto-container">
                             <div className="content-box">
                                 <div className="content">
@@ -134,8 +138,8 @@ const HomePage = () => {
                             <div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <div className="image-layer" style={{backgroundImage: `url(${gallery2})`}}></div>
-                                        <figure className="image"><img src={"https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg"} alt="" title="" /></figure>
+                                        <div className="image-layer" style={{backgroundImage: `url(${dr})`}}></div>
+                                        <figure className="image"><img src={dr} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
                                         <div className="cap-inner">
@@ -168,8 +172,8 @@ const HomePage = () => {
                         <div className="room-block-one height-one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <div className="image-layer" style={{backgroundImage: `url(${gallery3})`}}></div>
-                                        <figure className="image"><img src={"https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg"} alt="" title="" /></figure>
+                                        <div className="image-layer" style={{backgroundImage: `url(${pr})`}}></div>
+                                        <figure className="image"><img src={pr} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
                                         <div className="cap-inner">
@@ -201,8 +205,8 @@ const HomePage = () => {
                             <div className="room-block-one height-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <div className="image-layer" style={{ backgroundImage: `url(${gallery4})` }}></div>
-                                        <figure className="image"><img src={"https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg"} alt="" title="" /></figure>
+                                        <div className="image-layer" style={{ backgroundImage: `url(${fr})` }}></div>
+                                        <figure className="image"><img src={fr} alt="" title="" /></figure>
                                     </div>
                                     <div className="cap-box">
                                         <div className="cap-inner">
