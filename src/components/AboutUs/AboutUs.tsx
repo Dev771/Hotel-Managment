@@ -96,7 +96,7 @@ const AboutUs = () => {
                             </div>
                             <div className="fact-block col-lg-4 col-md-6 col-sm-12">
                                 <div className="fact-inner">
-                                    <div className="fact-count wow zoomInStable" data-wow-delay="600ms" data-wow-duration="2000ms"><div className="count-box counted"><span className="count-text" data-stop="310" data-speed="4000">0</span></div></div>
+                                    <div className="fact-count wow zoomInStable" data-wow-delay="600ms" data-wow-duration="2000ms"><div className="count-box counted"><span className="count-text" data-stop="310" data-speed="4000">1</span></div></div>
                                     <h4>Awards Win</h4>
                                     <div className="text"></div>
                                 </div>
