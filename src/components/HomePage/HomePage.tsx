@@ -17,7 +17,7 @@ import DateSelectComp from '../DateSelectComp/DateSelectComp';
 import Carasoul from '../Carasoul/Carasoul';
 
 const outside = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690370/PSK%20Hotels/Home%20Page/Outside_fvazdj.jpg";
-const mainvideo = "https://res.cloudinary.com/dxzp2cqfc/video/upload/v1734689399/PSK%20Hotels/Home%20Page/Untitled_design_1_v8fysu.mp4";
+const mainvideo = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690973/PSK%20Hotels/Home%20Page/a_view_nn6pm6.jpg";
 const HomePage = () => {
 
 
