@@ -1,13 +1,14 @@
-import bannerImage from '../../assets/images/background/banner-image-2.jpg';
+/*import bannerImage from '../../assets/images/background/banner-image-2.jpg';
 import featuredImage21 from '../../assets/images/resource/featured-image-21.jpg';
 import featuredImage22 from '../../assets/images/resource/featured-image-22.jpg';
-import featuredImage23 from '../../assets/images/resource/featured-image-23.jpg';
+import featuredImage23 from '../../assets/images/resource/featured-image-23.jpg';*/
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
 
+const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690973/PSK%20Hotels/Home%20Page/a_view_nn6pm6.jpg";
 const roomsData = [
-    { title: 'Balcony Room', price: '$50.00', image: featuredImage21 },
-    { title: 'Deluxe Room', price: '$50.00', image: featuredImage22 },
-    { title: 'Luxury Room', price: '$50.00', image: featuredImage23 },
+    { title: 'Deluxe Room', price: '₹5000.00', image: "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg" },
+    { title: 'Premium Suite Room', price: '₹7000.00', image: "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg" },
+    { title: 'Family Suite Room', price: '₹8000.00', image: "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg" },
 
 ];
 
@@ -33,7 +34,7 @@ const RoomCard = ({ room } : { room: { title: string, price: string, image: stri
                     <span className="fa fa-star"></span>
                 </div>
                 </div>
-                <div className="text">Excepteur sint occaecat cupidatat dent in sun in culpa qui officia deserunt mollit anim id est.</div>
+                <div className="text"></div>
                 <div className="link-box">
                 <a href="room-single" className="theme-btn btn-style-three">
                     <span className="btn-title">Check Availability</span>
@@ -47,7 +48,7 @@ const RoomCard = ({ room } : { room: { title: string, price: string, image: stri
 const RoomGrid = () => (
     <>
         <section className="page-banner">
-        <div className="image-layer" style={{ backgroundImage: `url(${bannerImage})` }}></div>
+        <div className="image-layer" style={{ backgroundImage: `url(${bannerimg})` }}></div>
         <div className="banner-bottom-pattern"></div>
         <div className="banner-inner">
             <div className="auto-container">
