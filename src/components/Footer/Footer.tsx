@@ -35,9 +35,9 @@ const Footer = () => {
                                                 <h4>Contact</h4>
                                             </div>
                                             <ul className="info">
-                                                <li className="address">Flat 20, Reynolds Neck, North Helenaville, FV77 8WS</li>
-                                                <li className="phone"><Link to="tel:+2(305)587-3407">+2(305) 587-3407</Link></li>
-                                                <li className="email"><Link to="mailto:info@hotera.com">info@hotera.com</Link></li>
+                                                <li className="address">GT Rd, opp. raymond showroom, Subhash Nagar, Mughalsarai, Mughalsarai Railway Settlement, Uttar Pradesh 232101</li>
+                                                <li className="phone"><Link to="tel:+917565000621">+91 75650 00621</Link></li>
+                                                <li className="email"><Link to="mailto:pskinnhotel@gmail.com">pskinnhotel@gmail.com</Link></li>
                                                 <li className="social-links">
                                                     <Link to="#"><span className="fab fa-facebook-f"></span></Link>
                                                     <Link to="#"><span className="fab fa-twitter"></span></Link>
@@ -50,7 +50,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="column col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        {/*<div className="column col-xl-4 col-lg-4 col-md-12 col-sm-12">
                             <div className="footer-widget newsletter-widget">
                                 <div className="widget-title">
                                     <h4>Newsletter</h4>
@@ -65,7 +65,7 @@ const Footer = () => {
                                     </form>
                                 </div>
                             </div>
-                        </div>
+                        </div>*/}
                         
                     </div>
                 </div>
@@ -73,7 +73,7 @@ const Footer = () => {
             <div className="footer-bottom">
                 <div className="auto-container">
                     <div className="inner clearfix">
-                        <div className="copyright">&copy; 2020 Hotera - All Right Reserved</div>
+                        <div className="copyright">&copy; 2024 PSK Hotels - All Right Reserved</div>
                         <a href="#">Terms of Service</a> &ensp;|&ensp; <a href="#">Privacy Policy</a>
                     </div>
                 </div>
