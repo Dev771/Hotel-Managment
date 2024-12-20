@@ -18,6 +18,7 @@ import Carasoul from '../Carasoul/Carasoul';
 
 const outside = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690370/PSK%20Hotels/Home%20Page/Outside_fvazdj.jpg";
 const mainimage = "https://res.cloudinary.com/dxzp2cqfc/video/upload/v1734723104/PSK%20Hotels/Home%20Page/1920_X_820_q9rdcv.mp4";
+const backimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690973/PSK%20Hotels/Home%20Page/a_view_nn6pm6.jpg";
 const dr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg";
 const pr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg";
 const fr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg";
@@ -348,9 +349,8 @@ const HomePage = () => {
                 </div>
             </section>
             <section className="video-section">
-                <div className="image-layer" >
-                <video className="video-background" autoPlay loop muted>
-                <source src={mainimage} type="video/mp4" />
+                <div className="image-layer" style={{ src: `url(${backimg})` }}>
+                    
                 </div>
                 <div className="auto-container">
                     <div className="content-box wow zoomIn" data-wow-delay="0ms" data-wow-duration="2000ms">
