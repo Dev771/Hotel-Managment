@@ -1,4 +1,4 @@
-import React, { Component, ReactNode, ErrorInfo } from "react";
+import { Component, ReactNode, ErrorInfo } from "react";
 import ErrorPage from "./ErrorPage";
 
 interface ErrorBoundaryProps {
@@ -15,7 +15,7 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
         this.state = { hasError: false };
     }
 
-    static getDerivedStateFromError(error: Error): ErrorBoundaryState {
+    static getDerivedStateFromError(): ErrorBoundaryState {
         return { hasError: true };
     }
 
