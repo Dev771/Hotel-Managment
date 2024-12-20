@@ -12,11 +12,20 @@ const RoomSingle = () => {
     const queryParams = new URLSearchParams(location.search);
     const paramVal = queryParams.get('id') || "0";
     const id = parseInt(paramVal, 10);
-
+    
+    const dr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3292_updated_wdcxtu.jpg";
+    const dr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg";
+    
+    const fr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg";
+    const fr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3178_updated_rejo9z.jpg";
+    
+    const pr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg";
+    const pr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3249_updated_jbtwzl.jpg";
+    
     const RoomTab = [
-        { id: 0, roomName: "Delux Room", roomPrice: "5000", desc: "1 bed", roomSize: "23.5", desc2: "Lorem Ipsum sadadas dasndasnd asjd jnas djas djas djas djas jdaj dajsd asd jasd jasd jasd jasd asj", img: [] },
-        { id: 1, roomName: "", roomPrice: "", desc: "", roomSize: "", desc2: "", img: [] },
-        { id: 2, roomName: "", roomPrice: "", desc: "", roomSize: "", desc2: "", img: [] }
+        { id: 0, roomName: "Delux Room", roomPrice: "5000", desc: "1 extra-large double bed", roomSize: "23.69", desc2: "The fireplace is the standout feature of this double room. This air-conditioned double room is comprised of a flat-screen TV with cable channels, a private bathroom as well as a terrace with city views. The unit has 1 bed.", img: [dr1, dr2] },
+        { id: 1, roomName: "Premium Suite Room", roomPrice: "7000", desc: "1 extra-large double bed", roomSize: "47.38", desc2: "The fireplace is the standout feature of this suite. The air-conditioned suite has 1 bedroom and 1 bathroom with a walk-in shower and a bath. Boasting a terrace with city views, this suite also features soundproof walls and a flat-screen TV with cable channels. The unit has 1 bed.", img: [pr1, pr2] },
+        { id: 2, roomName: "Family Suite Room", roomPrice: "8000", desc: "1 single bedand1 extra-large double bed", roomSize: "34.84", desc2: "This family room features a fireplace. This air-conditioned family room is comprised of a flat-screen TV with cable channels, a private bathroom as well as a terrace with city views. The unit has 2 beds.", img: [fr1, fr2] }
     ]
 
     return (
