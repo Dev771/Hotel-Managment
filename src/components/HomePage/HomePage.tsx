@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import featuredImage0 from '../../assets/images/resource/featured-image-0.jpg';
 import featuredImage1 from '../../assets/images/resource/featured-image-1.jpg';
 import featuredImage2 from '../../assets/images/resource/featured-image-2.jpg';
-import featuredImage3 from '../../assets/images/resource/featured-image-3.jpg';*/
+import featuredImage3 from '../../assets/images/resource/featured-image-3.jpg';
 import featuredImage4 from '../../assets/images/resource/featured-image-4.jpg';
-import featuredImage5 from '../../assets/images/resource/featured-image-5.jpg';
+import featuredImage5 from '../../assets/images/resource/featured-image-5.jpg';*/
 {/*import gallery1 from '../../assets/images/gallery/1.jpg';
 import gallery2 from '../../assets/images/gallery/2.jpg';
 import gallery3 from '../../assets/images/gallery/3.jpg';
@@ -24,6 +24,8 @@ const fr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20
 const fac250 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734697227/PSK%20Hotels/Home%20Page/250_X_250_dizvac.jpg";
 const fac380 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734697227/PSK%20Hotels/Home%20Page/380_X_450_t4k1ca.jpg";
 const fac320 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734697228/PSK%20Hotels/Home%20Page/320_X_240_mdygle.jpg";
+const pearl = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734697490/PSK%20Hotels/Home%20Page/A3__3376_trnqer.jpg";
+const shipre = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734697502/PSK%20Hotels/Home%20Page/A3__3439_pvztxy.jpg";
 
 const HomePage = () => {
 
@@ -313,7 +315,7 @@ const HomePage = () => {
                             <div className="image-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     <div className="image-box">
-                                        <figure className="image"><Link to="#"><img src={featuredImage4} alt="" title="" /></Link></figure>
+                                        <figure className="image"><Link to="#"><img src={shipre} alt="" title="" /></Link></figure>
                                     </div>
                                 </div>
                             </div>
@@ -333,7 +335,7 @@ const HomePage = () => {
                             <div className="image-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     <div className="image-box">
-                                        <figure className="image"><Link to="#"><img src={featuredImage5} alt="" title="" /></Link></figure>
+                                        <figure className="image"><Link to="#"><img src={pearl} alt="" title="" /></Link></figure>
                                     </div>
                                 </div>
                             </div>
