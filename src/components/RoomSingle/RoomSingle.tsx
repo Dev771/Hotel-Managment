@@ -1,9 +1,9 @@
 import bannerImage from '../../assets/images/background/banner-image-9.jpg';
-import featuredImage1 from '../../assets/images/resource/featured-image-54.jpg';
+/*import featuredImage1 from '../../assets/images/resource/featured-image-54.jpg';
 import featuredImage2 from '../../assets/images/resource/featured-image-55.jpg';
 import roomImage1 from '../../assets/images/resource/featured-image-21.jpg';
 import roomImage2 from '../../assets/images/resource/featured-image-22.jpg';
-import roomImage3 from '../../assets/images/resource/featured-image-23.jpg';
+import roomImage3 from '../../assets/images/resource/featured-image-23.jpg';*/
 import { useLocation } from 'react-router-dom';
 
 const RoomSingle = () => {
