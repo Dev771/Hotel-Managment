@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import bannerImage from "../../assets/images/background/banner-image-2.jpg";
+/*import bannerImage from "../../assets/images/background/banner-image-2.jpg";*/
 import galleryImage13 from "../../assets/images/gallery/13.jpg";
 import galleryImage14 from "../../assets/images/gallery/14.jpg";
 import galleryImage15 from "../../assets/images/gallery/15.jpg";
@@ -10,7 +10,7 @@ import { useLocation } from "react-router-dom";
 
 const GalleryGrid = () => {
   const [selectedTab, setSelectedTab] = useState(0);
-  
+  const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734698514/PSK%20Hotels/Reception/1920_X_620_ucm457.jpg";
   const tabs = [
     { tabName: "All", img: [] },
     { tabName: "Banquet Hall - Pearl", img: [] },
@@ -48,7 +48,7 @@ const GalleryGrid = () => {
       <section className="page-banner" ref={topRef}>
         <div
           className="image-layer"
-          style={{ backgroundImage: `url(${bannerImage})` }}
+          style={{ backgroundImage: `url(${bannerimg})` }}
         ></div>
         <div className="banner-bottom-pattern"></div>
         <div className="banner-inner">

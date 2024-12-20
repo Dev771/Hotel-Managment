@@ -1,18 +1,20 @@
-import bannerImage1 from '../../assets/images/background/banner-image-1.jpg';
-import signatureImage1 from '../../assets/images/resource/signature-1.png';
+/*import bannerImage1 from '../../assets/images/background/banner-image-1.jpg';
+import signatureImage1 from '../../assets/images/resource/signature-1.png';*/
 import featureImage12 from '../../assets/images/resource/featured-image-12.jpg';
 import featureImage13 from '../../assets/images/resource/featured-image-13.jpg';
 import featureImage14 from '../../assets/images/resource/featured-image-14.jpg';
-import featureImage18 from '../../assets/images/resource/featured-image-18.jpg';
+/*import featureImage18 from '../../assets/images/resource/featured-image-18.jpg';
 import featureImage19 from '../../assets/images/resource/featured-image-19.jpg';
-import featureImage20 from '../../assets/images/resource/featured-image-20.jpg';
+import featureImage20 from '../../assets/images/resource/featured-image-20.jpg';*/
 import Carasoul from '../Carasoul/Carasoul';
+
+const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734698514/PSK%20Hotels/Reception/1920_X_620_ucm457.jpg";
 
 const AboutUs = () => {
     return (
         <div className='page-wrapper'>
             <section className="page-banner">
-                <div className="image-layer" style={{ backgroundImage: `url(${bannerImage1})` }}></div>
+                <div className="image-layer" style={{ backgroundImage: `url(${bannerimg})` }}></div>
                 <div className="banner-bottom-pattern"></div>
 
                 <div className="banner-inner">
@@ -47,7 +49,7 @@ const AboutUs = () => {
                                         <li>Enim ad minim veniam quis nostrud.</li>
                                         <li>Minim veniam quis nostrud.</li>
                                     </ul>
-                                <div className="signature"><img src={signatureImage1} alt="" title="" /></div>
+                                {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>*/}
                             </div>
                         </div>
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
@@ -71,36 +73,36 @@ const AboutUs = () => {
                 <div className="auto-container">
                     <div className="sec-title">
                         <h2>Always Ready <br />to Take Challange</h2>
-                        <div className="lower-text">Lorem ipsum dolor sit consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore dolore magna aliqua. enim ad minim veniam quis nostrud exercitation.</div>
+                        <div className="lower-text">We are always there to host you.</div>
                     </div>
                     <div className="facts-box">
                         <div className="row clearfix">
                             <div className="fact-block col-lg-4 col-md-6 col-sm-12">
                                 <div className="fact-inner">
-                                    <div className="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div className="count-box counted"><span className="count-text" data-stop="25" data-speed="2000">25</span>+</div></div>
+                                    <div className="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div className="count-box counted"><span className="count-text" data-stop="25" data-speed="2000">2</span>+</div></div>
                                     <h4>Years Exp.</h4>
-                                    <div className="text">Excepteur sint occaecat cupidatat.</div>
+                                    <div className="text"></div>
                                 </div>
                             </div>
                             <div className="fact-block col-lg-4 col-md-6 col-sm-12">
                                 <div className="fact-inner">
-                                    <div className="fact-count wow zoomInStable" data-wow-delay="300ms" data-wow-duration="2000ms"><div className="count-box counted"><span className="count-text" data-stop="712" data-speed="5000">712</span></div></div>
-                                    <h4>Project Done</h4>
-                                    <div className="text">Excepteur sint occaecat cupidatat.</div>
+                                    <div className="fact-count wow zoomInStable" data-wow-delay="300ms" data-wow-duration="2000ms"><div className="count-box counted"><span className="count-text" data-stop="712" data-speed="5000">10000</span>+</div></div>
+                                    <h4>Happy Guest</h4>
+                                    <div className="text"></div>
                                 </div>
                             </div>
                             <div className="fact-block col-lg-4 col-md-6 col-sm-12">
                                 <div className="fact-inner">
-                                    <div className="fact-count wow zoomInStable" data-wow-delay="600ms" data-wow-duration="2000ms"><div className="count-box counted"><span className="count-text" data-stop="310" data-speed="4000">310</span></div></div>
+                                    <div className="fact-count wow zoomInStable" data-wow-delay="600ms" data-wow-duration="2000ms"><div className="count-box counted"><span className="count-text" data-stop="310" data-speed="4000">0</span></div></div>
                                     <h4>Awards Win</h4>
-                                    <div className="text">Excepteur sint occaecat cupidatat.</div>
+                                    <div className="text"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="history-section">
+            {/*<section className="history-section">
                 <span className="dotted-pattern dotted-pattern-6"></span>
                 <span className="tri-pattern tri-pattern-5"></span>
                 <div className="circles">
@@ -168,7 +170,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>*/}
             <section className="testimonials-section">
                 <div className="circles-two">
                     <div className="c-1"></div>
@@ -177,7 +179,7 @@ const AboutUs = () => {
                 <div className="auto-container">
                     <div className="sec-title centered">
                         <h2>What People Say?</h2>
-                        <div className="lower-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</div>
+                        <div className="lower-text"></div>
                     </div>
                     <Carasoul />
                 </div>
