@@ -22,7 +22,7 @@ const dr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20
 const pr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg";
 const fr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg";
 const fac250 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734695849/PSK%20Hotels/Home%20Page/250%20X%20250.jpg";
-const fac380 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734695839/PSK%20Hotels/Home%20Page/380_X_450_afuktt.jpg";
+/*const fac380 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734695839/PSK%20Hotels/Home%20Page/380_X_450_afuktt.jpg";*/
 const fac320 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734695840/PSK%20Hotels/Home%20Page/320_X_240_uhyqxj.jpg";
 
 const HomePage = () => {
@@ -285,7 +285,7 @@ const HomePage = () => {
                             <div className="inner">
                                 <span className="dotted-pattern dotted-pattern-4"></span>
                                 <div className="images">
-                                    <div className="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={fac380} alt="" title="" /></div>
+                                    <div className="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={} alt="" title="" /></div>
                                     <div className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={fac250} alt="" title="" /></div>
                                     <div className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={fac320} alt="" title="" /></div>
                                 </div>
