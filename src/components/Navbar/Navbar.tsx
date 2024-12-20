@@ -35,7 +35,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="link-box">
-                        <Link to="https://www.booking.com/hotel/in/psk-inn.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaGyIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AuiRlrsGwAIB0gIkZjQ0MWU1NGYtNzViNS00ZjRjLWFkMmUtYTJmMTY5NjEzYzQ32AIF4AIB&sid=5601670c944b8d6d0f5c74b336cfc799&dest_id=9706319&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1734707448&srpvid=1e6f6aba70300339&type=total&ucfs=1&" className="theme-btn btn-style-one"><span className="btn-title">Book Your Stay</span></Link>
+                        <Link target='_blank' to="https://www.booking.com/hotel/in/psk-inn.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaGyIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AuiRlrsGwAIB0gIkZjQ0MWU1NGYtNzViNS00ZjRjLWFkMmUtYTJmMTY5NjEzYzQ32AIF4AIB&sid=5601670c944b8d6d0f5c74b336cfc799&dest_id=9706319&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1734707448&srpvid=1e6f6aba70300339&type=total&ucfs=1&" className="theme-btn btn-style-one"><span className="btn-title">Book Your Stay</span></Link>
                     </div>
                 </div>
 

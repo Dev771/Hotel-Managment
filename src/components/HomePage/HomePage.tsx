@@ -17,7 +17,7 @@ import DateSelectComp from '../DateSelectComp/DateSelectComp';
 import Carasoul from '../Carasoul/Carasoul';
 
 const outside = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690370/PSK%20Hotels/Home%20Page/Outside_fvazdj.jpg";
-const mainimage = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690973/PSK%20Hotels/Home%20Page/a_view_nn6pm6.jpg";
+const mainimage = "https://res.cloudinary.com/dxzp2cqfc/video/upload/v1734689399/PSK%20Hotels/Home%20Page/Untitled_design_1_v8fysu.mp4";
 const dr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg";
 const pr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg";
 const fr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg";
@@ -36,7 +36,11 @@ const HomePage = () => {
                 <div className="banner-bottom-pattern"></div>
                 <div className="banner-carousel owl-theme">
                     <div className="slide-item">
-                        <div className="image-layer" style={{ backgroundImage: `url(${mainimage})` }}></div>
+                        <div className="image-layer" >
+                            <video className="video-background" autoPlay loop muted>
+                                <source src={mainimage} type="video/mp4" />
+                            </video>
+                        </div>
                         <div className="auto-container">
                             <div className="content-box">
                                 <div className="content">
@@ -167,7 +171,7 @@ const HomePage = () => {
                                             </div>
 
                                             <div className="text"></div>
-                                            <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
+                                            <div className="link-box"><a href="/room-single/0" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -200,7 +204,7 @@ const HomePage = () => {
                                                 </div>
                                             </div>
                                             <div className="text"></div>
-                                            <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
+                                            <div className="link-box"><a href="/room-single/1" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -234,7 +238,7 @@ const HomePage = () => {
                                             </div>
 
                                             <div className="text"></div>
-                                            <div className="link-box"><a href="/room-single" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
+                                            <div className="link-box"><a href="/room-single/2" className="theme-btn btn-style-one"><span className="btn-title">Check Availability</span></a></div>
                                         </div>
                                     </div>
                                 </div>

@@ -1,17 +1,20 @@
 import bannerImage from '../../assets/images/background/banner-image-9.jpg';
-/*import featuredImage1 from '../../assets/images/resource/featured-image-54.jpg';
-import featuredImage2 from '../../assets/images/resource/featured-image-55.jpg';
-import roomImage1 from '../../assets/images/resource/featured-image-21.jpg';
-import roomImage2 from '../../assets/images/resource/featured-image-22.jpg';
-import roomImage3 from '../../assets/images/resource/featured-image-23.jpg';*/
-import { useLocation } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+
+interface Rooms {
+    [key: string]: {
+        roomName: string;
+        roomPrice: string;
+        desc: string;
+        roomSize: string;
+        desc2: string;
+        img: string[];
+    };
+}
 
 const RoomSingle = () => {
 
-    const location = useLocation();
-    const queryParams = new URLSearchParams(location.search);
-    const paramVal = queryParams.get('id') || "0";
-    const id = parseInt(paramVal, 10);
+    const { id = 0 } = useParams();
     
     const dr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3292_updated_wdcxtu.jpg";
     const dr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg";
@@ -22,11 +25,13 @@ const RoomSingle = () => {
     const pr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg";
     const pr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3249_updated_jbtwzl.jpg";
     
-    const RoomTab = [
-        { id: 0, roomName: "Delux Room", roomPrice: "5000", desc: "1 extra-large double bed", roomSize: "23.69", desc2: "The fireplace is the standout feature of this double room. This air-conditioned double room is comprised of a flat-screen TV with cable channels, a private bathroom as well as a terrace with city views. The unit has 1 bed.", img: [dr1, dr2] },
-        { id: 1, roomName: "Premium Suite Room", roomPrice: "7000", desc: "1 extra-large double bed", roomSize: "47.38", desc2: "The fireplace is the standout feature of this suite. The air-conditioned suite has 1 bedroom and 1 bathroom with a walk-in shower and a bath. Boasting a terrace with city views, this suite also features soundproof walls and a flat-screen TV with cable channels. The unit has 1 bed.", img: [pr1, pr2] },
-        { id: 2, roomName: "Family Suite Room", roomPrice: "8000", desc: "1 single bedand1 extra-large double bed", roomSize: "34.84", desc2: "This family room features a fireplace. This air-conditioned family room is comprised of a flat-screen TV with cable channels, a private bathroom as well as a terrace with city views. The unit has 2 beds.", img: [fr1, fr2] }
-    ]
+
+
+    const RoomTab : Rooms = {
+        0: { roomName: "Delux Room", roomPrice: "5000", desc: "1 extra-large double bed", roomSize: "23.69", desc2: "The fireplace is the standout feature of this double room. This air-conditioned double room is comprised of a flat-screen TV with cable channels, a private bathroom as well as a terrace with city views. The unit has 1 bed.", img: [dr1, dr2] },
+        1: { roomName: "Premium Suite Room", roomPrice: "7000", desc: "1 extra-large double bed", roomSize: "47.38", desc2: "The fireplace is the standout feature of this suite. The air-conditioned suite has 1 bedroom and 1 bathroom with a walk-in shower and a bath. Boasting a terrace with city views, this suite also features soundproof walls and a flat-screen TV with cable channels. The unit has 1 bed.", img: [pr1, pr2] },
+        2: { roomName: "Family Suite Room", roomPrice: "8000", desc: "1 single bedand1 extra-large double bed", roomSize: "34.84", desc2: "This family room features a fireplace. This air-conditioned family room is comprised of a flat-screen TV with cable channels, a private bathroom as well as a terrace with city views. The unit has 2 beds.", img: [fr1, fr2] }
+    }
 
     return (
         <>
@@ -142,7 +147,7 @@ const RoomSingle = () => {
                     <div className="inner-box">
                         <div className="image-box">
                         <figure className="image">
-                            <a href="/room-single">
+                            <a href="/room-single/2">
                             <img src={fr1} alt="" title="" />
                             </a>
                         </figure>
@@ -163,7 +168,7 @@ const RoomSingle = () => {
                         </div>
                         <div className="text"></div>
                         <div className="link-box">
-                            <a href="/room-single" className="theme-btn btn-style-three">
+                            <a href="/room-single/2" className="theme-btn btn-style-three">
                             <span className="btn-title">Check Availability</span>
                             </a>
                         </div>
@@ -174,7 +179,7 @@ const RoomSingle = () => {
                     <div className="inner-box">
                         <div className="image-box">
                         <figure className="image">
-                            <a href="/room-single">
+                            <a href="/room-single/1">
                             <img src={pr1} alt="" title="" />
                             </a>
                         </figure>
@@ -195,7 +200,7 @@ const RoomSingle = () => {
                         </div>
                         <div className="text"></div>
                         <div className="link-box">
-                            <a href="/room-single" className="theme-btn btn-style-three">
+                            <a href="/room-single/1" className="theme-btn btn-style-three">
                             <span className="btn-title">Check Availability</span>
                             </a>
                         </div>
@@ -206,7 +211,7 @@ const RoomSingle = () => {
                     <div className="inner-box">
                         <div className="image-box">
                         <figure className="image">
-                            <a href="/room-single">
+                            <a href="/room-single/0">
                             <img src={dr1} alt="" title="" />
                             </a>
                         </figure>
@@ -227,7 +232,7 @@ const RoomSingle = () => {
                         </div>
                         <div className="text"></div>
                         <div className="link-box">
-                            <a href="/room-single" className="theme-btn btn-style-three">
+                            <a href="/room-single/0" className="theme-btn btn-style-three">
                             <span className="btn-title">Check Availability</span>
                             </a>
                         </div>

@@ -1,11 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 /*import bannerImage from "../../assets/images/background/banner-image-2.jpg";*/
-import galleryImage13 from "../../assets/images/gallery/13.jpg";
-import galleryImage14 from "../../assets/images/gallery/14.jpg";
-import galleryImage15 from "../../assets/images/gallery/15.jpg";
-import galleryImage16 from "../../assets/images/gallery/16.jpg";
-import galleryImage17 from "../../assets/images/gallery/17.jpg";
-import galleryImage18 from "../../assets/images/gallery/18.jpg";
 import { useLocation } from "react-router-dom";
 
 const dr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704696/PSK%20Hotels/GALLERY/Deluxe/370_X_370_2_qmtqze.jpg";
@@ -107,14 +101,7 @@ const GalleryGrid = () => {
               </ul>
             </div>
             <div className="filter-list row clearfix">
-              {[
-                galleryImage13,
-                galleryImage14,
-                galleryImage15,
-                galleryImage16,
-                galleryImage17,
-                galleryImage18,
-              ].map((image, index) => (
+              {tabs[selectedTab].img.map((image, index) => (
                 <div
                   key={index}
                   className={`gallery-item  all col-lg-4 col-md-6 col-sm-12`}
@@ -132,6 +119,7 @@ const GalleryGrid = () => {
                         href={image}
                         className="overlink lightbox-image"
                         data-fancybox="gallery-1"
+                        target="_blank"
                       >
                         <span className="icon flaticon-cross"></span>
                       </a>

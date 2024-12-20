@@ -1,23 +1,19 @@
-/*import bannerImage from '../../assets/images/background/banner-image-2.jpg';
-import featuredImage21 from '../../assets/images/resource/featured-image-21.jpg';
-import featuredImage22 from '../../assets/images/resource/featured-image-22.jpg';
-import featuredImage23 from '../../assets/images/resource/featured-image-23.jpg';*/
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
 
 const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690973/PSK%20Hotels/Home%20Page/a_view_nn6pm6.jpg";
 const roomsData = [
-    { title: 'Deluxe Room', price: '₹5000.00', image: "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg" },
-    { title: 'Premium Suite Room', price: '₹7000.00', image: "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg" },
-    { title: 'Family Suite Room', price: '₹8000.00', image: "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg" },
+    { title: 'Deluxe Room', price: '₹5000.00', image: "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg", id: 0 },
+    { title: 'Premium Suite Room', price: '₹7000.00', image: "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg", id: 1 },
+    { title: 'Family Suite Room', price: '₹8000.00', image: "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683558/PSK%20Hotels/Family%20Room/A3__3172_updated_z9vn3u.jpg", id: 2 },
 
 ];
 
-const RoomCard = ({ room } : { room: { title: string, price: string, image: string } }) => (
+const RoomCard = ({ room } : { room: { title: string, price: string, image: string, id: number } }) => (
     <div className="room-block-two col-lg-4 col-md-6 col-sm-12">
         <div className="inner-box">
             <div className="image-box">
                 <figure className="image">
-                <a href="room-single">
+                <a href={`room-single/${room.id}`}>
                     <img src={room.image} alt={room.title} title={room.title} />
                 </a>
                 </figure>
@@ -36,7 +32,7 @@ const RoomCard = ({ room } : { room: { title: string, price: string, image: stri
                 </div>
                 <div className="text"></div>
                 <div className="link-box">
-                <a href="room-single" className="theme-btn btn-style-three">
+                <a href={`room-single/${room.id}`} className="theme-btn btn-style-three">
                     <span className="btn-title">Check Availability</span>
                 </a>
                 </div>
