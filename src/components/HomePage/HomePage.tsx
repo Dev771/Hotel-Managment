@@ -66,7 +66,7 @@ const HomePage = () => {
                                 <div className="sec-title">
                                     <h2>Quality <br />Holidays With Us</h2>
                                 </div>
-                                <div className="text">TO BE WRITTEN</div>
+                                <div className="text">Enjoy the stay at our luxury property.</div>
                                 <div className="link-box">
                                     <Link to="/about" className="theme-btn btn-style-one"><span className="btn-title">Read More</span></Link>
                                 </div>
@@ -108,7 +108,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="fact-block">
                                         <div className="fact-inner">
-                                            <div className="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div className="count-box"><span className="count-text" data-stop="712" data-speed="5000">10000</span>+</div></div>
+                                            <div className="fact-count wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><div className="count-box"><span className="count-text" data-stop="712" data-speed="5000">10000</span></div></div>
                                             <h4>Project Done</h4>
                                             <div className="text"></div>
                                         </div>
@@ -358,7 +358,7 @@ const HomePage = () => {
                 <div className="auto-container">
                     <div className="sec-title centered">
                         <h2>What People Say?</h2>
-                        <div className="lower-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</div>
+                        <div className="lower-text"></div>
                     </div>
                     <Carasoul />
                 </div>
