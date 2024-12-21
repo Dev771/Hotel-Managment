@@ -1,4 +1,4 @@
-import bannerImage from '../../assets/images/background/banner-image-9.jpg';
+/*import bannerImage from '../../assets/images/background/banner-image-9.jpg';*/
 import { useParams } from 'react-router-dom';
 
 interface Rooms {
@@ -24,9 +24,9 @@ const RoomSingle = () => {
     
     const pr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg";
     const pr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3249_updated_jbtwzl.jpg";
+
+    const banimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734767951/PSK%20Hotels/Lobby/1920_X_820_hbrw2w.jpg";
     
-
-
     const RoomTab : Rooms = {
         0: { roomName: "Delux Room", roomPrice: "5000", desc: "1 extra-large double bed", roomSize: "23.69", desc2: "The fireplace is the standout feature of this double room. This air-conditioned double room is comprised of a flat-screen TV with cable channels, a private bathroom as well as a terrace with city views. The unit has 1 bed.", img: [dr1, dr2] },
         1: { roomName: "Premium Suite Room", roomPrice: "7000", desc: "1 extra-large double bed", roomSize: "47.38", desc2: "The fireplace is the standout feature of this suite. The air-conditioned suite has 1 bedroom and 1 bathroom with a walk-in shower and a bath. Boasting a terrace with city views, this suite also features soundproof walls and a flat-screen TV with cable channels. The unit has 1 bed.", img: [pr1, pr2] },
@@ -36,7 +36,7 @@ const RoomSingle = () => {
     return (
         <>
             <section className="page-banner ext-banner">
-                <div className="image-layer" style={{ backgroundImage: `url(${bannerImage})` }}></div>
+                <div className="image-layer" style={{ backgroundImage: `url(${banimg})` }}></div>
                 <div className="banner-bottom-pattern"></div>
                 <div className="banner-inner">
                 <div className="auto-container">

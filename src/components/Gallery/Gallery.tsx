@@ -29,7 +29,7 @@ const shipre4 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704656/P
 
 const GalleryGrid = () => {
   const [selectedTab, setSelectedTab] = useState(0);
-  const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734698514/PSK%20Hotels/Reception/1920_X_620_ucm457.jpg";
+  const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690973/PSK%20Hotels/Home%20Page/a_view_nn6pm6.jpg";
   const tabs = [
     { tabName: "All", img: [dr1, dr2, pr1, pr2, pr3, fr1, fr2, fr3, fr4, pearl1, pearl2, pearl3, pearl4, pearl5, pearl6, shipre1, shipre2, shipre3, shipre4, other1, other2, other3, other4] },
     { tabName: "Banquet Hall - Pearl", img: [pearl1, pearl2, pearl3, pearl4, pearl5, pearl5, pearl6] },
