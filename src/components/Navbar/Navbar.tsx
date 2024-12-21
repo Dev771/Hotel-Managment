@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
-import navLogo from '../../assets/images/nav-logo.png';
+/*import navLogo from '../../assets/images/nav-logo.png';*/
+
+const logo = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734769285/PSK%20Hotels/logo/LOGO_szpyzj.png";
 
 const Navbar = () => {
   return (
@@ -7,7 +9,7 @@ const Navbar = () => {
         <div className="header-upper">
             <div className="inner-container clearfix">
                 <div className="logo-box">
-                    <div className="logo"><Link to="/" title="PSK Hotels"><img src={navLogo} alt="Hotera - Hotel and Restaurant HTML Template" title="PSK Hotels" /></Link></div>
+                    <div className="logo"><Link to="/" title="PSK Hotels"><img src={logo} alt="Hotera - Hotel and Restaurant HTML Template" title="PSK Hotels" /></Link></div>
                 </div>
                 <div className="nav-outer clearfix">
                     <div className="mobile-nav-toggler"><span className="icon flaticon-menu-2"></span><span className="txt">Menu</span></div>
