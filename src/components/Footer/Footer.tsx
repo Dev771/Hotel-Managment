@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
-import footerLogo from '../../assets/images/footer-logo.png';
+/*import footerLogo from '../../assets/images/footer-logo.png';*/
+
+const logo = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734769285/PSK%20Hotels/logo/LOGO_szpyzj.png";
 
 const Footer = () => {
     return (
@@ -11,7 +13,7 @@ const Footer = () => {
                         <div className="column col-xl-3 col-lg-12 col-md-12 col-sm-12">
                             <div className="footer-widget about-widget">
                                 <div className="logo">
-                                    <a href="#"><img src={footerLogo} alt="" /></a>
+                                    <a href="#"><img src={logo} alt="" /></a>
                                 </div>
                             </div>
                         </div>
