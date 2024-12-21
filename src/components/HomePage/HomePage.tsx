@@ -11,8 +11,8 @@ import featuredImage5 from '../../assets/images/resource/featured-image-5.jpg';
 import gallery2 from '../../assets/images/gallery/2.jpg';
 import gallery3 from '../../assets/images/gallery/3.jpg';
 import gallery4 from '../../assets/images/gallery/4.jpg';
-import backGroundImage1 from '../../assets/images/background/image-1.jpg';*/
-import ofThumb1 from '../../assets/images/resource/of-thumb-1.jpg';
+import backGroundImage1 from '../../assets/images/background/image-1.jpg';
+import ofThumb1 from '../../assets/images/resource/of-thumb-1.jpg';*/
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
 import Carasoul from '../Carasoul/Carasoul';
 
@@ -261,7 +261,7 @@ const HomePage = () => {
                             <div className="inner">
                                 <div className="offer-block">
                                     <div className="offer-inner">
-                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="0ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span> <br /></span></div>
+                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="0ms" data-wow-duration="1500ms"><div className="image"><img src={pearl} alt="" title="" /></div><span> <br /></span></div>
                                         <div className="price"><span></span></div>
                                         <h4>Banquet Hall - Pearl</h4>
                                         <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Pearl, where elegance meets exceptional service.</div>
@@ -270,7 +270,7 @@ const HomePage = () => {
                                 </div>
                                 <div className="offer-block">
                                     <div className="offer-inner">
-                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="300ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span> <br /></span></div>
+                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="300ms" data-wow-duration="1500ms"><div className="image"><img src={shipre} alt="" title="" /></div><span> <br /></span></div>
                                         <div className="price"><span></span></div>
                                         <h4>Banquet Hall - Shipre</h4>
                                         <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Shipre, where elegance meets exceptional service.</div>
@@ -279,7 +279,7 @@ const HomePage = () => {
                                 </div>
                                 <div className="offer-block">
                                     <div className="offer-inner">
-                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="600ms" data-wow-duration="1500ms"><div className="image"><img src={ofThumb1} alt="" title="" /></div><span> <br /></span></div>
+                                        <div className="fact-thumb wow zoomInStable" data-wow-delay="600ms" data-wow-duration="1500ms"><div className="image"><img src={outside} alt="" title="" /></div><span> <br /></span></div>
                                         <div className="price"><span></span></div>
                                         <h4>Restaurant Kohinoor</h4>
                                         <div className="text">We warmly invite you to host memorable dining experiences at Restaurant Kohinoor, where fine cuisine and luxurious ambiance come together.</div>
