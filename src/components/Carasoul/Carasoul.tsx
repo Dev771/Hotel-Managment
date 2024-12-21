@@ -1,33 +1,36 @@
 import Slider from 'react-slick';
-import testThumb1 from '../../assets/images/resource/testi-thumb-1.jpg';
+/*import testThumb1 from '../../assets/images/resource/testi-thumb-1.jpg';
 import testThumb2 from '../../assets/images/resource/testi-thumb-2.jpg';
-import testThumb3 from '../../assets/images/resource/testi-thumb-3.jpg';
+import testThumb3 from '../../assets/images/resource/testi-thumb-3.jpg';*/
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { Avatar, Box, Grid, Typography } from '@mui/material';
 
+const man1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734767131/PSK%20Hotels/Reviews/man_2_aq5gnn.png";
+const man2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734767131/PSK%20Hotels/Reviews/man_1_qme1tp.png";
+const man3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734767131/PSK%20Hotels/Reviews/man_3_rsvmae.png";
 
 const Carasoul = () => {
     
     const testimonials = [
         {
-            text: "Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.",
-            name: "Mark Adams",
-            designation: "Designer",
-            image: testThumb1,
+            text: "Very Good Property.",
+            name: "Shankar",
+            designation: "",
+            image: man1,
         },
         {
-            text: "Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.",
-            name: "Fiona Edwards",
-            designation: "Developer",
-            image: testThumb2,
+            text: "Had a lovely stay with the family.",
+            name: "Nishant",
+            designation: "",
+            image: man2,
         },
         {
-            text: "Lorem ipsum dolor sit amet consectetur adipis elit eiusmod tempor incidunt sed labore dolore magna.",
-            name: "Dominic Allen",
-            designation: "Designer",
-            image: testThumb3,
+            text: "Good property with good view and good location.",
+            name: "Singh",
+            designation: "",
+            image: man3,
         },
     ];
       
