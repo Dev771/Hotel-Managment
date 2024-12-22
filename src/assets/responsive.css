@@ -444,11 +444,11 @@
 	}
 
 	.header-style-one .nav-outer{
-		float: right;
+		float: right !important;
 	}
 
 	.nav-outer .mobile-nav-toggler{
-		display: block;
+		display: block !important;
 	}
 
 	.header-style-one .header-upper .logo-box{
@@ -1096,7 +1096,7 @@
 	}
 
 	.header-style-one .nav-outer{
-		float: right;
+		float: right !important;
 	}
 
 	.main-header .header-upper .logo-box,
