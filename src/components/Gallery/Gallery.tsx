@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 /*import bannerImage from "../../assets/images/background/banner-image-2.jpg";*/
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const dr1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704696/PSK%20Hotels/GALLERY/Deluxe/370_X_370_2_qmtqze.jpg";
 const dr2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734704693/PSK%20Hotels/GALLERY/Deluxe/370_X_370_1_clof3z.jpg";
@@ -77,7 +77,7 @@ const GalleryGrid = () => {
               <div className="page-nav">
                 <ul className="bread-crumb clearfix">
                   <li>
-                    <a href="index.html">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li className="active">Gallery Grid</li>
                 </ul>

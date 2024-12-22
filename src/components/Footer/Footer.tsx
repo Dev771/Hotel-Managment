@@ -52,23 +52,6 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        {/*<div className="column col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                            <div className="footer-widget newsletter-widget">
-                                <div className="widget-title">
-                                    <h4>Newsletter</h4>
-                                </div>
-                                <div className="text">Eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                                <div className="newsletter-form">
-                                    <form method="post" action="contact.html">
-                                        <div className="form-group clearfix">
-                                            <input type="email" name="email" value="" placeholder="Email" required />
-                                            <button type="submit" className="theme-btn btn-style-one"><span className="btn-title">Send Now</span></button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>*/}
-                        
                     </div>
                 </div>
             </div>

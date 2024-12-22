@@ -6,6 +6,7 @@ import featureImage14 from '../../assets/images/resource/featured-image-14.jpg';
 import featureImage18 from '../../assets/images/resource/featured-image-18.jpg';
 import featureImage19 from '../../assets/images/resource/featured-image-19.jpg';
 import featureImage20 from '../../assets/images/resource/featured-image-20.jpg';*/
+import { Link } from 'react-router-dom';
 import Carasoul from '../Carasoul/Carasoul';
 
 const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734698514/PSK%20Hotels/Reception/1920_X_620_ucm457.jpg";
@@ -26,7 +27,7 @@ const AboutUs = () => {
                             <h1>About Us</h1>
                             <div className="page-nav">
                                 <ul className="bread-crumb clearfix">
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><Link to="/">Home</Link></li>
                                     <li className="active">About Us</li>
                                 </ul>
                             </div>

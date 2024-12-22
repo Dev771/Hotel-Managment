@@ -314,7 +314,7 @@ const HomePage = () => {
                                     <h3>Banquet Hall <br />Shipre</h3>
                                     <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Shipre, where elegance meets exceptional service.</div>
                                     <div className="link-box">
-                                        <a href="about.html" className="theme-btn btn-style-one"><span className="btn-title">Read More</span></a>
+                                        <Link to="/about" className="theme-btn btn-style-one"><span className="btn-title">Read More</span></Link>
                                     </div>
                                 </div>
                             </div>

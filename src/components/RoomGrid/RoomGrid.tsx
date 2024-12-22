@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
 
 const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690973/PSK%20Hotels/Home%20Page/a_view_nn6pm6.jpg";
@@ -52,7 +53,7 @@ const RoomGrid = () => (
                 <h1>Room Grid</h1>
                 <div className="page-nav">
                 <ul className="bread-crumb clearfix">
-                    <li><a href="index.html">Home</a></li>
+                    <li><Link to="/">Home</Link></li>
                     <li className="active">Rooms Grid</li>
                 </ul>
                 </div>

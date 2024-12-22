@@ -1,5 +1,7 @@
 /*import bannerImage4 from '../../assets/images/background/banner-image-4.jpg';*/
 
+import { Link } from "react-router-dom";
+
 const mainimage = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734698514/PSK%20Hotels/Reception/1920_X_620_ucm457.jpg";
 
 const ContactUs = () => {
@@ -15,7 +17,7 @@ const ContactUs = () => {
                             <h1>Stay Touch with PSK Hotels</h1>
                             <div className="page-nav">
                                 <ul className="bread-crumb clearfix">
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><Link to="/">Home</Link></li>
                                     <li className="active">Contact Us</li>
                                 </ul>
                             </div>
