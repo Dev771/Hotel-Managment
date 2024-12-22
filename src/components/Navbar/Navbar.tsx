@@ -42,7 +42,7 @@ const Navbar = () => {
                         <div className="logo"><Link to="/" title="PSK Hotels"><img src={logo} alt="Hotera - Hotel and Restaurant HTML Template" title="PSK Hotels" /></Link></div>
                     </div>
                     <div className="nav-outer clearfix">
-                        <div className="mobile-nav-toggler" onClick={handleToggle}><span className="icon flaticon-menu-2"></span><span className="txt">Menu</span></div>
+                        <div className="mobile-nav-toggler" onClick={handleToggle}><span className="icon flaticon-menu-2"></span></div>
 
                         <nav className={`main-menu navbar-expand-md navbar-light`}>
                             <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">

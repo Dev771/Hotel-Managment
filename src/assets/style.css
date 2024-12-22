@@ -2325,7 +2325,7 @@ img.lazy-image.loaded{
 	background: #edf0f5;
 }
 
-.dotted-pattern-1{
+/* .dotted-pattern-1{
 	position: absolute;
 	width: 394px;
 	height: 408px;
@@ -2435,7 +2435,7 @@ img.lazy-image.loaded{
 	height: 247px;
 	display: block;
 	background: url(./images/icons/patterns/16.png) center center no-repeat;
-}
+} */
 
 .tri-pattern-1{
 	position: absolute;

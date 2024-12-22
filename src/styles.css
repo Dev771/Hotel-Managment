@@ -2338,7 +2338,7 @@ button:active{
      padding: 0px 0px 60px;
      background: #edf0f5;
  }
- 
+/*  
  .dotted-pattern-1{
      position: absolute;
      width: 394px;
@@ -2353,7 +2353,7 @@ button:active{
      height: 339px;
      display: block;
      background: url(./assets/images/icons/patterns/2.png) center center no-repeat;
- }
+ } */
  
  .dotted-pattern-3{
      position: absolute;
@@ -2363,7 +2363,7 @@ button:active{
      background: url(./assets/images/icons/patterns/3.png) center center no-repeat;
  }
  
- .dotted-pattern-4{
+ /* .dotted-pattern-4{
      position: absolute;
      width: 442px;
      height: 442px;
@@ -2449,7 +2449,7 @@ button:active{
      height: 247px;
      display: block;
      background: url(./assets/images/icons/patterns/16.png) center center no-repeat;
- }
+ } */
  
  .tri-pattern-1{
      position: absolute;
