@@ -14,6 +14,11 @@ const img1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701834/PSK%
 const img2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701833/PSK%20Hotels/About%20US/280_X_310_uplszz.jpg";
 const img3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701832/PSK%20Hotels/About%20US/200_X_200_igfnyj.jpg";
 
+const banimg1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623175/PSK%20Hotels/Banquet%20Pearl/A3__3358_dbwqbi.jpg";
+const banimg2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623179/PSK%20Hotels/Banquet%20Pearl/A3__3364_lcm5xk.jpg";
+const banimg3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734622836/PSK%20Hotels/Banquet%20Shipre/A3__3438_kpnpfs.jpg";
+
+
 const AboutUs = () => {
     return (
         <div className='page-wrapper'>
@@ -102,9 +107,9 @@ const AboutUs = () => {
                             <div className="inner">
                                 <span className="dotted-pattern dotted-pattern-10"></span>
                                 <div className="image-box clearfix">
-                                    <figure className="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={img1} alt="" title="" /></figure>
-                                    <figure className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={img2} alt="" title="" /></figure>
-                                    <figure className="image wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms"><img src={img3} alt="" title="" /></figure>
+                                    <figure className="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={banimg1} alt="" title="" /></figure>
+                                    <figure className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={banimg2} alt="" title="" /></figure>
+                                    <figure className="image wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms"><img src={banimg3} alt="" title="" /></figure>
                                 </div>
                             </div>
                         </div>
