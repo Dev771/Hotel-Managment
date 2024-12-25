@@ -49,7 +49,14 @@ const AboutUs = () => {
                                     <h2>Relax in <br />Our Luxury Hotel</h2>
                                 </div>
                                 <div className="text">
-                                A perfect venue for those who crave luxury at a decent price. A new gemstone in the crown of the city of Mughalsarai, the hotel is studded with ultra-modern facilities. Nestled at the epicentre of the pious Mughalsarai city, the hotel is just 30 mins away from Kashi Vishwanath temple one of the twelve Jyotirlingas, the holiest of Shiva Temples. Land up to feel the spirit of Subah-e-Banaras, a mystic blend of nature’s grandeur and human existence, Rising Sun, Golden Ganges and glittering Ghats with enchanting Mantras and Meditation at Dassawamed ghat, 35 minutes far from our hotel.</div>
+                                <p>
+                                    A perfect venue for those who crave luxury at a decent price. A new gemstone in the crown of the city of Mughalsarai, the hotel is studded with ultra-modern facilities. Nestled at the epicentre of the pious Mughalsarai city, the hotel is just 30 mins away from Kashi Vishwanath temple one of the twelve Jyotirlingas, the holiest of Shiva Temples. Land up to feel the spirit of Subah-e-Banaras, a mystic blend of nature’s grandeur and human existence, Rising Sun, Golden Ganges and glittering Ghats with enchanting Mantras and Meditation at Dassawamed ghat, 35 minutes far from our hotel.
+                                </p>
+                                Banquete 
+                                <p>
+                                    A perfect venue for those who crave luxury at a decent price. A new gemstone in the crown of the city of Mughalsarai, the hotel is studded with ultra-modern facilities. Nestled at the epicentre of the pious Mughalsarai city, the hotel is just 30 mins away from Kashi Vishwanath temple one of the twelve Jyotirlingas, the holiest of Shiva Temples. Land up to feel the spirit of Subah-e-Banaras, a mystic blend of nature’s grandeur and human existence, Rising Sun, Golden Ganges and glittering Ghats with enchanting Mantras and Meditation at Dassawamed ghat, 35 minutes far from our hotel.
+                                </p>
+                                </div>
                                 {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>*/}
                             </div>
                         </div>
@@ -66,6 +73,47 @@ const AboutUs = () => {
                     </div>
                 </div>
             </section>
+
+
+
+            <section className="featured-section-four about-page">
+                <span className="dotted-pattern dotted-pattern-11"></span>
+                <div className="circles-two">
+                    <div className="c-1"></div>
+                    <div className="c-2"></div>
+                </div>
+                <div className="auto-container">
+                    <div className="row clearfix">
+                        <div className="text-column col-lg-6 col-md-12 col-sm-12">
+                            <div className="inner">
+                                <div className="sec-title">
+                                    <h2>Banquet Halls<br />Pearl Hall & Shipre Hall</h2>
+                                </div>
+                                <div className="text">
+                                Mughalsarai’s Pearl The Dinner is a lavish sight for all to enjoy. It is one of the classiest and most elegant spaces in Hotel PSK INN and a great place to host celebrations for your significant occasions. The dining halls at Hotel PSK Inn in Mughalsarai, Pearl The Banquet, Oozes luxury. The interiors of the hall will not only awe everyone with their luxurious crystal chandeliers, spectacular wall designs, plush seating arrangements, and other sumptuous pieces of décor, but they will also lend a touch of glitz to your big day. Several banquet rooms with small and medium-sized capacities are available, making them ideal for weddings, birthday parties, wedding anniversaries, and many other events. Also, the Pearl Banquet Vaishali offers free dressing rooms and a sizeable parking space with valet service.
+                                •	Dimension: 40 ft. x 87 ft. | Area: 3480 sq. ft. | Height: 3.65 m.
+                                •	Opens up in a large space 3480 sq. ft. Large Pre function area
+                                •	Guest Entry Point: 1
+                                </div>
+                                {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>*/}
+                            </div>
+                        </div>
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                            <div className="inner">
+                                <span className="dotted-pattern dotted-pattern-10"></span>
+                                <div className="image-box clearfix">
+                                    <figure className="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={img1} alt="" title="" /></figure>
+                                    <figure className="image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src={img2} alt="" title="" /></figure>
+                                    <figure className="image wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms"><img src={img3} alt="" title="" /></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
             <section className="facts-section-two alternate">
                 <div className="circles">
                     <div className="c-1"></div>
