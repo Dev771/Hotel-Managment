@@ -275,7 +275,7 @@ const HomePage = () => {
                                         <div className="price"><span></span></div>
                                         <h4>Banquet Hall - Shipre</h4>
                                         <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Shipre, where elegance meets exceptional service.</div>
-                                        <Link to={`/gallery?tab=Banquet Hall - Shipre`} className="over-link"></Link>
+                                        <Link to={`/aboutus`} className="over-link"></Link>
                                     </div>
                                 </div>
                                 <div className="offer-block">
