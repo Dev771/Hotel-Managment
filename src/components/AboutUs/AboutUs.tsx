@@ -49,10 +49,7 @@ const AboutUs = () => {
                                     <h2>Relax in <br />Our Luxury Hotel</h2>
                                 </div>
                                 <div className="text">
-                                    Situated within 6.1 km of Kashi Vishwanath Temple and 6.5 km of Dasaswamedh Ghat, HOTEL PSK INN provides rooms in Mughal Sarāi. This 3-star hotel offers room service, a 24-hour front desk and free WiFi. The property is allergy-free and is located 5.9 km from Manikarnika Ghat.
-                                    At the hotel each room includes air conditioning, a desk, a flat-screen TV, a private bathroom, bed linen, towels and a terrace with a city view. All units include a safety deposit box.
-                                    An à la carte breakfast is available daily at HOTEL PSK INN. At the accommodation you will find a restaurant serving Chinese and Indian cuisine. Vegetarian, dairy-free and halal options can also be requested.
-                                    Kedar Ghat is 7.8 km from HOTEL PSK INN, while Harishchandra Ghat is 7.9 km away. Lal Bahadur Shastri International Airport is 30 km from the property.</div>
+                                A perfect venue for those who crave luxury at a decent price. A new gemstone in the crown of the city of Mughalsarai, the hotel is studded with ultra-modern facilities. Nestled at the epicentre of the pious Mughalsarai city, the hotel is just 30 mins away from Kashi Vishwanath temple one of the twelve Jyotirlingas, the holiest of Shiva Temples. Land up to feel the spirit of Subah-e-Banaras, a mystic blend of nature’s grandeur and human existence, Rising Sun, Golden Ganges and glittering Ghats with enchanting Mantras and Meditation at Dassawamed ghat, 35 minutes far from our hotel.</div>
                                 {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>*/}
                             </div>
                         </div>
