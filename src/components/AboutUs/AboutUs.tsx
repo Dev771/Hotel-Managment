@@ -14,9 +14,9 @@ const img1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701834/PSK%
 const img2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701833/PSK%20Hotels/About%20US/280_X_310_uplszz.jpg";
 const img3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701832/PSK%20Hotels/About%20US/200_X_200_igfnyj.jpg";
 
-const banimg1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623175/PSK%20Hotels/Banquet%20Pearl/A3__3358_dbwqbi.jpg";
+{/*const banimg1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623175/PSK%20Hotels/Banquet%20Pearl/A3__3358_dbwqbi.jpg";
 const banimg2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623179/PSK%20Hotels/Banquet%20Pearl/A3__3364_lcm5xk.jpg";
-const banimg3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734622836/PSK%20Hotels/Banquet%20Shipre/A3__3438_kpnpfs.jpg";
+const banimg3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734622836/PSK%20Hotels/Banquet%20Shipre/A3__3438_kpnpfs.jpg";*/}
 
 
 const AboutUs = () => {
@@ -100,7 +100,7 @@ const AboutUs = () => {
                                 •	Guest Entry Point: 1
                                 </p>
                                 </div>
-                                {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>*/}
+                                {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>
                             </div>
                         </div>
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">

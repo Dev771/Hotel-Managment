@@ -6,7 +6,7 @@ import featureImage14 from '../../assets/images/resource/featured-image-14.jpg';
 import featureImage18 from '../../assets/images/resource/featured-image-18.jpg';
 import featureImage19 from '../../assets/images/resource/featured-image-19.jpg';
 import featureImage20 from '../../assets/images/resource/featured-image-20.jpg';*/
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { Link } from 'react-router-dom';
 import Carasoul from '../Carasoul/Carasoul';
 
