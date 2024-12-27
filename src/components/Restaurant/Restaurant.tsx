@@ -14,12 +14,12 @@ const img1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701834/PSK%
 const img2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701833/PSK%20Hotels/About%20US/280_X_310_uplszz.jpg";
 const img3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701832/PSK%20Hotels/About%20US/200_X_200_igfnyj.jpg";
 
-const banimg1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623175/PSK%20Hotels/Banquet%20Pearl/A3__3358_dbwqbi.jpg";
+{/*const banimg1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623175/PSK%20Hotels/Banquet%20Pearl/A3__3358_dbwqbi.jpg";
 const banimg2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623179/PSK%20Hotels/Banquet%20Pearl/A3__3364_lcm5xk.jpg";
-const banimg3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734622836/PSK%20Hotels/Banquet%20Shipre/A3__3438_kpnpfs.jpg";
+const banimg3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734622836/PSK%20Hotels/Banquet%20Shipre/A3__3438_kpnpfs.jpg";*/}
 
 
-const AboutUs = () => {
+const Restaurant = () => {
     return (
         <div className='page-wrapper'>
             <section className="page-banner">
@@ -29,11 +29,11 @@ const AboutUs = () => {
                 <div className="banner-inner">
                     <div className="auto-container">
                         <div className="inner-container clearfix">
-                            <h1>About Us</h1>
+                            <h1>Restaurant</h1>
                             <div className="page-nav">
                                 <ul className="bread-crumb clearfix">
                                     <li><Link to="/">Home</Link></li>
-                                    <li className="active">About Us</li>
+                                    <li className="active">Restaurant</li>
                                 </ul>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ const AboutUs = () => {
 
 
 
-            <section className="featured-section-four about-page">
+            {/*<section className="featured-section-four about-page">
                 <span className="dotted-pattern dotted-pattern-11"></span>
                 <div className="circles-two">
                     <div className="c-1"></div>
@@ -100,7 +100,7 @@ const AboutUs = () => {
                                 •	Guest Entry Point: 1
                                 </p>
                                 </div>
-                                {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>*/}
+                                {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>
                             </div>
                         </div>
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
@@ -156,7 +156,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </section>
-            {/*<section className="history-section">
+            <section className="history-section">
                 <span className="dotted-pattern dotted-pattern-6"></span>
                 <span className="tri-pattern tri-pattern-5"></span>
                 <div className="circles">
@@ -242,4 +242,4 @@ const AboutUs = () => {
     )
 }
 
-export default AboutUs
+export default Restaurant
