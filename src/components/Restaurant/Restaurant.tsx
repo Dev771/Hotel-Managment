@@ -6,6 +6,7 @@ import featureImage14 from '../../assets/images/resource/featured-image-14.jpg';
 import featureImage18 from '../../assets/images/resource/featured-image-18.jpg';
 import featureImage19 from '../../assets/images/resource/featured-image-19.jpg';
 import featureImage20 from '../../assets/images/resource/featured-image-20.jpg';*/
+import { useEffect, useRef, useState } from "react";
 import { Link } from 'react-router-dom';
 import Carasoul from '../Carasoul/Carasoul';
 
@@ -18,11 +19,17 @@ const img3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701832/PSK%
 const banimg2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623179/PSK%20Hotels/Banquet%20Pearl/A3__3364_lcm5xk.jpg";
 const banimg3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734622836/PSK%20Hotels/Banquet%20Shipre/A3__3438_kpnpfs.jpg";*/}
 
-
 const Restaurant = () => {
+
+    const topRef = useRef<HTMLElement>(null);
+
+    useEffect(() => {
+        topRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+      }, []);
+
     return (
         <div className='page-wrapper'>
-            <section className="page-banner">
+            <section className="page-banner" ref={topRef}>
                 <div className="image-layer" style={{ backgroundImage: `url(${bannerimg})` }}></div>
                 <div className="banner-bottom-pattern"></div>
 
