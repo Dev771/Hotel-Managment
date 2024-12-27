@@ -10,16 +10,16 @@ import { Link } from 'react-router-dom';
 import Carasoul from '../Carasoul/Carasoul';
 
 const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734698514/PSK%20Hotels/Reception/1920_X_620_ucm457.jpg";
-const img1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701834/PSK%20Hotels/About%20US/330_X_355_umjw4o.jpg";
+/*const img1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701834/PSK%20Hotels/About%20US/330_X_355_umjw4o.jpg";
 const img2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701833/PSK%20Hotels/About%20US/280_X_310_uplszz.jpg";
-const img3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701832/PSK%20Hotels/About%20US/200_X_200_igfnyj.jpg";
+const img3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701832/PSK%20Hotels/About%20US/200_X_200_igfnyj.jpg";*/
 
 const banimg1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623175/PSK%20Hotels/Banquet%20Pearl/A3__3358_dbwqbi.jpg";
 const banimg2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623179/PSK%20Hotels/Banquet%20Pearl/A3__3364_lcm5xk.jpg";
 const banimg3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734622836/PSK%20Hotels/Banquet%20Shipre/A3__3438_kpnpfs.jpg";
 
 
-const AboutUs = () => {
+const Banquet = () => {
     return (
         <div className='page-wrapper'>
             <section className="page-banner">
@@ -29,18 +29,19 @@ const AboutUs = () => {
                 <div className="banner-inner">
                     <div className="auto-container">
                         <div className="inner-container clearfix">
-                            <h1>About Us</h1>
+                            <h1>Banquet Hall</h1>
                             <div className="page-nav">
                                 <ul className="bread-crumb clearfix">
                                     <li><Link to="/">Home</Link></li>
-                                    <li className="active">About Us</li>
+                                    <li className="active">Banquet Hall</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="featured-section-four about-page">
+
+            {/*<section className="featured-section-four about-page">
                 <span className="dotted-pattern dotted-pattern-11"></span>
                 <div className="circles-two">
                     <div className="c-1"></div>
@@ -56,7 +57,7 @@ const AboutUs = () => {
                                 <div className="text">
                                     A perfect venue for those who crave luxury at a decent price. A new gemstone in the crown of the city of Mughalsarai, the hotel is studded with ultra-modern facilities. Nestled at the epicentre of the pious Mughalsarai city, the hotel is just 30 mins away from Kashi Vishwanath temple one of the twelve Jyotirlingas, the holiest of Shiva Temples. Land up to feel the spirit of Subah-e-Banaras, a mystic blend of nature’s grandeur and human existence, Rising Sun, Golden Ganges and glittering Ghats with enchanting Mantras and Meditation at Dassawamed ghat, 35 minutes far from our hotel.
                                 </div>
-                                {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>*/}
+                                <div className="signature"><img src={signatureImage1} alt="" title="" /></div>
                             </div>
                         </div>
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
@@ -71,7 +72,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>*/}
 
 
 
@@ -119,7 +120,7 @@ const AboutUs = () => {
 
 
 
-            <section className="facts-section-two alternate">
+            {/*<section className="facts-section-two alternate">
                 <div className="circles">
                     <div className="c-1"></div>
                     <div className="c-2"></div>
@@ -156,7 +157,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </section>
-            {/*<section className="history-section">
+            <section className="history-section">
                 <span className="dotted-pattern dotted-pattern-6"></span>
                 <span className="tri-pattern tri-pattern-5"></span>
                 <div className="circles">
@@ -242,4 +243,4 @@ const AboutUs = () => {
     )
 }
 
-export default AboutUs
+export default Banquet
