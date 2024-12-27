@@ -75,7 +75,7 @@ const AboutUs = () => {
 
 
 
-            <section className="featured-section-four about-page">
+            {/*<section className="featured-section-four about-page">
                 <span className="dotted-pattern dotted-pattern-11"></span>
                 <div className="circles-two">
                     <div className="c-1"></div>
@@ -115,7 +115,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>*/}
 
 
 
