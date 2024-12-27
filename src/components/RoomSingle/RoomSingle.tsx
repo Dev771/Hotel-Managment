@@ -84,10 +84,10 @@ const RoomSingle = () => {
                     </div>
                     <ul className="info clearfix">
                         <li>
-                        <span className="icon flaticon-bed"></span> Bed Type: King
+                        <span className="icon flaticon-room"></span> Bed Type: King
                         </li>
                         <li>
-                        <span className="icon flaticon-wifi"></span> Max Room capacity: 4
+                        <span className="icon flaticon-people"></span> Max Room capacity: 4
                         </li>
                         <li>
                         <span className="icon flaticon-coffee-cup"></span> Air conditioning
