@@ -28,9 +28,9 @@ const RoomSingle = () => {
     const banimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734767951/PSK%20Hotels/Lobby/1920_X_820_hbrw2w.jpg";
     
     const RoomTab : Rooms = {
-        0: { roomName: "Delux Room", roomPrice: "5000", desc: "1 extra-large double bed", roomSize: "23.69", desc2: "The fireplace is the standout feature of this double room. This air-conditioned double room is comprised of a flat-screen TV with cable channels, a private bathroom as well as a terrace with city views. The unit has 1 bed.", img: [dr1, dr2] },
-        1: { roomName: "Premium Suite Room", roomPrice: "7000", desc: "1 extra-large double bed", roomSize: "47.38", desc2: "The fireplace is the standout feature of this suite. The air-conditioned suite has 1 bedroom and 1 bathroom with a walk-in shower and a bath. Boasting a terrace with city views, this suite also features soundproof walls and a flat-screen TV with cable channels. The unit has 1 bed.", img: [pr1, pr2] },
-        2: { roomName: "Family Suite Room", roomPrice: "8000", desc: "1 single bedand1 extra-large double bed", roomSize: "34.84", desc2: "This family room features a fireplace. This air-conditioned family room is comprised of a flat-screen TV with cable channels, a private bathroom as well as a terrace with city views. The unit has 2 beds.", img: [fr1, fr2] }
+        0: { roomName: "Delux Room", roomPrice: "5000", desc: "SUITE ROOMS WITH A BEAUTIFUL VIEW", desc2: "Put your feet up in our ultra luxurious suit room gracefully designed space (approx. 469 sq ft), which includes huge sitting space with five-seater sofa and a bedroom along with writing desk, armchair featuring soothing decorations to provide a tranquil ambience.", img: [dr1, dr2] },
+        1: { roomName: "Premium Suite Room", roomPrice: "7000", desc: "SUITE ROOMS WITH A BEAUTIFUL VIEW",  desc2: "Put your feet up in our ultra luxurious suit room gracefully designed space (approx. 469 sq ft), which includes huge sitting space with five-seater sofa and a bedroom along with writing desk, armchair featuring soothing decorations to provide a tranquil ambience.", img: [pr1, pr2] },
+        2: { roomName: "Family Suite Room", roomPrice: "8000", desc: "SUITE ROOMS WITH A BEAUTIFUL VIEW",  desc2: "Put your feet up in our ultra luxurious suit room gracefully designed space (approx. 469 sq ft), which includes huge sitting space with five-seater sofa and a bedroom along with writing desk, armchair featuring soothing decorations to provide a tranquil ambience.", img: [fr1, fr2] }
     }
 
     return (
@@ -69,9 +69,6 @@ const RoomSingle = () => {
                     </div>
                     <div className="text">
                         <p>
-                        Room size {RoomTab[id].roomSize} m²
-                        </p>
-                        <p>
                             {RoomTab[id].desc}
                         </p>
                         <p>
@@ -87,25 +84,25 @@ const RoomSingle = () => {
                     </div>
                     <ul className="info clearfix">
                         <li>
-                        <span className="icon flaticon-tv"></span> Television
+                        <span className="icon flaticon-single-bed"></span> Bed Type: King
                         </li>
                         <li>
-                        <span className="icon flaticon-wifi"></span> Air purifiers
+                        <span className="icon flaticon-wifi"></span> Max Room capacity: 4
                         </li>
                         <li>
-                        <span className="icon flaticon-coffee-cup"></span> Breakfast
+                        <span className="icon flaticon-coffee-cup"></span> Air conditioning
                         </li>
                         <li>
-                        <span className="icon flaticon-bathtub"></span> Free Toiletries
+                        <span className="icon flaticon-bathtub"></span> Desk with electrical outlet
                         </li>
                         <li>
-                        <span className="icon flaticon-stones"></span> Safety Deposit Box
+                        <span className="icon flaticon-stones"></span> Housekeeping: Daily
                         </li>
                         <li>
-                        <span className="icon flaticon-newspaper"></span> Wake up service/Alarm clock
+                        <span className="icon flaticon-coffee-cup"></span> Complimentary in room coffee or tea
                         </li>
                         <li>
-                        <span className="icon flaticon-wine-glass"></span> Mini Bar
+                        <span className="icon flaticon-wine-glass"></span> Safe Deposit Box
                         </li>
                         <li>
                         <span className="icon flaticon-dumbbell"></span> Fireplace
