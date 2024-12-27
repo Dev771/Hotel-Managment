@@ -51,15 +51,15 @@ const Navbar = () => {
                                     </li>
                                     <li  className=""><Link to="/room-grid">Rooms</Link>
                                     </li>
-                                    <li><Link to="/about">About Us</Link>
+                                    <li  className=""><Link to="/about">About Us</Link>
                                     </li>
-                                    <li><Link to="/banquet">Banquet Hall</Link>
+                                    <li  className=""><Link to="/banquet">Banquet Hall</Link>
                                     </li>
-                                    <li><Link to="/restaurant">Restaurant</Link>
+                                    <li  className=""><Link to="/restaurant">Restaurant</Link>
                                     </li>
                                     <li  className=""><Link to="/gallery">Gallery</Link>
                                     </li>
-                                    <li><Link to="/contactUs">Contact</Link></li>
+                                    <li  className=""><Link to="/contactUs">Contact</Link></li>
                                 </ul>
                             </div>
                         </nav>
