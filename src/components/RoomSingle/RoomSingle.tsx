@@ -97,6 +97,7 @@ const RoomSingle = () => {
                         <li>
                         <span className="icon flaticon-stones"></span> Housekeeping: Daily
                         </li>
+                        <li></li>
                         <li>
                         <span className="icon flaticon-coffee-cup"></span> Complimentary in room coffee or tea
                         </li>
