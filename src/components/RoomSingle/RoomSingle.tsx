@@ -6,7 +6,6 @@ interface Rooms {
         roomName: string;
         roomPrice: string;
         desc: string;
-        roomSize: string;
         desc2: string;
         img: string[];
     };
