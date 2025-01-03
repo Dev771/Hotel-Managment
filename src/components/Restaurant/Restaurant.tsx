@@ -7,7 +7,6 @@ import featureImage18 from '../../assets/images/resource/featured-image-18.jpg';
 import featureImage19 from '../../assets/images/resource/featured-image-19.jpg';
 import featureImage20 from '../../assets/images/resource/featured-image-20.jpg';*/
 import { Link } from 'react-router-dom';
-import Carasoul from '../Carasoul/Carasoul';
 
 const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734698514/PSK%20Hotels/Reception/1920_X_620_ucm457.jpg";
 const img1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1735918798/PSK%20Hotels/Restaurant/A3__3564_q6o9fy.jpg";
