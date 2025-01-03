@@ -225,7 +225,7 @@ const Banquet = () => {
                         </div>
                     </div>
                 </div>
-            </section>*/}
+            </section>
             <section className="testimonials-section">
                 <div className="circles-two">
                     <div className="c-1"></div>
@@ -238,7 +238,7 @@ const Banquet = () => {
                     </div>
                     <Carasoul />
                 </div>
-            </section>
+            </section>*/}
         </div>
     )
 }
