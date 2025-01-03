@@ -226,7 +226,7 @@ const Restaurant = () => {
                     </div>
                 </div>
             </section>*/}
-            <section className="testimonials-section">
+            {/*<section className="testimonials-section">
                 <div className="circles-two">
                     <div className="c-1"></div>
                     <div className="c-2"></div>
@@ -238,7 +238,7 @@ const Restaurant = () => {
                     </div>
                     <Carasoul />
                 </div>
-            </section>
+            </section>*/}
         </div>
     )
 }
