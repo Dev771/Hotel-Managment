@@ -10,9 +10,9 @@ import { Link } from 'react-router-dom';
 import Carasoul from '../Carasoul/Carasoul';
 
 const bannerimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734698514/PSK%20Hotels/Reception/1920_X_620_ucm457.jpg";
-const img1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701834/PSK%20Hotels/About%20US/330_X_355_umjw4o.jpg";
-const img2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701833/PSK%20Hotels/About%20US/280_X_310_uplszz.jpg";
-const img3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734701832/PSK%20Hotels/About%20US/200_X_200_igfnyj.jpg";
+const img1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1735918798/PSK%20Hotels/Restaurant/A3__3564_q6o9fy.jpg";
+const img2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1735918794/PSK%20Hotels/Restaurant/A3__3573_kxj2ge.jpg";
+const img3 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1735918802/PSK%20Hotels/Restaurant/A3__3568_uoxbis.jpg";
 
 {/*const banimg1 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623175/PSK%20Hotels/Banquet%20Pearl/A3__3358_dbwqbi.jpg";
 const banimg2 = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734623179/PSK%20Hotels/Banquet%20Pearl/A3__3364_lcm5xk.jpg";
@@ -50,10 +50,12 @@ const Restaurant = () => {
                         <div className="text-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner">
                                 <div className="sec-title">
-                                    <h2>Relax in <br />Our Luxury Hotel</h2>
+                                    <h2>MULTICUSINE RESTURANT <br />KOHINOOR @ HOTEL PSK INN</h2>
                                 </div>
                                 <div className="text">
-                                    A perfect venue for those who crave luxury at a decent price. A new gemstone in the crown of the city of Mughalsarai, the hotel is studded with ultra-modern facilities. Nestled at the epicentre of the pious Mughalsarai city, the hotel is just 30 mins away from Kashi Vishwanath temple one of the twelve Jyotirlingas, the holiest of Shiva Temples. Land up to feel the spirit of Subah-e-Banaras, a mystic blend of nature’s grandeur and human existence, Rising Sun, Golden Ganges and glittering Ghats with enchanting Mantras and Meditation at Dassawamed ghat, 35 minutes far from our hotel.
+                                “Where every bite is a Flavors adventure!”
+                                Kohinoor creates an atmosphere that is more than just a meal at a restaurant; it is a self-sufficient haven of joy that continuously defies the routine that engulfs and obscures her capacity to be herself and appreciate a few moments to herself. So, No need to exert yourself.
+                                Bon voyage into the world of Flavors!
                                 </div>
                                 {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>*/}
                             </div>
