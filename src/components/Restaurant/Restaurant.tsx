@@ -50,7 +50,7 @@ const Restaurant = () => {
                         <div className="text-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner">
                                 <div className="sec-title">
-                                    <h2>MULTICUSINE RESTURANT <br />KOHINOOR @ HOTEL PSK INN</h2>
+                                    <h2>KOHINOOR<br />HOTEL PSK INN</h2>
                                 </div>
                                 <div className="text">
                                 “Where every bite is a Flavors adventure!”
