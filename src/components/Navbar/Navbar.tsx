@@ -1,10 +1,21 @@
-import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 /*import navLogo from '../../assets/images/nav-logo.png';*/
 
 const logo = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734769285/PSK%20Hotels/logo/LOGO_szpyzj.png";
 
 const Navbar = () => {
     
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth',
+        });
+    }, [pathname]);
+
     const handleToggle = () => {
         document.getElementsByTagName("body")[0].classList.add("mobile-menu-visible");
         
@@ -51,11 +62,19 @@ const Navbar = () => {
                                     </li>
                                     <li  className=""><Link to="/room-grid">Rooms</Link>
                                     </li>
-                                    <li  className=""><Link to="/about">About Us</Link>
-                                    </li>
-                                    <li  className=""><Link to="/banquet">Banquet Hall</Link>
-                                    </li>
-                                    <li  className=""><Link to="/restaurant">Restaurant</Link>
+                                    <li className="dropdown"><a href="#" 
+                                        onClick={(e) => {
+                                            e.preventDefault(); 
+                                        }}
+                                    >About Us</a>
+                                        <ul>
+                                            <li  className=""><Link to="/about">About Us</Link>
+                                            </li>
+                                            <li  className=""><Link to="/banquet">Banquet Hall</Link>
+                                            </li>
+                                            <li  className=""><Link to="/restaurant">Restaurant</Link>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li  className=""><Link to="/gallery">Gallery</Link>
                                     </li>
@@ -100,4 +119,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;

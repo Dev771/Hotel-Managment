@@ -56,6 +56,9 @@ const AboutUs = () => {
                                 <div className="text">
                                     A perfect venue for those who crave luxury at a decent price. A new gemstone in the crown of the city of Mughalsarai, the hotel is studded with ultra-modern facilities. Nestled at the epicentre of the pious Mughalsarai city, the hotel is just 30 mins away from Kashi Vishwanath temple one of the twelve Jyotirlingas, the holiest of Shiva Temples. Land up to feel the spirit of Subah-e-Banaras, a mystic blend of nature’s grandeur and human existence, Rising Sun, Golden Ganges and glittering Ghats with enchanting Mantras and Meditation at Dassawamed ghat, 35 minutes far from our hotel.
                                 </div>
+                                <div className="link-box">
+                                    <a href="tel:+917565000621" className="theme-btn btn-style-one"><span className="btn-title">Let's Connect</span></a>
+                                </div>
                                 {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>*/}
                             </div>
                         </div>

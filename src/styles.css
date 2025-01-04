@@ -9301,6 +9301,9 @@ button:active{
      width: 20%;
      margin-bottom: 30px;
      line-height: 1.60em;
+     
+     display: flex;
+     gap: 10px;
  }
  
  .room-single .details-box .info li .icon{

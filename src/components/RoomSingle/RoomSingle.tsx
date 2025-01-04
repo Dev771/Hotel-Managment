@@ -1,5 +1,12 @@
 /*import bannerImage from '../../assets/images/background/banner-image-9.jpg';*/
 import { useParams } from 'react-router-dom';
+import AirlineSeatIndividualSuiteOutlinedIcon from '@mui/icons-material/AirlineSeatIndividualSuiteOutlined';
+import ChairOutlinedIcon from '@mui/icons-material/ChairOutlined';
+import AirOutlinedIcon from '@mui/icons-material/AirOutlined';
+import DeskOutlinedIcon from '@mui/icons-material/DeskOutlined';
+import DryCleaningOutlinedIcon from '@mui/icons-material/DryCleaningOutlined';
+import FireplaceOutlinedIcon from '@mui/icons-material/FireplaceOutlined';
+import { LockOutlined } from '@mui/icons-material';
 
 interface Rooms {
     [key: string]: {
@@ -48,7 +55,6 @@ const RoomSingle = () => {
                 <div className="c-1"></div>
                 <div className="c-2"></div>
                 </div>
-                <span className="dotted-pattern dotted-pattern-3"></span>
                 <span className="tri-pattern tri-pattern-3"></span>
                 <div className="auto-container">
                 <div className="upper-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -83,29 +89,59 @@ const RoomSingle = () => {
                     </div>
                     <ul className="info clearfix">
                         <li>
-                        <span className="icon flaticon-wifi"></span> Bed Type: King
+                            <AirlineSeatIndividualSuiteOutlinedIcon style={{ marginRight: '10px' }} />
+                        {/* <span className="icon flaticon-wifi"></span> */}
+                            <div>
+                                Bed Type: King
+                            </div>
                         </li>
                         <li>
-                        <span className="icon flaticon-wifi"></span> Max Room capacity: 4
+                            <ChairOutlinedIcon style={{ marginRight: '10px' }} />
+                            {/* <span className="icon flaticon-wifi"></span> */}
+                            <div>
+                                Max Room capacity: 4
+                            </div>
                         </li>
                         <li>
-                        <span className="icon flaticon-coffee-cup"></span> Air conditioning
+                            <AirOutlinedIcon style={{ marginRight: '10px' }} />
+                            {/* <span className="icon flaticon-coffee-cup"></span>  */}
+                            <div>
+                                Air conditioning
+                            </div>
                         </li>
                         <li>
-                        <span className="icon flaticon-bathtub"></span> Desk with electrical outlet
+                            <DeskOutlinedIcon style={{ marginRight: '10px' }} />
+                            {/* <span className="icon flaticon-bathtub"></span>  */}
+                            <div>
+                                Desk with electrical outlet
+                            </div>
                         </li>
                         <li>
-                        <span className="icon flaticon-stones"></span> Housekeeping: Daily
-                        </li>
-                        <li></li>
-                        <li>
-                        <span className="icon flaticon-coffee-cup"></span> Complimentary in room coffee or tea
-                        </li>
-                        <li>
-                        <span className="icon flaticon-wine-glass"></span> Safe Deposit Box
+                            <DryCleaningOutlinedIcon style={{ marginRight: '10px' }} />
+                            {/* <span className="icon flaticon-stones"></span>  */}
+                            <div>
+                            Housekeeping: Daily
+                            </div>
                         </li>
                         <li>
-                        <span className="icon flaticon-dumbbell"></span> Fireplace
+                            <span className="icon flaticon-coffee-cup"></span> 
+                            <div>
+                                Complimentary in room coffee or tea
+                            </div>
+                        </li>
+                        <li>
+                            <LockOutlined style={{ marginRight: '10px' }} />
+                            {/* <span className="icon flaticon-wine-glass"></span>  */}
+                            <div>
+                                Safe Deposit Box
+                            </div>
+                        </li>
+                        <li>
+                            <FireplaceOutlinedIcon style={{ marginRight: '10px' }} />
+                            {/* <span className="icon flaticon-dumbbell"></span>  */}
+                            <div>
+                            Fireplace
+                            </div>
                         </li>
                     </ul>
                     </div>

@@ -56,6 +56,9 @@ const Restaurant = () => {
                                 Kohinoor creates an atmosphere that is more than just a meal at a restaurant; it is a self-sufficient haven of joy that continuously defies the routine that engulfs and obscures her capacity to be herself and appreciate a few moments to herself. So, No need to exert yourself.
                                 Bon voyage into the world of Flavors!
                                 </div>
+                                <div className="link-box">
+                                    <a href="tel:+917565000621" className="theme-btn btn-style-one"><span className="btn-title">Let's Connect</span></a>
+                                </div>
                                 {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>*/}
                             </div>
                         </div>

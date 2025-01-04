@@ -100,6 +100,9 @@ const Banquet = () => {
                                 •	Guest Entry Point: 1
                                 </p>
                                 </div>
+                                <div className="link-box">
+                                    <a href="tel:+917565000621" className="theme-btn btn-style-one"><span className="btn-title">Let's Connect</span></a>
+                                </div>
                                 {/*<div className="signature"><img src={signatureImage1} alt="" title="" /></div>*/}
                             </div>
                         </div>
