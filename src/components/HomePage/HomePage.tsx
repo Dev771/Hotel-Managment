@@ -16,7 +16,7 @@ import ofThumb1 from '../../assets/images/resource/of-thumb-1.jpg';*/
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
 import Carasoul from '../Carasoul/Carasoul';
 
-const outside = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690370/PSK%20Hotels/Home%20Page/Outside_fvazdj.jpg";
+const outside = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1736345631/PSK%20Hotels/Home%20Page/outside_final_ivddnj.png";
 const mainimage = "https://res.cloudinary.com/dxzp2cqfc/video/upload/v1734870001/PSK%20Hotels/Home%20Page/1920_X_820_NEW_q6vcz5.mp4";
 const backimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690973/PSK%20Hotels/Home%20Page/a_view_nn6pm6.jpg";
 const dr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg";
