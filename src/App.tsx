@@ -12,12 +12,13 @@ import RoomSingle from "./components/RoomSingle/RoomSingle";
 import Banquet from "./components/Banquet/Banquet";
 import Restaurant from "./components/Restaurant/Restaurant";
 import RoomGrid from "./components/RoomGrid/RoomGrid";
+import WhatsappFloater from "./components/WhatsappFloater/WhatsappFloater";
+import TermsAndCondition from "./components/TermsAndCondition/TermsAndCondition";
 
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import WhatsappFloater from "./components/WhatsappFloater/WhatsappFloater";
 
 const App = () => {
     return (
@@ -32,6 +33,7 @@ const App = () => {
                 <Route path="/gallery" element={<GalleryGrid />} />
                 <Route path="/contactUs" element={<ContactUs />} />
                 <Route path="/room-grid" element={<RoomGrid />} />
+                <Route path="/terms-and-condition" element={<TermsAndCondition />} />
             </Routes>
             <WhatsappFloater />
             <Footer />

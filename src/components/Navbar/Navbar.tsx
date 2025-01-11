@@ -70,13 +70,13 @@ const Navbar = () => {
                                         <ul>
                                         </ul>
                                     </li> */}
-                                    <li  className=""><Link to="/about">About Us</Link>
+                                    <li  className=""><Link to="/gallery">Gallery</Link>
                                     </li>
                                     <li  className=""><Link to="/banquet">Banquet</Link>
                                     </li>
                                     <li  className=""><Link to="/restaurant">Dinning</Link>
                                     </li>
-                                    <li  className=""><Link to="/gallery">Gallery</Link>
+                                    <li  className=""><Link to="/about">About Us</Link>
                                     </li>
                                     <li  className=""><Link to="/contactUs">Contact</Link></li>
                                 </ul>
