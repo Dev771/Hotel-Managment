@@ -1,19 +1,23 @@
+import { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 import './styles.css';
 
-import Footer from "./components/Footer/Footer";
-import Navbar from "./components/Navbar/Navbar";
-import AboutUs from "./components/AboutUs/AboutUs";
-import HomePage from "./components/HomePage/HomePage";
-import GalleryGrid from "./components/Gallery/Gallery";
-import ContactUs from "./components/ContactUs/ContactUs";
-import RoomSingle from "./components/RoomSingle/RoomSingle";
-import Banquet from "./components/Banquet/Banquet";
-import Restaurant from "./components/Restaurant/Restaurant";
-import RoomGrid from "./components/RoomGrid/RoomGrid";
-import WhatsappFloater from "./components/WhatsappFloater/WhatsappFloater";
-import TermsAndCondition from "./components/TermsAndCondition/TermsAndCondition";
+const Footer = lazy(() => import("./components/Footer/Footer"));
+const Navbar = lazy(() => import("./components/Navbar/Navbar"));
+const AboutUs = lazy(() => import("./components/AboutUs/AboutUs"));
+const HomePage = lazy(() => import("./components/HomePage/HomePage"));
+const GalleryGrid = lazy(() => import("./components/Gallery/Gallery"));
+const ContactUs = lazy(() => import("./components/ContactUs/ContactUs"));
+const RoomSingle = lazy(() => import("./components/RoomSingle/RoomSingle"));
+const Banquet = lazy(() => import("./components/Banquet/Banquet"));
+const Restaurant = lazy(() => import("./components/Restaurant/Restaurant"));
+const RoomGrid = lazy(() => import("./components/RoomGrid/RoomGrid"));
+const WhatsappFloater = lazy(() => import("./components/WhatsappFloater/WhatsappFloater"));
+const PrivacyPolicy = lazy(() => import("./components/PrivacyPolicy/PrivacyPolicy"));
+const TermsAndCondition = lazy(() => import("./components/TermsAndCondition/TermsAndCondition"));
+const RefundPolicy = lazy(() => import("./components/RefundPolicy/RefundPolicy"));
+import Loader from "./components/Loader/Loader";
 
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -23,20 +27,24 @@ import '@fontsource/roboto/700.css';
 const App = () => {
     return (
         <BrowserRouter>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/room-single/:id" element={<RoomSingle />} />
-                <Route path="/about" element={<AboutUs />} />
-                <Route path="/banquet" element={<Banquet />} />
-                <Route path="/restaurant" element={<Restaurant />} />
-                <Route path="/gallery" element={<GalleryGrid />} />
-                <Route path="/contactUs" element={<ContactUs />} />
-                <Route path="/room-grid" element={<RoomGrid />} />
-                <Route path="/terms-and-condition" element={<TermsAndCondition />} />
-            </Routes>
-            <WhatsappFloater />
-            <Footer />
+            <Suspense fallback={<Loader />}>
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/room-single/:id" element={<RoomSingle />} />
+                    <Route path="/about" element={<AboutUs />} />
+                    <Route path="/banquet" element={<Banquet />} />
+                    <Route path="/restaurant" element={<Restaurant />} />
+                    <Route path="/gallery" element={<GalleryGrid />} />
+                    <Route path="/contactUs" element={<ContactUs />} />
+                    <Route path="/room-grid" element={<RoomGrid />} />
+                    <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                    <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
+                    <Route path="/refund" element={<RefundPolicy />} />
+                </Routes>
+                <WhatsappFloater />
+                <Footer />
+            </Suspense>
         </BrowserRouter>
     )
 }
