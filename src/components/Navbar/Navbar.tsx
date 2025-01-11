@@ -62,19 +62,19 @@ const Navbar = () => {
                                     </li>
                                     <li  className=""><Link to="/room-grid">Rooms</Link>
                                     </li>
-                                    <li className="dropdown"><a href="#" 
+                                    {/* <li className="dropdown"><a href="#" 
                                         onClick={(e) => {
                                             e.preventDefault(); 
                                         }}
                                     >About Us</a>
                                         <ul>
-                                            <li  className=""><Link to="/about">About Us</Link>
-                                            </li>
-                                            <li  className=""><Link to="/banquet">Banquet Hall</Link>
-                                            </li>
-                                            <li  className=""><Link to="/restaurant">Restaurant</Link>
-                                            </li>
                                         </ul>
+                                    </li> */}
+                                    <li  className=""><Link to="/about">About Us</Link>
+                                    </li>
+                                    <li  className=""><Link to="/banquet">Banquet</Link>
+                                    </li>
+                                    <li  className=""><Link to="/restaurant">Dinning</Link>
                                     </li>
                                     <li  className=""><Link to="/gallery">Gallery</Link>
                                     </li>

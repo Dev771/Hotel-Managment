@@ -17,6 +17,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import WhatsappFloater from "./components/WhatsappFloater/WhatsappFloater";
 
 const App = () => {
     return (
@@ -32,6 +33,7 @@ const App = () => {
                 <Route path="/contactUs" element={<ContactUs />} />
                 <Route path="/room-grid" element={<RoomGrid />} />
             </Routes>
+            <WhatsappFloater />
             <Footer />
         </BrowserRouter>
     )
