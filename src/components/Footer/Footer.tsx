@@ -60,7 +60,7 @@ const Footer = () => {
                     <div className="inner clearfix">
                         <div className="copyright">&copy; 2024 PSK Hotels - All Right Reserved</div>
                         <a href="terms-and-conditions">Terms of Service</a> &ensp;|&ensp; <a href="privacy-policy">Privacy Policy</a>
-                        &ensp;|&ensp; <a href="privacy-policy">Refund and Cancellation</a>
+                        &ensp;|&ensp; <a href="refund-and-cancellation">Refund and Cancellation</a>
                     </div>
                 </div>
             </div>

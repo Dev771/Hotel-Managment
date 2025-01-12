@@ -40,7 +40,7 @@ const App = () => {
                     <Route path="/room-grid" element={<RoomGrid />} />
                     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                     <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
-                    <Route path="/refund" element={<RefundPolicy />} />
+                    <Route path="/refund-and-cancellation" element={<RefundPolicy />} />
                 </Routes>
                 <WhatsappFloater />
                 <Footer />
