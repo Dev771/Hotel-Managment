@@ -16,9 +16,6 @@ import ofThumb1 from '../../assets/images/resource/of-thumb-1.jpg';*/
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
 import Carasoul from '../Carasoul/Carasoul';
 import Slider from 'react-slick';
-
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
 import "./styles.css";
 
 
