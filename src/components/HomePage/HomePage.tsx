@@ -15,9 +15,15 @@ import backGroundImage1 from '../../assets/images/background/image-1.jpg';
 import ofThumb1 from '../../assets/images/resource/of-thumb-1.jpg';*/
 import DateSelectComp from '../DateSelectComp/DateSelectComp';
 import Carasoul from '../Carasoul/Carasoul';
+import Slider from 'react-slick';
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import "./styles.css";
+
 
 const outside = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1736345631/PSK%20Hotels/Home%20Page/outside_final_ivddnj.png";
-const mainimage = "https://res.cloudinary.com/dxzp2cqfc/video/upload/v1734870001/PSK%20Hotels/Home%20Page/1920_X_820_NEW_q6vcz5.mp4";
+// const mainimage = "https://res.cloudinary.com/dxzp2cqfc/video/upload/v1734870001/PSK%20Hotels/Home%20Page/1920_X_820_NEW_q6vcz5.mp4";
 const backimg = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734690973/PSK%20Hotels/Home%20Page/a_view_nn6pm6.jpg";
 const dr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683519/PSK%20Hotels/Delux%20Room/A3__3235_updated_rmikhx.jpg";
 const pr = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734683585/PSK%20Hotels/Premium%20Room/A3__3224_updated_uxdaon.jpg";
@@ -29,30 +35,38 @@ const pearl = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734697490/PSK
 const shipre = "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1734697502/PSK%20Hotels/Home%20Page/A3__3439_pvztxy.jpg";
 
 const HomePage = () => {
+    
+    const settings = {
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+    };
 
+    const caradata = [
+        "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1737194012/PSK%20Hotels/SLIDE/1_pjbyn2.png",
+        "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1737194011/PSK%20Hotels/SLIDE/2_nhgcpr.jpg",
+        "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1737194011/PSK%20Hotels/SLIDE/5_evbw16.jpg",
+        "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1737194011/PSK%20Hotels/SLIDE/3_lwr86p.jpg",
+        "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1737194012/PSK%20Hotels/SLIDE/7_jwbjuq.jpg",
+        "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1737194011/PSK%20Hotels/SLIDE/4_kllolv.jpg",
+        "https://res.cloudinary.com/dxzp2cqfc/image/upload/v1737194011/PSK%20Hotels/SLIDE/6_ksha3z.jpg"
+    ];
 
     return (
         <div className='page-wrapper'>
             <section className="banner-section banner-one" style={{ height: '100vh' }}>
                 <div className="banner-bottom-pattern"></div>
-                <div className="banner-carousel owl-theme">
-                    <div className="slide-item">
-                        <div className="image-layer" >
-                            <video className="video-background" autoPlay loop muted>
-                                <source src={mainimage} type="video/mp4" />
-                            </video>
-                        </div>
-                        <div className="auto-container">
-                            <div className="content-box">
-                                <div className="content">
-                                    <div className="inner">
-                                        <h1>Homely Stay <br />At PSK Hotels</h1>
-                                        <div className="text"></div>
-                                    </div>
-                                </div>
-                            </div>  
-                        </div>
-                    </div>
+                <div style={{ height: '100%' }}>
+                    <Slider {...settings} className="banner-carousel">
+                        { caradata.map((a) => (
+                            <div className="slide-item">
+                                <img src={a} alt={a} />
+                            </div>
+                        ))}
+                    </Slider>
                 </div>
             </section>
             <section className="about-section">
