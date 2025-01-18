@@ -6,7 +6,10 @@ import AirOutlinedIcon from '@mui/icons-material/AirOutlined';
 import DeskOutlinedIcon from '@mui/icons-material/DeskOutlined';
 import DryCleaningOutlinedIcon from '@mui/icons-material/DryCleaningOutlined';
 import FireplaceOutlinedIcon from '@mui/icons-material/FireplaceOutlined';
-import { LockOutlined } from '@mui/icons-material';
+import CoffeeOutlinedIcon from '@mui/icons-material/CoffeeOutlined';
+import CallIcon from '@mui/icons-material/Call';
+import TvIcon from '@mui/icons-material/Tv';
+import HotTubOutlinedIcon from '@mui/icons-material/HotTubOutlined';
 
 interface Rooms {
     [key: string]: {
@@ -124,16 +127,16 @@ const RoomSingle = () => {
                             </div>
                         </li>
                         <li>
-                            <span className="icon flaticon-coffee-cup"></span> 
+                            <CoffeeOutlinedIcon style={{ marginRight: '10px' }} />
                             <div>
                                 Complimentary in room coffee or tea
                             </div>
                         </li>
                         <li>
-                            <LockOutlined style={{ marginRight: '10px' }} />
+                            <HotTubOutlinedIcon style={{ marginRight: '10px' }} />
                             {/* <span className="icon flaticon-wine-glass"></span>  */}
                             <div>
-                                Safe Deposit Box
+                                Cold & Heated Water
                             </div>
                         </li>
                         <li>
@@ -141,6 +144,20 @@ const RoomSingle = () => {
                             {/* <span className="icon flaticon-dumbbell"></span>  */}
                             <div>
                             Fireplace
+                            </div>
+                        </li>
+                        <li>
+                            <TvIcon style={{ marginRight: '10px' }} />
+                            {/* <span className="icon flaticon-wine-glass"></span>  */}
+                            <div>
+                                TV
+                            </div>
+                        </li>
+                        <li>
+                            <CallIcon style={{ marginRight: '10px' }} />
+                            {/* <span className="icon flaticon-wine-glass"></span>  */}
+                            <div>
+                                Intercom
                             </div>
                         </li>
                     </ul>
