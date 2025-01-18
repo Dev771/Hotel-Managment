@@ -28,7 +28,9 @@ const Footer = () => {
                                             <ul className="links">
                                                 <li><Link to="/">Home</Link></li>
                                                 <li><Link to="room-grid">Our Rooms</Link></li>
-                                                <li><Link to="/about">About Hotera</Link></li>
+                                                <li><Link to="/about">About Hotel</Link></li>
+                                                <li><Link to="/Restaurant">Dinning</Link></li>
+                                                <li><Link to="/Banquet">Banquet</Link></li>
                                                 <li><Link to="/contactUs">Contact</Link></li>
                                             </ul>
                                         </div>
