@@ -27,11 +27,11 @@ const Restaurant = () => {
                 <div className="banner-inner">
                     <div className="auto-container">
                         <div className="inner-container clearfix">
-                            <h1>Restaurant</h1>
+                            <h1>Dinning</h1>
                             <div className="page-nav">
                                 <ul className="bread-crumb clearfix">
                                     <li><Link to="/">Home</Link></li>
-                                    <li className="active">Restaurant</li>
+                                    <li className="active">Dinning</li>
                                 </ul>
                             </div>
                         </div>

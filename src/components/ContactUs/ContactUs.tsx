@@ -38,7 +38,9 @@ const ContactUs = () => {
                                         <div className="block-inner">
                                             <div className="icon-box wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2000ms"><span className="flaticon-placeholder-1"></span></div>
                                             <h4>Address</h4>
-                                            <div className="text">GT Rd, opp. raymond showroom, Subhash Nagar, Mughalsarai, Mughalsarai Railway Settlement, Uttar Pradesh 232101</div>
+                                            <div className="text">
+                                                <a href="https://maps.app.goo.gl/EbKbNvhzCFo9Rw4NA">GT Rd, opp. raymond showroom, Subhash Nagar, Mughalsarai, Mughalsarai Railway Settlement, Uttar Pradesh 232101</a>
+                                                </div>
                                         </div>
                                     </div>
                                     <div className="info-block">

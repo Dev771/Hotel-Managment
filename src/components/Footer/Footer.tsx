@@ -39,7 +39,7 @@ const Footer = () => {
                                                 <h4>Contact</h4>
                                             </div>
                                             <ul className="info">
-                                                <li className="address">GT Rd, opp. raymond showroom, Subhash Nagar, Mughalsarai, Mughalsarai Railway Settlement, Uttar Pradesh 232101</li>
+                                                <li className="address"><Link to="https://maps.app.goo.gl/EbKbNvhzCFo9Rw4NA">GT Rd, opp. raymond showroom, Subhash Nagar, Mughalsarai, Mughalsarai Railway Settlement, Uttar Pradesh 232101</Link></li>
                                                 <li className="phone"><Link to="tel:+917565000621">+91 75650 00621</Link></li>
                                                 <li className="email"><Link to="mailto:pskinnhotel@gmail.com">pskinnhotel@gmail.com</Link></li>
                                                 <li className="social-links">
