@@ -86,7 +86,7 @@ const Banquet = () => {
                         <div className="text-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner">
                                 <div className="sec-title">
-                                    <h2>Banquet Halls<br />Pearl Hall & Shipre Hall</h2>
+                                    <h2>Banquet Halls<br />Pearl Hall & Sapphire Hall</h2>
                                 </div>
                                 <div className="text">
                                 Mughalsarai’s Pearl The Dinner is a lavish sight for all to enjoy. It is one of the classiest and most elegant spaces in Hotel PSK INN and a great place to host celebrations for your significant occasions. The dining halls at Hotel PSK Inn in Mughalsarai, Pearl The Banquet, Oozes luxury. The interiors of the hall will not only awe everyone with their luxurious crystal chandeliers, spectacular wall designs, plush seating arrangements, and other sumptuous pieces of décor, but they will also lend a touch of glitz to your big day. Several banquet rooms with small and medium-sized capacities are available, making them ideal for weddings, birthday parties, wedding anniversaries, and many other events. Also, the Pearl Banquet Vaishali offers free dressing rooms and a sizeable parking space with valet service.

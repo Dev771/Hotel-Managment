@@ -44,8 +44,7 @@ const Footer = () => {
                                                 <li className="email"><Link to="mailto:pskinnhotel@gmail.com">pskinnhotel@gmail.com</Link></li>
                                                 <li className="social-links">
                                                     <Link to="#"><span className="fab fa-facebook-f"></span></Link>
-                                                    <Link to="#"><span className="fab fa-twitter"></span></Link>
-                                                    <Link to="#"><span className="fab fa-vimeo-v"></span></Link>
+                                                    <Link to="#"><span className="fab fa-instagram"></span></Link>
                                                 </li>
                                             </ul>
                                         </div>
