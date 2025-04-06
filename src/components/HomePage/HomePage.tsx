@@ -151,7 +151,7 @@ const HomePage = () => {
                     <div className="auto-container">
                         <div className="sec-title centered">
                             <h2>Room & Suites</h2>
-                            <div className="lower-text">Enjoy your stay at our Hotel in various different rooms ans suites</div>
+                            <div className="lower-text">Enjoy your stay at our Hotel in various different rooms and suites</div>
                         </div>
                     </div>
 
@@ -284,7 +284,7 @@ const HomePage = () => {
                                     <div className="offer-inner">
                                         <div className="fact-thumb wow zoomInStable" data-wow-delay="300ms" data-wow-duration="1500ms"><div className="image"><img src={shipre} alt="" title="" /></div><span> <br /></span></div>
                                         <div className="price"><span></span></div>
-                                        <h4>Banquet Hall - Shipre</h4>
+                                        <h4>Banquet Hall - Sapphire</h4>
                                         <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Shipre, where elegance meets exceptional service.</div>
                                         <Link to={`/aboutus`} className="over-link"></Link>
                                     </div>
@@ -322,7 +322,7 @@ const HomePage = () => {
                         <div className="row clearfix">
                             <div className="text-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <h3>Banquet Hall <br />Shipre</h3>
+                                    <h3>Banquet Hall <br />Sapphire</h3>
                                     <div className="text">We are excited to invite guests to host unforgettable events at our exquisite Banquet Shipre, where elegance meets exceptional service.</div>
                                     <div className="link-box">
                                         <Link to="/about" className="theme-btn btn-style-one"><span className="btn-title">Read More</span></Link>

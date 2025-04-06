@@ -28,7 +28,9 @@ const Footer = () => {
                                             <ul className="links">
                                                 <li><Link to="/">Home</Link></li>
                                                 <li><Link to="room-grid">Our Rooms</Link></li>
-                                                <li><Link to="/about">About Hotera</Link></li>
+                                                <li><Link to="/about">About Hotel</Link></li>
+                                                <li><Link to="/Restaurant">Dinning</Link></li>
+                                                <li><Link to="/Banquet">Banquet</Link></li>
                                                 <li><Link to="/contactUs">Contact</Link></li>
                                             </ul>
                                         </div>
@@ -37,13 +39,12 @@ const Footer = () => {
                                                 <h4>Contact</h4>
                                             </div>
                                             <ul className="info">
-                                                <li className="address">GT Rd, opp. raymond showroom, Subhash Nagar, Mughalsarai, Mughalsarai Railway Settlement, Uttar Pradesh 232101</li>
+                                                <li className="address"><Link to="https://maps.app.goo.gl/EbKbNvhzCFo9Rw4NA">GT Rd, opp. raymond showroom, Subhash Nagar, Mughalsarai, Mughalsarai Railway Settlement, Uttar Pradesh 232101</Link></li>
                                                 <li className="phone"><Link to="tel:+917565000621">+91 75650 00621</Link></li>
                                                 <li className="email"><Link to="mailto:pskinnhotel@gmail.com">pskinnhotel@gmail.com</Link></li>
                                                 <li className="social-links">
                                                     <Link to="#"><span className="fab fa-facebook-f"></span></Link>
-                                                    <Link to="#"><span className="fab fa-twitter"></span></Link>
-                                                    <Link to="#"><span className="fab fa-vimeo-v"></span></Link>
+                                                    <Link to="#"><span className="fab fa-instagram"></span></Link>
                                                 </li>
                                             </ul>
                                         </div>
