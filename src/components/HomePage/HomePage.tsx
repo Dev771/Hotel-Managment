@@ -367,7 +367,7 @@ const HomePage = () => {
                 <div className="auto-container">
                     <div className="content-box wow zoomIn" data-wow-delay="0ms" data-wow-duration="2000ms">
                         <h1>See The Experience Before You Feel it.</h1>
-                        <div className="play-link"><Link to="https://www.youtube.com/watch?v=Get7rqXYrbQ" target='_blank' className="lightbox-image"><span className="icon flaticon-play-button-3"></span></Link></div>
+                        <div className="play-link"><Link to="https://drive.google.com/file/d/18y60_HgY56dpd6Z_6yNRw2q05BeiJank/view" target='_blank' className="lightbox-image"><span className="icon flaticon-play-button-3"></span></Link></div>
                     </div>
                 </div>
             </section>
